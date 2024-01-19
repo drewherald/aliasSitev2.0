@@ -1,3 +1,9 @@
+@media screen and (max-width: 600px) {
+    ul{
+        display: none !important;
+    }
+}
+
 .topBarFlex{
     display: flex;
     width: 100dvw;

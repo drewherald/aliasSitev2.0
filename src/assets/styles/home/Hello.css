@@ -1,3 +1,12 @@
+@media screen and (max-width: 600px) {
+    .beginningWelcomeText{
+        font-size: 24px !important;
+    }
+    .endWelcomeText{
+        font-size: 24px !important;
+    }
+}
+
 #welcome{
     height: 60dvh;
     display: flex;
@@ -59,3 +68,4 @@
     animation-fill-mode: alternate;
     padding-top: 5dvh;
 }
+

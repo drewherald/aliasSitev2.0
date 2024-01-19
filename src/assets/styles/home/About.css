@@ -1,0 +1,31 @@
+@media screen and (max-width: 700px) {
+    #about{
+        text-align: center;
+    }
+
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10dvh;
+}
+
+.aboutBlue{
+    color: #0000FF;
+}
+
+#about h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#about p{
+    font-size: 24px;
+}
+
+.serviceGridFlex{
+    display: flex;
+    justify-content: center;
+}

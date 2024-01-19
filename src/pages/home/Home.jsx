@@ -2,6 +2,7 @@ import React from 'react'
 import TopBar from '../../components/TopBar'
 import Hello from './Hello'
 import '../../assets/styles/home/Home.css'
+import About from './About'
 
 export default function Home() {
   return (
@@ -10,9 +11,8 @@ export default function Home() {
             <TopBar />
         </div>
         <div className='homeFlex'>
-            <div className='helloContainer'>
                 <Hello />
-            </div>
+                <About />
         </div>
     </>
   )
