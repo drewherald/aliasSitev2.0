@@ -1,0 +1,61 @@
+#welcome{
+    height: 60dvh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.beginningWelcomeText{
+    color: #0000FF !important;
+    animation: blurb 2s ease-in-out;
+    font-size: 50px;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.endWelcomeText{
+    animation: blurb 4s ease-in-out;
+    font-size: 50px;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes blurb{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes arrow{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+.downArrow{
+    max-height: 64px;
+}
+
+.arrowContainer{
+    display: flex;
+    justify-content: center;
+    animation: arrow 3s ease-in-out;
+    animation-iteration-count: 10;
+    animation-delay: 4s;
+    opacity: 0;
+    animation-fill-mode: alternate;
+    padding-top: 5dvh;
+}

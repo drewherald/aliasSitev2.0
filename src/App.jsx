@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import './assets/styles/App.css'
+import Home from './pages/home/Home'
 
 function App() {
 
   return (
     <>
-      <div>
-        hello
-      </div>
+      <Home />
     </>
   )
 }

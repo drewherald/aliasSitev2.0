@@ -1,0 +1,13 @@
+.homeFlex{
+    flex-direction: column;
+    padding: 0 10dvw;
+    justify-content: center;
+}
+
+.topBarContainer{
+    height: 20dvh;
+}
+
+.helloContainer{
+
+}
