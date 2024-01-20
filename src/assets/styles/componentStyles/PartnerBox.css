@@ -1,0 +1,9 @@
+.partnerBox{
+    width: 30dvw;
+    height: 30dvw;
+    background-color: #181818;
+    margin-right: 20px;
+    flex: 0 0 auto; 
+    border-radius: 8px;
+    padding: 10px;
+}

@@ -1,0 +1,30 @@
+#partners{
+    padding-top: 20dvh;
+}
+
+.ourPartners{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    writing-mode: vertical-rl;
+}
+
+.ourPartners h2{
+    font-weight: 500;
+    font-size: 40px;
+    color: #0000FF;
+    padding-left: 175px;
+}  
+
+.partnerItemContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+}
+
+.partnerTopContainer{
+    display: flex;
+    justify-content: space-between;
+}

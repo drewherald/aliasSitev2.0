@@ -1,17 +1,16 @@
 @media screen and (max-width: 700px) {
     .serviceGridContainer{
-        grid-template-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr !important;
         grid-template-rows: 1fr 1fr !important;
         width: 260px !important;
     }
 
-    .serviceGridItem{
-        height: 125px !important;
-        width: 125px !important;
-    }
-
     .serviceGridItem img{
         max-height: 40px;
+    }
+
+    .serviceGridItem h5{
+        font-size: 12px !important;
     }
 }
 
@@ -41,26 +40,46 @@
 .serviceGridItem{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #282828;
+    background-color: #181818;
     border-radius: 8px;
     cursor: pointer;
     height: 200px;
     width: 200px;
-    color: #0000FF;
 }
 
 
 .serviceGridItem img{
     height: 55px;
-    background-color: #282828;
+    background-color: #181818;
 }
 
 .serviceGridItem h5{
-    background-color: #282828;
-    color: #0000FF;
+    background-color: #181818;
     font-size: 16px;
+    margin: 0;
+}
+
+.serviceGridItem:hover .servH5{
+    color: #0000FF;
+}
+
+.serviceGridItem:hover{
+    animation: grow .1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow{
+0%{
+    transform: scale(1);
+}
+
+100%{
+    transform: scale(1.05);
+}
+
+
 }
 
 .servFlex{
@@ -74,5 +93,6 @@
     font-size: 40px;
     transform: rotate(-90deg);
     z-index: 0;
+    color: #0000FF
 }   
 

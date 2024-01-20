@@ -3,6 +3,7 @@ import TopBar from '../../components/TopBar'
 import Hello from './Hello'
 import '../../assets/styles/home/Home.css'
 import About from './About'
+import Partners from './Partners'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <div className='homeFlex'>
                 <Hello />
                 <About />
+                <Partners />
         </div>
     </>
   )
