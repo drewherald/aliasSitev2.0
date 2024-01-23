@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../assets/styles/home/About.css'
-import ServiceGrid from './ServiceGrid'
 
 export default function About() {
   return (
@@ -10,10 +9,7 @@ export default function About() {
         and imaginative problem-solving to deliver solutions that help market your business
         in our increasingly digital world Embrace our forward-looking strategy to stay 
         ahead of the competition.</p>
-        <div className='serviceGridFlex'>
-            
-            <ServiceGrid />
-        </div>
+     
         
     </div>
   )
