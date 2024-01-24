@@ -6,6 +6,7 @@ import About from './About'
 import Partners from './Partners'
 import ScrollSpy from "react-ui-scrollspy";
 import ServiceGrid from './ServiceGrid'
+import GetToKnow from './GetToKnow'
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         </div>
         <div className='homeFlex'>
                 <Hello />
-                <ScrollSpy offsetBottom={150} scrollThrottle={80}>
+                <ScrollSpy scrollThrottle={40}>
                 <section id='about'>
                   <About />
                 </section>
@@ -25,6 +26,9 @@ export default function Home() {
                 </section>
                 <section id='partners'>
                   <Partners />
+                </section>
+                <section id='contact'>
+                  <GetToKnow />
                 </section>
                 </ScrollSpy>
         </div>

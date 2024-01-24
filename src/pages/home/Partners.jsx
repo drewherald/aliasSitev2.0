@@ -11,6 +11,7 @@ export default function Partners() {
 
   return (
     <section id='partners'>
+        <h2 className='mobilePartnerTitle'>Our Partners</h2>
         <div className='partnerTopContainer'>
             <div className='partnerItemContainer'>
                 {partners.map((name) => (

@@ -1,0 +1,13 @@
+.gtk{
+    font-size: 40pt;
+    text-align: right;
+    font-weight: 400;
+}
+
+.gtkBlue{
+    color: #0000FF;
+}
+
+.gtkP{
+    text-align: right;
+}
