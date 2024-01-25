@@ -7,6 +7,7 @@ import Partners from './Partners'
 import ScrollSpy from "react-ui-scrollspy";
 import ServiceGrid from './ServiceGrid'
 import GetToKnow from './GetToKnow'
+import Footer from '../../components/Footer'
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
                   <GetToKnow />
                 </section>
                 </ScrollSpy>
+                <Footer />
         </div>
     </>
   )

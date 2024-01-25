@@ -1,0 +1,80 @@
+@media screen and (max-width: 700px) {
+    .contactForm{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+}
+
+.contactForm {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+  }
+
+.contactForm form {
+    color: white;
+  }
+
+  .contactForm p {
+    color: white;
+  }
+
+  .contactForm p label {
+    color: white;
+    text-align: right;
+  }
+
+  .contactForm form div {
+    color: white;
+    padding-bottom: 5vh;
+  }
+
+  .contactForm form div label {
+    color: white;
+    position: absolute;
+  }
+
+  .contactForm form div input {
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 2px 0vw 2px 0px;
+    width: 50dvw;
+    font-size: medium;
+  }
+  .contactForm form div input::placeholder {
+    color: white;
+    font-size: medium;
+  }
+
+  #comments::placeholder {
+    color: white;
+    font-size: medium;
+  }
+
+  .contactForm form div textarea {
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: #0078ff;
+    font-size: medium;
+    width: 50dvw;
+    padding: 2px 0vw 2px 0px;
+  }
+
+  .contactForm p a {
+    color: white;
+    background-color: white;
+    text-decoration: none;
+  }
+
+  #submit-form{
+    display: none;
+  }
+
+  .submitText{
+    cursor: pointer;
+  }
