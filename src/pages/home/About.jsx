@@ -7,7 +7,7 @@ export default function About() {
       <h1>Build Your Brand The <span className='aboutBlue'>Right</span> Way</h1>
       <p>At Alias, we are fueled by innovation. We use cutting-edge technologies 
         and imaginative problem-solving to deliver solutions that help market your business
-        in our increasingly digital world Embrace our forward-looking strategy to stay 
+        in our increasingly digital world. Embrace our forward-looking strategy to stay 
         ahead of the competition.</p>
      
         
