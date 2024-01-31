@@ -6,3 +6,13 @@ html {
     scroll-padding-top: 90px; /* height of your navbar */
   }
 
+
+  @font-face {
+    font-family: helveticaBOLD;
+    src: url('../fonts/Helvetica83.otf');
+  }
+
+  @font-face {
+    font-family: Tussilago;
+    src: url('../fonts/Tussilago.ttf');
+  }

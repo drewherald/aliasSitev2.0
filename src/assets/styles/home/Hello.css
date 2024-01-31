@@ -10,24 +10,28 @@
 #welcome{
     height: 60dvh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
 .beginningWelcomeText{
     color: #0000FF !important;
     animation: blurb 2s ease-in-out;
-    font-size: 50px;
+    font-size: 72px;
     opacity: 0;
     animation-fill-mode: forwards;
+    font-family: HelveticaBOLD, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .endWelcomeText{
     animation: blurb 4s ease-in-out;
-    font-size: 50px;
+    font-size: 30px;
     animation-delay: 1s;
     opacity: 0;
     animation-fill-mode: forwards;
+    font-family: Tussilago, Helvetica, sans-serif;
+    text-align: center;
 }
 
 

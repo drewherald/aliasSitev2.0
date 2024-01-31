@@ -8,10 +8,10 @@ export default function Hello() {
     <section>
       <div id='welcome'>
         <span className='beginningWelcomeText'> 
-                Welcome to Alias.
+                WELCOME TO ALIAS
             </span> 
             <span className='endWelcomeText'>
-                We Leverage Digital Marketing Technolologies in Order to Bring Your Business Into the Future
+                EXCEPTIONAL DESIGN AND STRATEGIC SOLUTIONS
             </span>
       </div>
     </section>
