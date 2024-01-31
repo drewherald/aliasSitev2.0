@@ -22,9 +22,6 @@ export default function Home() {
                 <section id='about'>
                   <About />
                 </section>
-                <section className='serviceGridFlex' id='services'>
-                  <ServiceGrid />
-                </section>
                 <section id='partners'>
                   <Partners />
                 </section>

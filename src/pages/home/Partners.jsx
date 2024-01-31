@@ -14,13 +14,29 @@ export default function Partners() {
         {
             name: "Daisy Market Collective",
             refKey: './src/assets/photos/daisyMarketLogo.png'
+        },
+        {
+            name: 'Back 2 You Podcast',
+            refKey: './src/assets/photos/back2youlogo.png'
+        },
+        {
+            name: "Daisy Market Collective",
+            refKey: './src/assets/photos/daisyMarketLogo.png'
+        },
+        {
+            name: 'Back 2 You Podcast',
+            refKey: './src/assets/photos/back2youlogo.png'
+        },
+        {
+            name: "Daisy Market Collective",
+            refKey: './src/assets/photos/daisyMarketLogo.png'
         }
     ]
 
 
   return (
     <section id='partners'>
-        <h2 className='mobilePartnerTitle'>Our Partners</h2>
+        <h1 className='PartnerTitle'>PARTNERS.</h1>
         <div className='partnerTopContainer'>
             <div className='partnerItemContainer'>
                 {partners.map((partner) => (
@@ -28,10 +44,6 @@ export default function Partners() {
                 ))}
             
             </div>
-            <div className='ourPartners'>
-                <h2 >Our Partners</h2>
-            </div>
-            
             
         </div>
         

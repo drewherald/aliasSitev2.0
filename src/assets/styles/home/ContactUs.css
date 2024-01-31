@@ -14,7 +14,7 @@
 
 .contactForm form {
     color: white;
-  }
+    }
 
   .contactForm p {
     color: white;
@@ -43,15 +43,24 @@
     padding: 2px 0vw 2px 0px;
     width: 50dvw;
     font-size: medium;
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 800 !important;
+    text-decoration: none;
   }
   .contactForm form div input::placeholder {
     color: white;
     font-size: medium;
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 800 !important;
+    text-decoration: none;
   }
 
   #comments::placeholder {
     color: white;
     font-size: medium;
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 800 !important;
+    text-decoration: none;
   }
 
   .contactForm form div textarea {
@@ -63,6 +72,9 @@
     font-size: medium;
     width: 50dvw;
     padding: 2px 0vw 2px 0px;
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 800 !important;
+    text-decoration: none;
   }
 
   .contactForm p a {
@@ -77,4 +89,16 @@
 
   .submitText{
     cursor: pointer;
+  }
+
+  .contactInfo a{
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 800 !important;
+    text-decoration: none;
+  }
+
+  .contactInfo label{
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 800 !important;
+    text-decoration: none;
   }

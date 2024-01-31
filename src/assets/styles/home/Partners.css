@@ -22,19 +22,11 @@
     }
 }
 
-.ourPartners{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    writing-mode: vertical-rl;
+.PartnerTitle{
+        font-size: 10dvh;
+        margin: 0;
 }
 
-.ourPartners h2{
-    font-weight: 500;
-    font-size: 40px;
-    color: #0000FF;
-    padding-left: 175px;
-}  
 
 .partnerItemContainer{
     -webkit-overflow-scrolling: touch;
