@@ -17,20 +17,47 @@
     padding-bottom: 20dvh;
 }
 
-.aboutBlue{
-    color: #0000FF;
-}
 
 #about h1{
-    font-weight: 500;
-    font-size: 40px;
+    font-size: 10dvh;
+    margin: 0;
 }
 
-#about p{
-    font-size: 24px;
+#about h5{
+    font-size: 4dvh;
+    font-weight: 500 !important;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+#about hr{
+    width: 80dvw;
+    height: 5px;
+    background-color: white;
+    margin: 20px 0px;
+}
+
+#about ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    }
+
+#about ul li{
+    font-size: 4dvh;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500 !important;
+
 }
 
 .serviceGridFlex{
     display: flex;
     justify-content: center;
+}
+
+.aboutFlex{
+    display: flex;
+    flex-direction: column;
 }

@@ -16,3 +16,8 @@ html {
     font-family: Tussilago;
     src: url('../fonts/Tussilago.ttf');
   }
+
+  @font-face {
+    font-family: helveticaMID;
+    src: url('../fonts/Helvetica63.otf');
+  }
