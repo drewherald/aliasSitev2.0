@@ -5,7 +5,18 @@ export default function About() {
   return (
     <div className='aboutFlex'>
       <div className='aboutContainer' id='about'>
-      <h1>DESIGN.</h1>
+      <div class="scrollContainer">
+        <div class="scrollChild">
+          <div className='scrollDiv'>
+            <h1 className='scrollH1'>
+              MEDIA.DESIGN.STRATEGY.
+            </h1>
+            <h1 className='scrollH1'>
+             MEDIA.DESIGN.STRATEGY.
+            </h1>
+          </div>
+        </div>
+      </div>
       <h5>
         Design should be outspoken, functional, and consistent. Striking the perfect
         balance is key.
@@ -23,47 +34,7 @@ export default function About() {
      <hr />
         
     </div>
-
-    <div className='aboutContainer' id='about'>
-      <h1>MEDIA.</h1>
-      <h5>
-        Design should be outspoken, functional, and consistent. Striking the perfect
-        balance is key.
-      </h5>
-      <hr></hr>
-      <ul>
-        <li>Content Creation</li>
-        <hr></hr>
-        <li>Social Media Management</li>
-        <hr />
-        <li>Media Advertising Solutions</li>
-        <hr />
-        <li>Print Design</li>
-      </ul>
-     <hr />
         
     </div>
-
-    <div className='aboutContainer' id='about'>
-      <h1>STRATEGY.</h1>
-      <h5>
-        Design should be outspoken, functional, and consistent. Striking the perfect
-        balance is key.
-      </h5>
-      <hr></hr>
-      <ul>
-        <li>Identity & Audience</li>
-        <hr></hr>
-        <li>Responsive Design</li>
-        <hr />
-        <li>Branding Concept</li>
-        <hr />
-        <li>User Experience</li>
-      </ul>
-     <hr />
-        
-    </div>
-    </div>
-   
   )
 }
