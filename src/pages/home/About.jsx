@@ -1,6 +1,13 @@
 import React from 'react'
 import '../../assets/styles/home/About.css'
 import DigitalBranding from '../../assets/photos/brandIdentity.png'
+import ContentCreation from '../../assets/photos/ContentCreation.png'
+import WebDesign from '../../assets/photos/webDesign.png'
+import SocialMedia from '../../assets/photos/socialMedia.png'
+import FilmPhotography from '../../assets/photos/filmPhotography.png'
+import LabelDesign from '../../assets/photos/labelDesign.png'
+
+
 
 export default function About() {
   return (
@@ -27,20 +34,24 @@ export default function About() {
                 <img src={DigitalBranding} className='aboutIco' alt="" />
             </div>
             <div className='aboutBox'>
-                Digital Branding
-                <img src={DigitalBranding} className='aboutIco' alt="" />
+                Web Design
+                <img src={WebDesign} className='aboutIco' alt="" />
             </div>
             <div className='aboutBox'>
-                Digital Branding
-                <img src={DigitalBranding} className='aboutIco' alt="" />
+                Content Creation
+                <img src={ContentCreation} className='aboutIco' alt="" />
             </div>
             <div className='aboutBox'>
-                Digital Branding
-                <img src={DigitalBranding} className='aboutIco' alt="" />
+                Social Media Management
+                <img src={SocialMedia} className='aboutIco' alt="" />
             </div>
             <div className='aboutBox'>
-                Digital Branding
-                <img src={DigitalBranding} className='aboutIco' alt="" />
+                Film Photography
+                <img src={FilmPhotography} className='aboutIco' alt="" />
+            </div>
+            <div className='aboutBox'>
+                Label Design
+                <img src={LabelDesign} className='aboutIco' alt="" />
             </div>
           </div>
         </div>

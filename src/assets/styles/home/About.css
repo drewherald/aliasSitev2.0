@@ -7,6 +7,18 @@
         font-size: 18px !important;
     }
 
+    .aboutIco{
+      max-height: 50px !important;
+  }
+
+  .triBar{
+    width: 80dvw !important;
+  }
+
+  .aboutBox{
+    font-size: 10px;
+  }
+
 }
 
 .aboutContainer{
@@ -34,6 +46,7 @@
 .aboutIco{
     max-height: 200px;
     background-color: #181818;
+    padding-top: 10px;
 }
 
 
@@ -113,7 +126,7 @@
   }
 
   .twoBox{
-    display: flex;
+    display: none;
     justify-content: space-around;
   }
 
@@ -175,7 +188,9 @@
   .triStack{
     display: flex;
     flex-direction: column;
-    padding: 20dvh 0 10dvh 0;
+    padding: 0dvh 0 10dvh 0;
+    justify-content: center;
+    align-items: center;
   }
 
   .triBar{

@@ -3,13 +3,6 @@
         display: none;
     }
 
-    .mobilePartnerTitle{
-        font-weight: 500;
-        font-size: 40px;
-        color: #0000FF;
-        text-align: center;
-    }
-
     .partnerItemContainer{
         flex-direction: column;
         display: flex;
@@ -19,6 +12,10 @@
 
     .partnerTopContainer{
         justify-content: center !important;
+    }
+
+    .PartnerTitle{
+        font-size: 5dvh !important;
     }
 }
 
