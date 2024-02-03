@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../assets/styles/home/About.css'
+import DigitalBranding from '../../assets/photos/brandIdentity.png'
 
 export default function About() {
   return (
@@ -17,24 +18,50 @@ export default function About() {
           </div>
         </div>
       </div>
-      <h5>
-        Design should be outspoken, functional, and consistent. Striking the perfect
-        balance is key.
-      </h5>
-      <hr></hr>
-      <ul>
-        <li>Brand Identity</li>
-        <hr></hr>
-        <li>Graphic Design</li>
-        <hr />
-        <li>Web Design</li>
-        <hr />
-        <li>Package Design</li>
-      </ul>
-     <hr />
+
+      <section className='baseServices'>
+        <div className='aboutTopContainer'>
+          <div className='aboutItemContainer'>
+            <div className='aboutBox'>
+                Digital Branding
+                <img src={DigitalBranding} className='aboutIco' alt="" />
+            </div>
+            <div className='aboutBox'>
+                Digital Branding
+                <img src={DigitalBranding} className='aboutIco' alt="" />
+            </div>
+            <div className='aboutBox'>
+                Digital Branding
+                <img src={DigitalBranding} className='aboutIco' alt="" />
+            </div>
+            <div className='aboutBox'>
+                Digital Branding
+                <img src={DigitalBranding} className='aboutIco' alt="" />
+            </div>
+            <div className='aboutBox'>
+                Digital Branding
+                <img src={DigitalBranding} className='aboutIco' alt="" />
+            </div>
+          </div>
+        </div>
+       
+      </section>
+
+      <section className='twoBox'>
+        <div className='outerBorder'>
+          <div className='innerBorder'>
+            <div className='twoBoxComponent' id='abtBoxOne'>Test</div>
+          </div>
+        </div>
+         
+        <div className='outer-Border'>
+          <div className='inner-Border'>
+            <div className='twoBoxComponent' id='abtBoxTwo'>Test</div>
+          </div>
+        </div>      
+        </section>
         
-    </div>
-        
+     </div>
     </div>
   )
 }

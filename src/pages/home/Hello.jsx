@@ -1,23 +1,18 @@
 import React from 'react'
 import '../../assets/styles/home/Hello.css'
-import downArrow from '../../assets/photos/downArrow.png'
+import aliasALT from '../../assets/photos/aliasALT.png'
+import aliasALTTwo from '../../assets/photos/aliasALTTwo.png'
 
 export default function Hello() {
   return (
     <>
-    <section>
       <div id='welcome'>
-        <span className='beginningWelcomeText'> 
-                WELCOME TO ALIAS
-            </span> 
-            <span className='endWelcomeText'>
-                EXCEPTIONAL DESIGN AND STRATEGIC SOLUTIONS
-            </span>
+       <h1>WELCOME <br className='helloBreak'/> TO ALIAS</h1>
+       <div className='altLogos'>
+        <img src={aliasALT} alt="" className='aliasALT'/>
+        <img src={aliasALTTwo} alt="" className='aliasALT'/>
+       </div>
       </div>
-    </section>
-    <div className='arrowContainer'>
-        <img src={downArrow} alt=""  className='downArrow'/>
-    </div>
     </>
   )
 }

@@ -1,38 +1,41 @@
 @media screen and (max-width: 600px) {
-    .beginningWelcomeText{
-        font-size: 24px !important;
-    }
-    .endWelcomeText{
-        font-size: 24px !important;
-    }
+
 }
 
 #welcome{
-    height: 60dvh;
+    height: 35dvh;
+    background-color: #0000FF;
+    padding: 40px;
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+#welcome h1{
+    background-color: #0000FF;
+    font-size: 10dvh;
+    font-family: TussilagoBold, Helvetica, sans-serif;
+    line-height: 125%;
+    animation: blurb 2s ease-in;
+}
+
+.aliasALT{
+    max-height: 150px;
+    background-color: #0000FF;
+}
+
+.altLogos{
+    background-color: #0000FF;
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
-}
-
-.beginningWelcomeText{
-    color: #0000FF !important;
-    animation: blurb 2s ease-in-out;
-    font-size: 72px;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    font-family: HelveticaBOLD, Helvetica, sans-serif;
-    text-align: center;
-}
-
-.endWelcomeText{
-    animation: blurb 4s ease-in-out;
-    font-size: 30px;
+    animation: blurb 2s ease-in;
     animation-delay: 1s;
     opacity: 0;
     animation-fill-mode: forwards;
-    font-family: Tussilago, Helvetica, sans-serif;
-    text-align: center;
 }
+
 
 
 @keyframes blurb{
@@ -44,32 +47,3 @@
         opacity: 1;
     }
 }
-
-@keyframes arrow{
-    0%{
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 1;
-    }
-
-    100%{
-        opacity: 0;
-    }
-}
-.downArrow{
-    max-height: 64px;
-}
-
-.arrowContainer{
-    display: flex;
-    justify-content: center;
-    animation: arrow 3s ease-in-out;
-    animation-iteration-count: 10;
-    animation-delay: 4s;
-    opacity: 0;
-    animation-fill-mode: alternate;
-    padding-top: 5dvh;
-}
-

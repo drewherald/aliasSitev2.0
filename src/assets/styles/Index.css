@@ -21,3 +21,8 @@ html {
     font-family: helveticaMID;
     src: url('../fonts/Helvetica63.otf');
   }
+
+  @font-face {
+    font-family: TussilagoBold;
+    src: url('../fonts/tussilagorg-bold.otf');
+  }

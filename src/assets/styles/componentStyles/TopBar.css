@@ -7,7 +7,6 @@
 .topBarFlex{
     display: flex;
     width: 100dvw;
-    justify-content: space-between;
     align-items: center;
     padding-top: 10px;
     position: fixed;
@@ -25,9 +24,10 @@ li{
     padding: 0 50px 0 0;
     font-weight: 500 !important;
     cursor: pointer;
-    font-family: Tussilago, Helvetica, sans-serif;
+    font-family: helveticaBOLD, Helvetica, sans-serif;
 }
 
 ul{
     display: flex;
+    padding-left: 70px;
 }
