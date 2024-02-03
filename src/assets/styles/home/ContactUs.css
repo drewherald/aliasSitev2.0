@@ -9,7 +9,7 @@
 .contactForm {
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 200px;
   }
 
 .contactForm form {
@@ -43,14 +43,14 @@
     padding: 2px 0vw 2px 0px;
     width: 50dvw;
     font-size: medium;
-    font-family: Helvetica, sans-serif !important;
+    font-family: HelveticaBold, sans-serif !important;
     font-weight: 800 !important;
     text-decoration: none;
   }
   .contactForm form div input::placeholder {
     color: white;
     font-size: medium;
-    font-family: Helvetica, sans-serif !important;
+    font-family: HelveticaBold, sans-serif !important;
     font-weight: 800 !important;
     text-decoration: none;
   }
@@ -58,7 +58,7 @@
   #comments::placeholder {
     color: white;
     font-size: medium;
-    font-family: Helvetica, sans-serif !important;
+    font-family: HelveticaBold, sans-serif !important;
     font-weight: 800 !important;
     text-decoration: none;
   }
@@ -72,7 +72,7 @@
     font-size: medium;
     width: 50dvw;
     padding: 2px 0vw 2px 0px;
-    font-family: Helvetica, sans-serif !important;
+    font-family: HelveticaBold, sans-serif !important;
     font-weight: 800 !important;
     text-decoration: none;
   }
@@ -92,13 +92,13 @@
   }
 
   .contactInfo a{
-    font-family: Helvetica, sans-serif !important;
+    font-family: HelveticaBold, sans-serif !important;
     font-weight: 800 !important;
     text-decoration: none;
   }
 
   .contactInfo label{
-    font-family: Helvetica, sans-serif !important;
+    font-family: HelveticaBold, sans-serif !important;
     font-weight: 800 !important;
     text-decoration: none;
   }

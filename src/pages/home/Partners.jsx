@@ -36,13 +36,13 @@ export default function Partners() {
 
   return (
     <section id='partners'>
-        <h1 className='PartnerTitle'>PARTNERS.</h1>
+        <p className='our'>OUR</p>
+        <h1 className='PartnerTitle'>PROJECTS</h1>
         <div className='partnerTopContainer'>
             <div className='partnerItemContainer'>
                 {partners.map((partner) => (
                     <PartnerBox name={partner.name} refKey={partner.refKey}  key={uuidv4()}/>
                 ))}
-            
             </div>
             
         </div>

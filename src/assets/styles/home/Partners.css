@@ -23,19 +23,22 @@
 }
 
 .PartnerTitle{
-        font-size: 10dvh;
+        font-size: 14dvh;
         margin: 0;
+        text-align: center;
+        font-family: TussilagoBOLD, Helvetica, sans-serif;
 }
 
 
 .partnerItemContainer{
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    display: flex;
+    flex-direction: column;
 }
 
-.partnerItemContainer::-webkit-scrollbar{
-    display: none;
+
+.our{
+    text-align: center;
+    font-family: Tussilago, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 600px) {
@@ -52,6 +55,8 @@
 
 .partnerTopContainer{
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 40dvh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20dvh;
+    margin-top: 60px;
 }

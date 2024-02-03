@@ -17,9 +17,11 @@ export default function Home() {
             <TopBar />
         </div>
         <div className='homeFlex'>
-                <Hello />
                 <ScrollSpy scrollThrottle={40}>
                 <section id='about'>
+                <Hello />
+                </section>
+                <section id='services'>
                   <About />
                 </section>
                 <section id='partners'>

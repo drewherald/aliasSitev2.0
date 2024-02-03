@@ -10,7 +10,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
-    justify-items: center;
 }
 
 #welcome h1{
@@ -19,6 +18,12 @@
     font-family: TussilagoBold, Helvetica, sans-serif;
     line-height: 125%;
     animation: blurb 2s ease-in;
+}
+
+.welcomeFlex{
+    display: flex;
+    align-items: center;
+    background-color: #0000FF;
 }
 
 .aliasALT{

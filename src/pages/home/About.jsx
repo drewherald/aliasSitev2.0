@@ -59,7 +59,20 @@ export default function About() {
             <div className='twoBoxComponent' id='abtBoxTwo'>Test</div>
           </div>
         </div>      
-        </section>
+      </section>
+
+
+      <section className='triStack'>
+            <div className='triBar'>
+                <p>DESIGN</p>
+            </div>
+            <div className='triBar'>
+                <p>DEVELOPMENT</p>
+            </div>
+            <div className='triBar'>
+                <p>BRANDING</p>
+            </div>
+      </section>
         
      </div>
     </div>

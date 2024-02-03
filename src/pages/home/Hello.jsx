@@ -7,7 +7,10 @@ export default function Hello() {
   return (
     <>
       <div id='welcome'>
-       <h1>WELCOME <br className='helloBreak'/> TO ALIAS</h1>
+        <div className='welcomeFlex'>
+          <h1>WELCOME <br className='helloBreak'/> TO ALIAS</h1>
+        </div>
+      
        <div className='altLogos'>
         <img src={aliasALT} alt="" className='aliasALT'/>
         <img src={aliasALTTwo} alt="" className='aliasALT'/>

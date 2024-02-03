@@ -10,7 +10,7 @@ export default function TopBar() {
             <img src={aliasStudios} alt="" className='aliasStudios'/>
             <ul>
                 <li data-to-scrollspy-id='about'>ABOUT</li>
-                {/*<li data-to-scrollspy-id='services'>SERVICES</li>*/}
+                <li data-to-scrollspy-id='services'>SERVICES</li>
                 <li data-to-scrollspy-id='partners'>PARTNERS</li>
                 <li data-to-scrollspy-id='contact'>CONTACT</li>
             </ul>

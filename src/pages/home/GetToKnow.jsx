@@ -5,11 +5,8 @@ import ContactUs from './ContactUs'
 export default function GetToKnow() {
   return (
     <div>
-            <h1 className='gtk'>LETS TALK.</h1>
-            <p className='gtkP'>Ready to take the next step towards modernizing your business? Look no further.
-            Fill out the form below and let us know how we can help.
-            </p>
-
+             <p className='our'>CONTACT US</p>
+              <h1 className='PartnerTitle'>LETS GET <br /> STARTED</h1>
             <ContactUs />
 
     </div>

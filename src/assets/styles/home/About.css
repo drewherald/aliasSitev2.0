@@ -14,7 +14,6 @@
     flex-direction: column;
     justify-content: center;
     padding-top: 10dvh;
-    padding-bottom: 20dvh;
 }
 
 .aboutItemContainer{
@@ -173,5 +172,26 @@
     margin: -9px;
   }
   
-  
-  
+  .triStack{
+    display: flex;
+    flex-direction: column;
+    padding: 20dvh 0 10dvh 0;
+  }
+
+  .triBar{
+    background-color: #181818;
+    padding: 20px;
+    width: 90dvw;
+    height: 15dvh;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .triBar p{
+    font-size: 8dvh;
+    background-color: #181818;
+    margin: 0;
+    font-family: Tussilago, Helvetica, sans-serif;
+  }

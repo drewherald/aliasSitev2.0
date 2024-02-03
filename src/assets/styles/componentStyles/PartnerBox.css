@@ -10,8 +10,6 @@
 .partnerBox{
     width: 30dvw;
     height: 30dvw;
-    background-color: #181818;
-    margin-right: 20px;
     flex: 0 0 auto; 
     border-radius: 8px;
     padding: 10px;
@@ -21,7 +19,26 @@
     align-items: center;
 }
 
+.partnerTop{
+    margin: 20px;
+}
+
 .logoPartner{
     max-height: 200px;
-    background-color: #181818;
 }
+
+
+.outrBorder {
+    border: 10px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+  }
+  
+  .innrBorder {
+    flex: 1;
+    border: 5px solid white;
+    border-radius: 30px;
+    margin: -9px;
+  }
