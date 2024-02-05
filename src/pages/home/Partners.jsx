@@ -9,27 +9,23 @@ export default function Partners() {
     const partners = [
         {
             name: 'Back 2 You Podcast',
-            refKey: './src/assets/photos/back2youlogo.png'
+            refKey: 1
         },
         {
-            name: "Daisy Market Collective",
-            refKey: './src/assets/photos/daisyMarketLogo.png'
+            name: "Inclusion Brand",
+            refKey: 2
         },
         {
-            name: 'Back 2 You Podcast',
-            refKey: './src/assets/photos/back2youlogo.png'
+            name: 'Gator Roofing',
+            refKey: 3
         },
         {
-            name: "Daisy Market Collective",
-            refKey: './src/assets/photos/daisyMarketLogo.png'
+            name: "Crescentia Fitness",
+            refKey: 4
         },
         {
-            name: 'Back 2 You Podcast',
-            refKey: './src/assets/photos/back2youlogo.png'
-        },
-        {
-            name: "Daisy Market Collective",
-            refKey: './src/assets/photos/daisyMarketLogo.png'
+            name: 'Daisy Market Collective',
+            refKey: 5
         }
     ]
 
