@@ -195,13 +195,27 @@
 
   .triBar{
     background-color: #181818;
-    padding: 20px;
-    width: 90dvw;
-    height: 15dvh;
+    padding: 40px 20px;
+    width: 94dvw;
     border-radius: 8px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 20px;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .tb1:hover .triP1{
+    color: #0000FF;
+  }
+
+  .tb2:hover .triP2{
+    color: #0000FF;
+  }
+
+  .tb3:hover .triP3{
+    color: #0000FF;
   }
 
   .triBar p{
@@ -209,4 +223,12 @@
     background-color: #181818;
     margin: 0;
     font-family: Tussilago, Helvetica, sans-serif;
+  }
+
+  .triHidden{
+    display: none;
+  }
+
+  .triShow{
+    display: block !important;
   }

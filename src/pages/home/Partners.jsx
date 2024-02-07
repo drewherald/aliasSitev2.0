@@ -24,7 +24,7 @@ export default function Partners() {
             refKey: 4
         },
         {
-            name: 'Daisy Market Collective',
+            name: 'Daisy Market',
             refKey: 5
         }
     ]

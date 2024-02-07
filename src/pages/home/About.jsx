@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../assets/styles/home/About.css'
 import DigitalBranding from '../../assets/photos/brandIdentity.png'
 import ContentCreation from '../../assets/photos/ContentCreation.png'
@@ -10,6 +10,12 @@ import LabelDesign from '../../assets/photos/labelDesign.png'
 
 
 export default function About() {
+
+  const [isActive, setActive] = useState(false)
+  const [isActiveTwo, setActiveTwo] = useState(false)
+  const [isActiveThree, setActiveThree] = useState(false)
+
+
   return (
     <div className='aboutFlex'>
       <div className='aboutContainer' id='about'>
@@ -74,15 +80,48 @@ export default function About() {
 
 
       <section className='triStack'>
-            <div className='triBar'>
-                <p>DESIGN</p>
-            </div>
-            <div className='triBar'>
-                <p>DEVELOPMENT</p>
-            </div>
-            <div className='triBar'>
-                <p>BRANDING</p>
-            </div>
+            <button className='triBar tb1' onClick={() => setActive(!isActive)}>
+                <p className='triP1'>DESIGN</p>
+                <section className={`triHidden ${isActive ? "triShow" : " "}`}>
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                </section>
+            </button>
+            <button className='triBar tb2' onClick={() => setActiveTwo(!isActiveTwo)}>
+                <p className='triP2'>DEVELOPMENT</p>
+                <section className={`triHidden ${isActiveTwo ? "triShow" : " "}`}>
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                </section>
+            </button>
+            <button className='triBar tb3' onClick={() => setActiveThree(!isActiveThree)}>
+                <p className='triP3'>BRANDING</p>
+                <section className={`triHidden ${isActiveThree ? "triShow" : " "}`}>
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                  Sample Text <br />
+                </section>
+            </button>
       </section>
         
      </div>

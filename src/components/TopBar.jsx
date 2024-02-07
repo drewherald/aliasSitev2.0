@@ -9,10 +9,10 @@ export default function TopBar() {
       <div className='topBarFlex'>
             <img src={aliasStudios} alt="" className='aliasStudios'/>
             <ul>
-                <li data-to-scrollspy-id='about'>ABOUT</li>
-                <li data-to-scrollspy-id='services'>SERVICES</li>
-                <li data-to-scrollspy-id='partners'>PARTNERS</li>
-                <li data-to-scrollspy-id='contact'>CONTACT</li>
+                <li data-to-scrollspy-id='about'><a href="#about">ABOUT</a></li>
+                <li data-to-scrollspy-id='services'><a href="#services">SERVICES</a></li>
+                <li data-to-scrollspy-id='partners'><a href="#partners">PARTNERS</a></li>
+                <li data-to-scrollspy-id='contact'><a href="#contact">CONTACT</a></li>
             </ul>
       </div>
       <div>
