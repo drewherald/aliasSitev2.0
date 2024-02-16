@@ -13,7 +13,6 @@ export default function Hello() {
       
        <div className='altLogos'>
         <img src={aliasALT} alt="" className='aliasALT'/>
-        <img src={aliasALTTwo} alt="" className='aliasALT'/>
        </div>
       </div>
     </>

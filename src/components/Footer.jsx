@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <div>
-        <p className='aliasFooter'>{date} Alias Media & Design Co LLC</p>
+        <p className='aliasFooter'>{date} Alias Media & Design LLC</p>
     </div>
   )
 }
