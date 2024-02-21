@@ -23,6 +23,10 @@
     font-size: 18px !important;
   }
 
+  .scrollContainer{
+    display: none !important;
+  }
+
 }
 
 .aboutContainer{
