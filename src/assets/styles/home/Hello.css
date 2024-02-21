@@ -1,4 +1,20 @@
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
+
+    #welcome h1{
+        font-size: 6dvh !important;
+    }
+
+    .aliasALT{
+        max-width: 300px !important;
+        height: auto;
+    }
+
+    .altLogos{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     #welcome{
         display: flex !important;
         flex-direction: column;
@@ -8,17 +24,7 @@
 
     #welcome h1{
         font-size: 4dvh !important;
-    }
-
-    .aliasALT{
-        max-width: 250px !important;
-        height: auto;
-    }
-
-    .altLogos{
-        justify-content: space-between;
-    }
-}
+    }}
 
 #welcome{
     height: 35dvh;
@@ -42,6 +48,7 @@
     display: flex;
     align-items: center;
     background-color: #0000FF;
+    justify-content: center;
 }
 
 .aliasALT{
@@ -57,6 +64,8 @@
     animation-delay: 1s;
     opacity: 0;
     animation-fill-mode: forwards;
+    justify-content: center;
+    align-items: center;
 }
 
 

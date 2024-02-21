@@ -19,6 +19,10 @@
     font-size: 10px;
   }
 
+  .triShow{
+    font-size: 18px !important;
+  }
+
 }
 
 .aboutContainer{
@@ -231,4 +235,9 @@
 
   .triShow{
     display: block !important;
+    background-color: #181818;
+    padding: 40px 40px 40px 5px;
+    text-align: left;
+    font-size: 22px;
+    font-family: helveticaMID, Arial, Helvetica, sans-serif;
   }
