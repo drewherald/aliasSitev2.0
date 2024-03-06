@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import "../../assets/styles/home/About.css";
-import DigitalBranding from "../../assets/photos/brandIdentity.png";
-import ContentCreation from "../../assets/photos/ContentCreation.png";
-import WebDesign from "../../assets/photos/webDesign.png";
-import SocialMedia from "../../assets/photos/socialMedia.png";
-import FilmPhotography from "../../assets/photos/filmPhotography.png";
-import LabelDesign from "../../assets/photos/labelDesign.png";
+import globe from '../../assets/photos/globe.png'
+import blueSquare from '../../assets/photos/blueSquare.png'
 
 export default function About() {
   const [isActive, setActive] = useState(false);
@@ -15,43 +11,18 @@ export default function About() {
   return (
     <div className="aboutFlex">
       <div className="aboutContainer" id="about">
-        <div class="scrollContainer">
-          <div class="scrollChild">
-            <div className="scrollDiv">
-              <h1 className="scrollH1">MEDIA.DESIGN.STRATEGY.</h1>
-              <h1 className="scrollH1">MEDIA.DESIGN.STRATEGY.</h1>
-            </div>
-          </div>
-        </div>
+       <div className="titleH1">
+        <h1 className="noscrollH1">DEFINE YOU.</h1>
+        <img src={globe}></img>
+        <a href="" className="discoverHow">Discover How</a>
+       </div>
+           
+       
 
-        <section className="baseServices">
-          <div className="aboutTopContainer">
-            <div className="aboutItemContainer">
-              <div className="aboutBox">
-                Digital Branding
-                <img src={DigitalBranding} className="aboutIco" alt="" />
-              </div>
-              <div className="aboutBox">
-                Web Design
-                <img src={WebDesign} className="aboutIco" alt="" />
-              </div>
-              <div className="aboutBox">
-                Content Creation
-                <img src={ContentCreation} className="aboutIco" alt="" />
-              </div>
-              <div className="aboutBox">
-                Social Media Management
-                <img src={SocialMedia} className="aboutIco" alt="" />
-              </div>
-              <div className="aboutBox">
-                Film Photography
-                <img src={FilmPhotography} className="aboutIco" alt="" />
-              </div>
-              <div className="aboutBox">
-                Label Design
-                <img src={LabelDesign} className="aboutIco" alt="" />
-              </div>
-            </div>
+        <section className="whatWeDo">
+          <div className="waypoint">
+              <img src={blueSquare} alt="" />
+              <p>WHAT WE DO</p>
           </div>
         </section>
 

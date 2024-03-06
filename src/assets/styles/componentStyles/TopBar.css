@@ -6,11 +6,12 @@
 
 .topBarFlex{
     display: flex;
-    width: 100dvw;
+    width: 99.2dvw;
     align-items: center;
     padding-top: 10px;
-    position: fixed;
     z-index: 2;
+    justify-content: center;
+    position: absolute;
 }
 
 .aliasStudios{
@@ -21,17 +22,25 @@
 li{
     list-style-type: none;
     margin: 0;
-    padding: 0 50px 0 0;
     font-weight: 500 !important;
     cursor: pointer;
     font-family: helveticaBOLD, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12dvw;
 }
 
 ul{
     display: flex;
-    padding-left: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
 }
 
 ul a{
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

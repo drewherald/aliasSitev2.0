@@ -1,13 +1,23 @@
 .homeFlex{
     flex-direction: column;
-    padding: 0 3dvw;
     justify-content: center;
+    background-color: black;
+    padding: 0 3dvw;
 }
 
-.topBarContainer{
-    height: 20dvh;
-}
 
 #contact{
         padding-bottom: 20dvh;
+}
+
+.backgroundImg{
+    position: absolute;
+    z-index: 0;
+    max-width: 99dvw;
+}
+
+.backgroundImg img{
+    width: 99.2dvw;
+    max-height: 100dvh;
+    overflow: hidden;
 }

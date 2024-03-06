@@ -1,7 +1,7 @@
 *{
-    background-color: black;
     color: white;
     font-family: HelveticaBold, Helvetica, sans-serif;
+    max-width: 100dvw;
 }
 
 body{
