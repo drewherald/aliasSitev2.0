@@ -73,6 +73,68 @@
   padding-right: 12px;
 }
 
+.mediaDesignStrategy h1{
+  text-align: center;
+  font-size: 6dvw !important;
+  padding-bottom: 2dvh;
+}
+
+.mediaH1{
+  padding-right: 35dvw;
+}
+
+.designH1{
+  padding-left: 30dvw;
+}
+
+.strategyH1{
+  padding-right: 25dvw;
+}
+
+.servicesScroll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10dvh 0;
+}
+
+.wwwButtons{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.wwdButtons a{
+  border-radius: 25px;
+  padding: 20px 25px 15px 25px;
+ 
+  text-decoration: none;
+  font-family: HelveticaMid, sans-serif;
+  cursor: pointer;
+}
+
+.wwdHolder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10dvh;
+}
+
+.wwwPast{
+  margin-right: 2dvw;
+  border: 4px solid white;
+  background-color: white !important;
+  color: black;
+}
+
+.wwdFuture{
+  margin-left: 2dvw;
+  border: 4px solid white;
+  background-color: #1E1E1E !important;
+  color: white;
+}
+
+
 .discoverHow{
   background-color: #0000FF;
   padding: 20px 25px 15px 25px;

@@ -15,11 +15,11 @@ export default function Home() {
         <div className='topBarContainer'>
             <TopBar />
         </div>
-        
-        <div className='homeFlex'>
         <div className='backgroundImg'>
               <img src={backgroundImg} alt="" />
         </div>
+        <div className='homeFlex'>
+        
                 <ScrollSpy scrollThrottle={40}>
                 <section id='services'>
                   <About />
