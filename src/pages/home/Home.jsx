@@ -32,10 +32,8 @@ export default function Home() {
                 <section id='ourService'>
                     <OurServices />
                 </section>
-                <section id='partners'>
                   <Partners />
-                </section>
-                <section id='contact'>
+               <section id='contact'>
                   <GetToKnow />
                 </section>
                 </ScrollSpy>

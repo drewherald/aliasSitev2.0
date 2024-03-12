@@ -32,15 +32,11 @@ export default function PartnerBox({name, refKey}) {
 
   return (
     <div className='partnerTop'>
-       <div className='outrBorder'>
-          <div className='innrBorder'>
             <div className='partnerBox'>
               < img src={referenceKey} className='logoPartner' alt="" />
               <p className='partnerName'>{name}</p>
+
             </div>
-      
-        </ div>
-      </ div>
     </div>
   )
 }

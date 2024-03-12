@@ -2,47 +2,47 @@ import React, { createRef, forwardRef, useState } from 'react'
 import '../../assets/styles/home/Partners.css'
 import PartnerBox from '../../components/PartnerBox'
 import { v4 as uuidv4 } from 'uuid'
-import back2you from '../../assets/photos/back2youlogo.png'
+import blueSquare from "../../assets/photos/blueSquare.png";
 
 export default function Partners() {
 
     const partners = [
         {
-            name: 'Back 2 You Podcast',
+            name: 'Nevada',
             refKey: 1
         },
         {
-            name: "Inclusion Brand",
+            name: "Oklahoma",
             refKey: 2
         },
         {
-            name: 'Gator Roofing',
+            name: 'Kentucky',
             refKey: 3
-        },
-        {
-            name: "Crescentia Fitness",
-            refKey: 4
-        },
-        {
-            name: 'Daisy Market',
-            refKey: 5
         }
     ]
 
 
   return (
     <section id='partners'>
-        <p className='our'>OUR</p>
-        <h1 className='PartnerTitle'>PROJECTS</h1>
+
+         <div className="waypoint">
+          <img src={blueSquare} alt="" />
+          <p>PROJECTS</p>
+        </div>
+
+        
         <div className='partnerTopContainer'>
-            <div className='partnerItemContainer'>
                 {partners.map((partner) => (
                     <PartnerBox name={partner.name} refKey={partner.refKey}  key={uuidv4()}/>
-                ))}
-            </div>
-            
+                ))}            
         </div>
         
+        <div className='seeMoreContainer'>
+            <a href="" className="seeMore">
+                See More
+            </a>
+        </div>
+       
     </section>
   )
 }

@@ -11,10 +11,9 @@
 }
 
 .partnerBox{
-    width: 30dvw;
-    height: 30dvw;
+    width: 20dvw;
+    height: 20dvw;
     flex: 0 0 auto; 
-    border-radius: 8px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -27,42 +26,34 @@
 }
 
 .logoPartner{
-    max-width: 30dvw;
-    z-index: 1;
+    max-width: 20dvw;
+    z-index: 0;
     cursor: pointer;
+    opacity: 20%;
 }
 
 .logoPartner:hover{
-    opacity: 0;
+    opacity: 1;
     animation: fadeOut .5s ease-out;
+}
+
+.logoPartner:hover ~ .partnerName{
+    display: none;
 }
 
 @keyframes fadeOut{
     0%{
-        opacity: 1;
+        opacity: 20%;
     }
 
     100%{
-        opacity: 0;
+        opacity: 1;
     }
 }
 
 .partnerName{
     position: absolute;
-    z-index: 0;
+    font-size: 2dvw;
+    font-family: TussilagoBold, Helvetica, sans-serif;
+    z-index: 1;
 }
-
-.outrBorder {
-    border: 10px solid white;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100px;
-  }
-  
-  .innrBorder {
-    flex: 1;
-    border: 5px solid white;
-    border-radius: 30px;
-    margin: -9px;
-  }

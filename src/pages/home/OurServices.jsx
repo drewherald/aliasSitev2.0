@@ -33,10 +33,10 @@ export default function OurServices() {
             </p>
           </div>
           <div className="serviceCube">
-            <img src={startup} alt="" />
+            <img src={startupPlus} alt="" />
           </div>
           <div className="serviceCube">
-            <img src={startupPlus} alt="" />
+            <img src={startup} alt="" />
           </div>
           <div className="serviceCube">
             <img src={aliasPlus} alt="" />

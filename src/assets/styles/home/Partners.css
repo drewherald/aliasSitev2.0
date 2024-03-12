@@ -14,46 +14,32 @@
         justify-content: center !important;
     }
 
-    .PartnerTitle{
-        font-size: 5dvh !important;
-    }
 }
 
-.PartnerTitle{
-        font-size: 14dvh;
-        margin: 0;
-        text-align: center;
-        font-family: TussilagoBOLD, Helvetica, sans-serif;
-}
-
-
-.partnerItemContainer{
+.seeMoreContainer{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.our{
+.seeMore{
+    background-color: white;
+    padding: 20px 25px 15px 25px;
+    border-radius: 25px;
     text-align: center;
-    font-family: Tussilago, Helvetica, sans-serif;
-}
-
-@media screen and (min-width: 600px) {
-    .partnerItemContainer{
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }    
-
-    .mobilePartnerTitle{
-        display: none;
-    }
+    text-decoration: none;
+    font-family: helveticaMID, Helvetica, sans-serif;
+    color: black;
+    width: 8dvw;
 }
 
 .partnerTopContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20dvh;
-    margin-top: 60px;
+    padding-bottom: 10dvh;
+}
+
+#partners{
+    padding: 10dvh 0;
 }
