@@ -8,6 +8,7 @@ import GetToKnow from './GetToKnow'
 import Footer from '../../components/Footer'
 import backgroundImg from '../../assets/photos/webbackground.png'
 import OurProcess from './OurProcess'
+import OurServices from './OurServices'
 
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
                 </section>
                 <section id='ourProcess'>
                     <OurProcess />
+                </section>
+                <section id='ourService'>
+                    <OurServices />
                 </section>
                 <section id='partners'>
                   <Partners />

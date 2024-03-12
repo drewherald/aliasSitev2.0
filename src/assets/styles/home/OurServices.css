@@ -1,0 +1,39 @@
+.ourservices{
+    display: flex;
+    flex-direction: column;
+}
+
+.ourServicesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+}
+
+.whyUs{
+    margin: 0;
+    font-size: 3dvw;
+}
+
+.serviceText{
+    display: flex;
+    padding-top: 3dvh;
+    flex-direction: column;
+    padding-left: 5dvw;
+}
+
+.serviceCube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceText p{
+    font-family: Tussilago, Helvetica, sans-serif;
+    font-size: 1dvw;
+}
+
+.serviceCube img{
+    max-width: 35dvw;
+}
