@@ -7,6 +7,7 @@ import ScrollSpy from "react-ui-scrollspy";
 import GetToKnow from './GetToKnow'
 import Footer from '../../components/Footer'
 import backgroundImg from '../../assets/photos/webbackground.png'
+import OurProcess from './OurProcess'
 
 
 export default function Home() {
@@ -23,6 +24,9 @@ export default function Home() {
                 <ScrollSpy scrollThrottle={40}>
                 <section id='services'>
                   <About />
+                </section>
+                <section id='ourProcess'>
+                    <OurProcess />
                 </section>
                 <section id='partners'>
                   <Partners />

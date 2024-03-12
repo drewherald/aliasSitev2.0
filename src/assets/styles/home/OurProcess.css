@@ -1,0 +1,33 @@
+.processContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.elevateBrand{
+    margin: 0;
+    font-size: 5dvw !important;
+    padding: 0 4dvw;
+    font-family: helveticaMID, Helvetica, sans-serif !important;
+}
+
+.processAnimation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourProcess{
+    display: flex;
+    flex-direction: column;
+}
+
+.processImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10dvh 0;
+}
+
+.processImages img{
+    max-height: 90dvh;
+}
