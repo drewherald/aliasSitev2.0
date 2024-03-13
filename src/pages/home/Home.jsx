@@ -22,7 +22,6 @@ export default function Home() {
         </div>
         <div className='homeFlex'>
         
-                <ScrollSpy scrollThrottle={40}>
                 <section id='services'>
                   <About />
                 </section>
@@ -33,12 +32,11 @@ export default function Home() {
                     <OurServices />
                 </section>
                   <Partners />
-               <section id='contact'>
-                  <GetToKnow />
-                </section>
-                </ScrollSpy>
-                <Footer />
         </div>
+        <section id='contact'>
+            <GetToKnow />
+        </section>
+            
     </>
   )
 }

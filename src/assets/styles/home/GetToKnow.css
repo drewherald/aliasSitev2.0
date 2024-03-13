@@ -1,27 +1,55 @@
-@media screen and (max-width: 700px) {
-    .gtk{
-        text-align: center;
-    }
-
-    .gtkP{
-        text-align: center;
-    }
+.backgroundImgBottom{
+    position: absolute;
+    z-index: 0;
+    max-width: 99dvw;
 }
 
-.gtk{
-    font-size: 10dvh;
-    margin: 0;
+.backgroundImgBottom img{
+    width: 99.2dvw;
+    height: 100dvh;
+    overflow: hidden;
+    vertical-align: bottom;
+    z-index: 0;
 }
 
-
-.gtkP{
-    font-size: 4dvh;
-    font-family: Helvetica, sans-serif;
-    font-weight: 500;
-
+.footContainer{
 }
 
-.getToKnowFlex{
+.footText{
+    z-index: 1;
+    position: absolute;
+    height: 100dvh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99.2dvw;
     flex-direction: column;
+}
+
+.footText h5{
+    font-family: helveticaMID, Helvetica, sans-serif;
+    font-size: 10dvh;
+    margin: 20dvh 0 
+    20px 0;
+}
+
+.footText p{
+    font-family: helveticaMID, Helvetica, sans-serif;
+    font-size: 2.5dvh;
+}
+
+.connectWUs{
+    background-color: white;
+    padding: 20px 25px 15px 25px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: helveticaMID, Helvetica, sans-serif;
+    color: black;
+    width: 8dvw;
+    margin: 5dvh 0;
+}
+
+.globeSmall{
+    margin-top: 10dvh;
 }

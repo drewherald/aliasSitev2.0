@@ -1,14 +1,30 @@
 import React from 'react'
 import '../../assets/styles/home/GetToKnow.css'
-import ContactUs from './ContactUs'
+import backgroundImg from '../../assets/photos/webbackground.png'
+import globeSmall from '../../assets/photos/globeSmall.png'
 
 export default function GetToKnow() {
   return (
-    <div>
-             <p className='our'>CONTACT US</p>
-              <h1 className='PartnerTitle'>LETS GET <br /> STARTED</h1>
-            <ContactUs />
-
+    <>
+      <div className='footContainer'>
+          <div className='backgroundImgBottom'>
+                <img src={backgroundImg} alt="" />
+          </div>
+        
+      </div>
+      <div className='footText'>
+        <h5>
+          Let's team up.
+        </h5>
+        <p>
+          New idea, project, or website?
+        </p>
+        <a href="" className="connectWUs">
+                Connect with us!
+        </a>
+        <img src={globeSmall} alt="" className='globeSmall' />
     </div>
+    </>
+    
   )
 }
