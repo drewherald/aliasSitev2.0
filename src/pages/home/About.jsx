@@ -3,6 +3,7 @@ import "../../assets/styles/home/About.css";
 import globe from "../../assets/photos/globe.png";
 import blueSquare from "../../assets/photos/blueSquare.png";
 import servicesScroll from "../../assets/photos/servicesScroll.png";
+import globeSmall from '../../assets/photos/globeSmall.png'
 
 export default function About() {
 
@@ -11,10 +12,14 @@ export default function About() {
       <div className="aboutContainer" id="about">
         <div className="titleH1">
           <h1 className="noscrollH1">DEFINE YOU.</h1>
-          <img src={globe}></img>
+          <img src={globe} className="bigGlobe"></img>
           <a href="" className="discoverHow">
             Discover How
           </a>
+          <div className="aboutMobile">
+            <img src={globeSmall} alt="" className='globeSmallMobile' />
+            <p>EXCEPTIONAL DESIGN <br /> AND <br /> STRATEGIC SOLUTIONS</p>
+          </div>
         </div>
 
         <section className="whatWeDo">

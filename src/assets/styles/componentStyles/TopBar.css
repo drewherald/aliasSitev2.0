@@ -1,6 +1,11 @@
-@media screen and (max-width: 600px) {
-    ul{
+@media screen and (max-width: 1000px) {
+    .topBarLink{
         display: none !important;
+    }
+
+    .aliasStudios{
+        max-height: 50px !important;
+        padding-left: 10px;
     }
 }
 

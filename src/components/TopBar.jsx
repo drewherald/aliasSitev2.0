@@ -8,13 +8,13 @@ export default function TopBar() {
     <header id='topBar'>
       <div className='topBarFlex'>
             <ul>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#partners">PARTNERS</a></li>
+                <li className='topBarLink'><a href="#about">ABOUT</a></li>
+                <li className='topBarLink'><a href="#services">SERVICES</a></li>
+                <li className='topBarLink'><a href="#partners">PARTNERS</a></li>
                 <li>      <div> <img src={aliasStudios} alt="" className='aliasStudios'/></div>     </li>
-                <li><a href="">PACKAGES</a></li>
-                <li><a href="">ALIAS+</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li className='topBarLink'><a href="">PACKAGES</a></li>
+                <li className='topBarLink'><a href="">ALIAS+</a></li>
+                <li className='topBarLink'><a href="#contact">CONTACT</a></li>
 
             </ul>
       </div>

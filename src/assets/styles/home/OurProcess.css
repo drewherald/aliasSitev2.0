@@ -1,11 +1,34 @@
+@media screen and (max-width: 1000px) {
+    .processAnimation{
+        display: none !important;
+    }
+
+    .processContent{
+        grid-template-columns: 1fr !important;
+    }
+
+    .elevateBrand{
+        font-size: 10dvw !important;
+        padding: 0 !important;
+    }
+
+    .processImages img{
+        max-width: 90dvw;
+    }
+
+    .processImages{
+        padding: 4dvh 0 !important;
+    }
+}
+
 .processContent{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.elevateBrand{
+.elevateBrand, h3{
     margin: 0;
-    font-size: 5dvw !important;
+    font-size: 5dvw;
     padding: 0 4dvw;
     font-family: helveticaMID, Helvetica, sans-serif !important;
 }

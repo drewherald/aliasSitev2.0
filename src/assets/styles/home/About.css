@@ -1,22 +1,88 @@
-@media screen and (max-width: 700px) {
-    #about{
-        text-align: center;
-    }
-
-    #about p{
-        font-size: 18px !important;
-    }
-
-
-  .triBar{
-    width: 80dvw !important;
+@media screen and (max-width: 1000px) {
+  .noscrollH1{
+    font-size: 10dvw !important;
   }
 
+  .titleH1{
+    padding:  0 !important;
+    height: 65dvh !important;
 
-  .triShow{
-    font-size: 18px !important;
   }
 
+  .bigGlobe{
+    display: none;
+  }
+
+  .discoverHow{
+    display: none !important;
+  }
+
+  .globeSmallMobile{
+    max-height: 5dvh;
+    padding: 2dvh 0;
+  }
+
+  .aboutMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutMobile p{
+    font-size: 1.25dvh;
+  }
+
+  .waypoint{
+    padding-bottom: 6dvh !important;
+  }
+  
+  .waypoint p{
+    font-size: 1.5dvh !important;
+  }
+  
+  .waypoint img{
+    height: 2dvh !important;
+  }
+
+  .mediaH1{
+    padding-right: 0 !important;
+  }
+  
+  .designH1{
+    padding-left: 0 !important;
+  }
+  
+  .strategyH1{
+    padding-right: 0 !important;
+  }
+
+  .mediaDesignStrategy h1{
+    text-align: left !important;
+    font-size: 10dvw !important;
+    padding-bottom: 2dvh;
+  }
+
+  .servicesScroll{
+    padding: 1dvh 0 6dvh 0 !important;
+  }
+
+  .servicesScroll img{
+   max-width: 80dvw;
+  }
+
+  .wwdButtons a{
+    padding: 1dvh 3.5dvw !important;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+
+  .aboutMobile{
+    display: none !important;
+  }
 }
 
 #about{
@@ -51,7 +117,7 @@
 
 }
 
-.titleH1 img{
+.bigGlobe{
   max-height: 40dvh;
   padding-bottom: 10dvh;
 }
@@ -75,7 +141,7 @@
 
 .mediaDesignStrategy h1{
   text-align: center;
-  font-size: 6dvw !important;
+  font-size: 6dvw ;
   padding-bottom: 2dvh;
 }
 
@@ -153,116 +219,3 @@
   }
   
 
-
-  .twoBox{
-    display: none;
-    justify-content: space-around;
-  }
-
-  .twoBoxComponent{
-    width: 40dvw;
-    height: 40dvw;
-    flex: 0 0 auto; 
-    border-radius: 8px;
-    padding: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-  }
-
-  #abtBoxOne{
-
-  }
-
-  #abtBoxTwo{
-    background-color: #181818 !important;
-  }
-
-  .outerBorder {
-    border: 10px solid white;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100px;
-  }
-  
-  .innerBorder {
-    flex: 1;
-    border: 10px solid white;
-    border-radius: 30px;
-    margin: -9px;
-  }
-
-
-  .outer-Border {
-    border: 10px solid #0000FF;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100px;
-  }
-  
-  .inner-Border {
-    flex: 1;
-    border: 10px solid #0000FF;
-    border-radius: 30px;
-    margin: -9px;
-  }
-  
-  .triStack{
-    display: flex;
-    flex-direction: column;
-    padding: 0dvh 0 10dvh 0;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .triBar{
-    background-color: #181818;
-    padding: 40px 20px;
-    width: 94dvw;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 20px;
-    border: 0;
-    cursor: pointer;
-  }
-
-  .tb1:hover .triP1{
-    color: #0000FF;
-  }
-
-  .tb2:hover .triP2{
-    color: #0000FF;
-  }
-
-  .tb3:hover .triP3{
-    color: #0000FF;
-  }
-
-  .triBar p{
-    font-size: 8dvh;
-    background-color: #181818;
-    margin: 0;
-    font-family: Tussilago, Helvetica, sans-serif;
-  }
-
-  .triHidden{
-    display: none;
-  }
-
-  .triShow{
-    display: block !important;
-    background-color: #181818;
-    padding: 40px 40px 40px 5px;
-    text-align: left;
-    font-size: 22px;
-    font-family: helveticaMID, Arial, Helvetica, sans-serif;
-  }

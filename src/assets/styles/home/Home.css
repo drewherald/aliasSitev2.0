@@ -1,3 +1,15 @@
+@media screen and (max-width: 1000px) {
+    .backgroundImg img{
+        height: 60dvh !important;
+        width: auto !important;  
+    }
+
+    .backgroundImg{
+        max-width: auto !important;
+       }
+
+}
+
 .homeFlex{
     flex-direction: column;
     justify-content: center;
@@ -13,6 +25,6 @@
 
 .backgroundImg img{
     width: 99.2dvw;
-    max-height: 100dvh;
+    height: 100dvh;
     overflow: hidden;
 }
