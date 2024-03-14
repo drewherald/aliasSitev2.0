@@ -4,9 +4,10 @@
     }
 
     .aliasStudios{
-        max-height: 50px !important;
+        max-height: 8dvh!important;
         padding-left: 10px;
     }
+
 }
 
 .topBarFlex{

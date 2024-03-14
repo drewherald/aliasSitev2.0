@@ -4,6 +4,7 @@ import globe from "../../assets/photos/globe.png";
 import blueSquare from "../../assets/photos/blueSquare.png";
 import servicesScroll from "../../assets/photos/servicesScroll.png";
 import globeSmall from '../../assets/photos/globeSmall.png'
+import mobileMenu from '../../assets/photos/ellipse.png'
 
 export default function About() {
 
@@ -19,6 +20,7 @@ export default function About() {
           <div className="aboutMobile">
             <img src={globeSmall} alt="" className='globeSmallMobile' />
             <p>EXCEPTIONAL DESIGN <br /> AND <br /> STRATEGIC SOLUTIONS</p>
+            <img src={mobileMenu} className="mobileMenu" alt="" />
           </div>
         </div>
 

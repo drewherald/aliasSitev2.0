@@ -1,3 +1,40 @@
+@media screen and (max-width: 1000px) {
+
+    .backgroundImgBottom img{
+        height: 55dvh !important;
+        width: auto !important;  
+    }
+
+    .backgroundImgBottom{
+        max-width: auto !important;
+       }
+
+       .footText{
+        height: 55dvh !important;
+       }
+
+       .footText h5{
+        font-size: 5dvh !important;
+        margin: 5dvh 0 
+        20px 0 !important;
+       }
+
+       .footText p{
+        font-size: 1.5dvh !important;
+       }
+
+       .connectWUs{
+        padding: 1.5dvh 2dvw 1dvh 2dvw !important;
+        font-size: 12px;
+        width: 30dvw !important;
+       }
+
+       .globeSmall{
+        max-height: 5dvh;
+        margin-top: 0 !important;
+       }
+}
+
 .backgroundImgBottom{
     position: absolute;
     z-index: 0;

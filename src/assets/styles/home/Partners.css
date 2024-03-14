@@ -1,17 +1,13 @@
-@media screen and (max-width: 600px) {
-    .ourPartners h2{
-        display: none;
-    }
-
-    .partnerItemContainer{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
+@media screen and (max-width: 1000px) {
     .partnerTopContainer{
-        justify-content: center !important;
+       flex-direction: column;
+       padding-bottom: 4dvh !important;
+    }
+
+    .seeMore{
+        padding: 1.5dvh 7dvw 1dvh 7dvw !important;
+        font-size: 12px;
+        width: 20dvw !important;
     }
 
 }

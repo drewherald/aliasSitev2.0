@@ -1,3 +1,18 @@
+@media screen and (max-width: 1000px) {
+    .serviceText{
+        display: none !important;
+    }
+
+    .ourServicesGrid{
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr !important;
+    }
+
+    .serviceCube img{
+        max-width: 80dvw !important;
+    }
+}
+
 .ourservices{
     display: flex;
     flex-direction: column;
