@@ -2,12 +2,8 @@
 
     .backgroundImgBottom img{
         height: 55dvh !important;
-        width: auto !important;  
     }
 
-    .backgroundImgBottom{
-        max-width: auto !important;
-       }
 
        .footText{
         height: 55dvh !important;
@@ -38,11 +34,11 @@
 .backgroundImgBottom{
     position: absolute;
     z-index: 0;
-    max-width: 99dvw;
+    width: 100%;
 }
 
 .backgroundImgBottom img{
-    width: 99.2dvw;
+    width: 100%;
     height: 100dvh;
     overflow: hidden;
     vertical-align: bottom;
@@ -74,7 +70,7 @@
 
 .connectWUs{
     background-color: white;
-    padding: 20px 25px 15px 25px;
+    padding: 15px 25px 15px 25px;
     border-radius: 25px;
     text-align: center;
     text-decoration: none;

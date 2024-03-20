@@ -5,24 +5,20 @@
 
     .aliasStudios{
         max-height: 8dvh!important;
-        padding-left: 10px;
     }
 
 }
 
 .topBarFlex{
     display: flex;
-    width: 99.2dvw;
+    width: 86%;
     align-items: center;
-    padding-top: 10px;
-    z-index: 2;
     justify-content: center;
     position: absolute;
 }
 
 .aliasStudios{
     max-height: 80px;
-    padding-left: 10px;
 }
 
 li{

@@ -8,6 +8,10 @@
     .logoPartner{
         max-width: 60dvw !important;
     }
+
+    .partnerName{
+        font-size: 6dvw !important;
+    }
 }
 
 .partnerBox{

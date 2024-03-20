@@ -1,17 +1,54 @@
 @media screen and (max-width: 1000px) {
   .noscrollH1{
-    font-size: 11dvw !important;
-    padding-top: 5dvh;
+    font-size: 28pt !important;
+    padding-top: 35px;
+    text-align: center !important;
+    padding-bottom: 0 !important;
   }
 
   .titleH1{
     padding:  0 !important;
-    height: 60dvh !important;
+    height: 55dvh !important;
 
   }
 
   .bigGlobe{
     display: none;
+  }
+
+  .whatWeDo{
+    padding-top: 10px !important;
+  }
+
+  .aliasStudiosMenu{
+    max-height: 8dvh;
+    padding: 5dvh 0 5dvh 0;
+}
+
+  .navLinkClose{
+    max-height: 5dvh;
+  }
+
+  .mobileMenuLinks{
+    width: 100%;
+    position: fixed;
+    height: 100dvh;
+    background-color: #100F55;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform-origin: top;
+  }
+
+  .navOverflow{
+    overflow: hidden;
+  }
+  .navLinkContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .discoverHow{
@@ -75,7 +112,7 @@
   }
 
   .wwdButtons a{
-    padding: 1dvh 3.5dvw !important;
+    padding: 2dvh 2.75dvw !important;
     font-size: 14px;
   }
 
@@ -122,7 +159,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 15DVH 0 10dvh 0;
+  padding: 15DVH 0 8dvh 0;
   height: 90dvh;
 
 }
@@ -141,7 +178,7 @@
 .waypoint p{
   font-family: helveticaMID, Helvetica, sans-serif;
   font-size: 2.5dvh;
-  margin: 10px 0 0 0;
+  margin: 5px 0 0 0;
 }
 
 .waypoint img{
@@ -182,8 +219,7 @@
 
 .wwdButtons a{
   border-radius: 25px;
-  padding: 20px 25px 15px 25px;
- 
+  padding: 15px 25px 15px 25px;
   text-decoration: none;
   font-family: HelveticaMid, sans-serif;
   cursor: pointer;
@@ -213,7 +249,7 @@
 
 .discoverHow{
   background-color: #0000FF;
-  padding: 20px 25px 15px 25px;
+  padding: 15px 25px 15px 25px;
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -226,6 +262,7 @@
   margin: 0;
   font-size: 140px;
   font-family: helveticaMID, Helvetica, sans-serif;
+  padding-bottom: 5dvh;
   }
   
 

@@ -5,7 +5,7 @@ import aliasStudios from '../assets/photos/aliasStudios.png'
 
 export default function TopBar() {
   return (
-    <header id='topBar'>
+    <>
       <div className='topBarFlex'>
             <ul>
                 <li className='topBarLink'><a href="#about">ABOUT</a></li>
@@ -21,6 +21,6 @@ export default function TopBar() {
       <div>
 
       </div>
-    </header>
+    </>
   )
 }
