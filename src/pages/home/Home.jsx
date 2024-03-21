@@ -1,15 +1,15 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { AliasContext } from "../../App";
 import TopBar from "../../components/TopBar";
 import "../../assets/styles/home/Home.css";
 import About from "./About";
 import Partners from "./Partners";
-import ScrollSpy from "react-ui-scrollspy";
 import GetToKnow from "./GetToKnow";
-import Footer from "../../components/Footer";
 import backgroundImg from "../../assets/photos/webbackground.png";
 import OurProcess from "./OurProcess";
 import OurServices from "./OurServices";
+import mobileMenu from '../../assets/photos/ellipse.png'
+
 
 export default function Home() {
 
@@ -18,6 +18,10 @@ export default function Home() {
 
   return (
     <div className="bodyContainer">
+          <div className={"mobileMenu" + (AliasGlobal.menuStatus == true ? " stopMenu" : " startMenu")}>
+            <img src={mobileMenu}  alt="" onClick={() => AliasGlobal.toggleMenu()}/>
+        </div>
+
       <div className="backgroundImg">
         <img src={backgroundImg} alt="" />
       </div>

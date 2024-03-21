@@ -3,13 +3,14 @@ import { AliasContext } from "../../App";
 import "../../assets/styles/home/About.css";
 import globe from "../../assets/photos/globe.png";
 import blueSquare from "../../assets/photos/blueSquare.png";
-import servicesScroll from "../../assets/photos/servicesScroll.png";
 import globeSmall from '../../assets/photos/globeSmall.png'
 import mobileMenu from '../../assets/photos/ellipse.png'
 import aliasStudios from '../../assets/photos/aliasStudios.png'
 import NavLink from "../../components/NavLink";
 import NavLinkClose from '../../assets/photos/NavLinkClose.png'
 import { AnimatePresence, motion } from "framer-motion"
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 
 export default function About() {
@@ -64,21 +65,40 @@ export default function About() {
     }
   }
 
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    }
+  };
+
   return (
     <div className={"aboutFlex" + (AliasGlobal.menuStatus == true ? " limitScroll" : "")}>
       <div className="aboutContainer" id="about">
         <div className="titleH1">
           <h1 className="noscrollH1">DEFINE YOU.</h1>
+          <img src={globeSmall} alt="" className='globeSmallMobile' />
           <img src={globe} className="bigGlobe"></img>
           <a href="" className="discoverHow">
             Discover How
           </a>
           <div className="aboutMobile">
-            <img src={globeSmall} alt="" className='globeSmallMobile' />
             <p>EXCEPTIONAL DESIGN <br /> AND <br /> STRATEGIC SOLUTIONS</p>
-            <img src={mobileMenu} className="mobileMenu" alt="" onClick={() => AliasGlobal.toggleMenu()}/>
           </div>
         </div>
+
+    
 
     <AnimatePresence>
     { AliasGlobal.menuStatus && (
@@ -120,7 +140,7 @@ export default function About() {
           </div>
 
           <div className="servicesScroll">
-            <img src={servicesScroll} alt="" />
+       
           </div>
 
 
@@ -134,6 +154,46 @@ export default function About() {
               </a>
             </div>
           </div>
+
+          <Carousel
+            swipeable={true}
+            draggable={false}
+            showDots={true}
+            responsive={responsive}
+            ssr={true} // means to render carousel on server-side.
+            infinite={true}
+            autoPlaySpeed={3000}
+            autoPlay={false}
+            keyBoardControl={true}
+            customTransition="all .5"
+            transitionDuration={500}
+            containerClass="carousel-container"
+            removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
+            dotListClass="custom-dot-list-style-about"
+            itemClass="carousel-item-about"
+          >
+            <div className="aboutCarouselFlex">
+              <h5>Branding</h5>
+              <p>Elevating your brand with unmatched identity - capturing attention <br className="desktopBr" /> with every impression</p>
+            </div>
+            <div className="aboutCarouselFlex">
+              <h5>Web Design</h5>
+              <p>Crafting web experiences that captivate - setting your digital <br className="desktopBr"/> presence apart with every scroll</p>
+            </div>
+            <div className="aboutCarouselFlex">
+              <h5>Branding</h5>
+              <p>Elevating your brand with unmatched identity - capturing attention <br className="desktopBr"/> with every impression</p>
+            </div>
+            <div className="aboutCarouselFlex">
+              <h5>Branding</h5>
+              <p>Elevating your brand with unmatched identity - capturing attention <br className="desktopBr"/> with every impression</p>
+            </div>
+            <div className="aboutCarouselFlex">
+              <h5>Branding</h5>
+              <p>Elevating your brand with unmatched identity - capturing attention <br className="desktopBr"/> with every impression</p>
+            </div>
+
+          </Carousel>
           
         </section>
 

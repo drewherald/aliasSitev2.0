@@ -18,8 +18,8 @@ export default function TopBar() {
 
             </ul>
       </div>
-      <div>
-
+      <div className='aliasMobileContainer'>
+          <img src={aliasStudios} alt="" className='aliasStudiosMobile'/>
       </div>
     </>
   )

@@ -4,16 +4,19 @@
     padding-top: 35px;
     text-align: center !important;
     padding-bottom: 0 !important;
+    max-width: 90dvw;
   }
 
   .titleH1{
     padding:  0 !important;
-    height: 55dvh !important;
+    height: 100dvh !important;
 
   }
 
   .bigGlobe{
-    display: none;
+      padding-top: 5dvh;
+      padding-bottom: 5dvh !important;
+      max-width: 90dvw;
   }
 
   .whatWeDo{
@@ -40,6 +43,7 @@
     flex-direction: column;
     align-items: center;
     transform-origin: top;
+    z-index: 4;
   }
 
   .navOverflow{
@@ -56,8 +60,8 @@
   }
 
   .globeSmallMobile{
-    max-height: 5dvh;
-    padding: 2dvh 0;
+    max-height: 8dvh;
+    padding: 4dvh 0 0 0;
   }
 
   .aboutMobile{
@@ -117,7 +121,17 @@
   }
 
   .mobileMenu{
-    max-height: 3.5dvh;
+    position: fixed;
+    bottom: 0;    
+    display: flex;
+    justify-content: center;    
+    z-index: 3;
+    width: 100%;
+  }
+
+    .mobileMenu img{
+      max-height: 5.5dvh;
+      padding-bottom: 20px;
   }
 }
 
@@ -128,6 +142,10 @@
   }
 
   .mobileMenu{
+    display: none;
+  }
+
+  .globeSmallMobile{
     display: none;
   }
 }
@@ -266,3 +284,83 @@
   }
   
 
+  .custom-dot-list-style-about{
+    top: 0;
+    bottom: auto !important;
+    align-items: center;
+  }
+
+
+  .custom-dot-list-style-about li{
+    padding: 1dvw;
+    width: auto !important;
+  }
+
+  .custom-dot-list-style-about .react-multi-carousel-dot.react-multi-carousel-dot--active button{
+    transform: scale(2) !important;
+    margin-right: 0px !important;
+    transition-duration: 1s;
+    background-color: #0000FF;
+  }
+  
+
+  .custom-dot-list-style-about .react-multi-carousel-dot.react-multi-carousel-dot button{
+    height: 3dvh;
+    width: 3dvh;
+    margin-right: 0 !important;
+  }
+
+  .aboutCarouselFlex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  .aboutCarouselFlex h5{
+    font-size: 50px;
+    margin: 0;
+    font-family: helveticaMID, Helvetica, sans-serif;
+  }
+
+  .aboutCarouselFlex p{    
+    font-family: helveticaMID, Helvetica, sans-serif;
+  }
+
+.react-multi-carousel-item--active.carousel-item-about{
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .custom-dot-list-style-about .react-multi-carousel-dot.react-multi-carousel-dot button{
+    height: 1.5dvh;
+    width: 1.5dvh;
+  }
+
+  .custom-dot-list-style-about li{
+    padding: 2.5dvw;
+  }
+
+  .aboutCarouselFlex h5{
+    font-size: 36px;
+  }
+
+  .desktopBr{
+    display: none;
+  }
+
+  .aboutCarouselFlex{
+    padding-top: 45px;
+  }
+
+  .aboutCarouselFlex p{    
+    font-size: 14px;
+  }
+}

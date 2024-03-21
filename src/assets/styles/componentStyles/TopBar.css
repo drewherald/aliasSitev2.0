@@ -4,9 +4,27 @@
     }
 
     .aliasStudios{
-        max-height: 8dvh!important;
+        display: none;
     }
 
+    .aliasMobileContainer{
+        display: flex !important;
+        position: absolute;
+        top: 20px;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        right: 0;
+    }
+    
+    .aliasMobileContainer img{
+        transform: scale(0.75);
+    }
+
+}
+
+.aliasMobileContainer{
+    display: none;
 }
 
 .topBarFlex{

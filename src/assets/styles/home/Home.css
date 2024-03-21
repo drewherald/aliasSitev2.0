@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
     .backgroundImg img{
-        height: 55dvh !important;
+        height: 100dvh !important;
     }
 
     .backgroundImg{
@@ -34,5 +34,27 @@
 }
 
 .limitScroll{
-    display: none;
+    display: none 
+}
+
+.stopMenu{
+    opacity: 0;
+}
+
+.startMenu{
+    animation: menuFade 2s;
+}
+
+@keyframes menuFade {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }

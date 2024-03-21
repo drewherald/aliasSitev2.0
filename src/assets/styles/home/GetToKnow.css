@@ -1,7 +1,7 @@
 @media screen and (max-width: 1000px) {
 
     .backgroundImgBottom img{
-        height: 55dvh !important;
+        height: 65dvh !important;
     }
 
 
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99.2dvw;
+    width: 100%;
     flex-direction: column;
 }
 

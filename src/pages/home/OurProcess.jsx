@@ -4,12 +4,10 @@ import '../../assets/styles/home/ourProcess.css'
 import ProcessBox from '../../components/ProcessBox'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import one from '../../assets/photos/processes/processOne.png'
-import two from '../../assets/photos/processes/processTwo.png'
 
 export default function OurProcess() {
 
-  const processArray = [1,2]
+  const processArray = [2,1]
 
   const responsive = {
     desktop: {
@@ -27,7 +25,8 @@ export default function OurProcess() {
       items: 1,
       slidesToSlide: 1 // optional, default to 1.
     }
-  };
+  }
+
     return (
     <>
        <section className="ourProcess">
@@ -51,7 +50,7 @@ export default function OurProcess() {
             ssr={true} // means to render carousel on server-side.
             infinite={true}
             autoPlaySpeed={4000}
-            autoPlay={true}
+            autoPlay={false}
             keyBoardControl={true}
             customTransition="all .5"
             transitionDuration={500}
