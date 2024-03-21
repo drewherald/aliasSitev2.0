@@ -93,9 +93,7 @@ export default function About() {
           <a href="" className="discoverHow">
             Discover How
           </a>
-          <div className="aboutMobile">
-            <p>EXCEPTIONAL DESIGN <br /> AND <br /> STRATEGIC SOLUTIONS</p>
-          </div>
+         
         </div>
 
     
@@ -139,21 +137,7 @@ export default function About() {
             <h1 className="strategyH1">STRATEGY.</h1>
           </div>
 
-          <div className="servicesScroll">
-       
-          </div>
-
-
-          <div className="wwdHolder">
-            <div className="wwdButtons">
-              <a href="" className="wwwPast">
-                Past Projects?
-              </a>
-              <a href="" className="wwdFuture">
-                Let's Connect!
-              </a>
-            </div>
-          </div>
+        
 
           <Carousel
             swipeable={true}
@@ -194,6 +178,17 @@ export default function About() {
             </div>
 
           </Carousel>
+
+          <div className="wwdHolder">
+            <div className="wwdButtons">
+              <a href="" className="wwwPast">
+                Past Projects?
+              </a>
+              <a href="" className="wwdFuture">
+                Let's Connect!
+              </a>
+            </div>
+          </div>
           
         </section>
 

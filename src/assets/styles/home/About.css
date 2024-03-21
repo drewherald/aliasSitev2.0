@@ -64,19 +64,6 @@
     padding: 4dvh 0 0 0;
   }
 
-  .aboutMobile{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .aboutMobile p{
-    font-size: 1.25dvh;
-    padding-bottom: 2dvh;
-  }
-
   .waypoint{
     padding-bottom: 6dvh !important;
   }
@@ -102,7 +89,7 @@
   }
 
   .mediaDesignStrategy h1{
-    text-align: left !important;
+    text-align: center !important;
     font-size: 10dvw !important;
     padding-bottom: 2dvh;
   }
@@ -130,8 +117,8 @@
   }
 
     .mobileMenu img{
-      max-height: 5.5dvh;
-      padding-bottom: 20px;
+      max-height: 50px;
+      padding-bottom: 40px;
   }
 }
 
@@ -292,7 +279,7 @@
 
 
   .custom-dot-list-style-about li{
-    padding: 1dvw;
+    padding: 1.5dvw;
     width: auto !important;
   }
 
@@ -328,13 +315,17 @@
     font-family: helveticaMID, Helvetica, sans-serif;
   }
 
-.react-multi-carousel-item--active.carousel-item-about{
-  animation: fadeIn 1s ease-in-out;
-}
 
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@media screen and (min-width: 1001px) {
+
+.react-multi-carousel-item--active.carousel-item-about{
+  animation: fadeIn 1s ease-in-out;
+}
 }
 
 @media screen and (max-width: 1000px) {
@@ -349,18 +340,21 @@
   }
 
   .aboutCarouselFlex h5{
-    font-size: 36px;
+    font-size: 16px;
+    font-weight: 100;
   }
-
+  
   .desktopBr{
     display: none;
   }
 
   .aboutCarouselFlex{
     padding-top: 45px;
+    
   }
 
-  .aboutCarouselFlex p{    
+  .aboutCarouselFlex p{ 
+    font-weight: 100;   
     font-size: 14px;
   }
 }
