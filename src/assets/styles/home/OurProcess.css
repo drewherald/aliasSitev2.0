@@ -19,6 +19,16 @@
     .processImages{
         padding: 4dvh 0 !important;
     }
+
+    .ourProcess{
+        padding-bottom: 5dvh;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .ourProcess{
+        padding-bottom: 20dvh;
+    }
 }
 
 .processContent{
@@ -43,13 +53,20 @@
     flex-direction: column;
 }
 
-.processImages{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10dvh 0;
-}
-
 .processImages img{
     max-height: 90dvh;
+}
+
+
+.react-multi-carousel-dot button{
+    background-color: white;
+    border: none !important;
+}
+
+.react-multi-carousel-dot--active button{
+    background-color: #0000FF !important;
+}
+
+.react-multiple-carousel__arrow{
+    background-color: #0000FF !important;
 }
