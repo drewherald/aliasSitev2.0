@@ -162,7 +162,7 @@ export default function About() {
             </div>
             <div className="aboutCarouselFlex">
               <h5>Web Design</h5>
-              <p>Crafting web experiences that captivate - setting your digital <br className="desktopBr"/> presence apart with every scroll</p>
+              <p>Crafting experiences that captivate - setting your digital <br className="desktopBr"/> presence apart with every scroll</p>
             </div>
             <div className="aboutCarouselFlex">
               <h5>Branding</h5>

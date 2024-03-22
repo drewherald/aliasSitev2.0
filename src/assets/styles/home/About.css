@@ -9,13 +9,13 @@
 
   .titleH1{
     padding:  0 !important;
-    height: 100dvh !important;
+    height: 100lvh !important;
 
   }
 
   .bigGlobe{
-      padding-top: 5dvh;
-      padding-bottom: 5dvh !important;
+      padding-top: 5lvh;
+      padding-bottom: 5lvh !important;
       max-width: 90dvw;
   }
 
@@ -24,18 +24,18 @@
   }
 
   .aliasStudiosMenu{
-    max-height: 8dvh;
-    padding: 5dvh 0 5dvh 0;
+    max-height: 8lvh;
+    padding: 5lvh 0 5lvh 0;
 }
 
   .navLinkClose{
-    max-height: 5dvh;
+    max-height: 5lvh;
   }
 
   .mobileMenuLinks{
     width: 100%;
     position: fixed;
-    height: 100dvh;
+    height: 100lvh;
     background-color: #100F55;
     top: 0;
     left: 0;
@@ -60,20 +60,21 @@
   }
 
   .globeSmallMobile{
-    max-height: 8dvh;
-    padding: 4dvh 0 0 0;
+    max-height: 8lvh;
+    padding: 4lvh 0 0 0;
   }
 
   .waypoint{
-    padding-bottom: 6dvh !important;
+    padding-bottom: 8lvh !important;
+    padding-top: 12lvh;
   }
   
   .waypoint p{
-    font-size: 1.5dvh !important;
+    font-size: 1.5lvh !important;
   }
   
   .waypoint img{
-    height: 2dvh !important;
+    height: 2lvh !important;
   }
 
   .mediaH1{
@@ -90,12 +91,16 @@
 
   .mediaDesignStrategy h1{
     text-align: center !important;
-    font-size: 10dvw !important;
-    padding-bottom: 2dvh;
+    font-size: 10lvw !important;
+    padding-bottom: 2lvh;
+  }
+  
+  .mediaDesignStrategy{
+      padding-bottom: 4lvh;
   }
 
   .servicesScroll{
-    padding: 1dvh 0 6dvh 0 !important;
+    padding: 1lvh 0 6lvh 0 !important;
   }
 
   .servicesScroll img{
@@ -103,7 +108,7 @@
   }
 
   .wwdButtons a{
-    padding: 2dvh 2.75dvw !important;
+    padding: 2lvh 2.75lvw !important;
     font-size: 14px;
   }
 
@@ -331,8 +336,8 @@
 @media screen and (max-width: 1000px) {
 
   .custom-dot-list-style-about .react-multi-carousel-dot.react-multi-carousel-dot button{
-    height: 1.5dvh;
-    width: 1.5dvh;
+    height: 1.5lvh;
+    width: 1.5lvh;
   }
 
   .custom-dot-list-style-about li{
@@ -340,7 +345,7 @@
   }
 
   .aboutCarouselFlex h5{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 100;
   }
   
@@ -356,5 +361,6 @@
   .aboutCarouselFlex p{ 
     font-weight: 100;   
     font-size: 14px;
+    padding-bottom: 2lvh;
   }
 }

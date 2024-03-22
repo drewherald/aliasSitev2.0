@@ -9,7 +9,7 @@
 
     .elevateBrand{
         font-size: 10dvw !important;
-        padding: 0 !important;
+        padding: 0 0 6lvh 0 !important;
     }
 
     .processImages img{
