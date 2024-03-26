@@ -37,24 +37,3 @@
     display: none 
 }
 
-.stopMenu{
-    opacity: 0;
-}
-
-.startMenu{
-    animation: menuFade 2s;
-}
-
-@keyframes menuFade {
-    0%{
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}

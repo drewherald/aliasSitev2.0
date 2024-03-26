@@ -1,0 +1,57 @@
+@media screen and (max-width: 1000px) {
+
+    .aliasStudiosMenu{
+        max-height: 8lvh;
+        padding: 5lvh 0 5lvh 0;
+    }
+    
+      .navLinkClose{
+        max-height: 5lvh;
+      }
+    
+      .mobileMenuLinks{
+        width: 100%;
+        position: fixed;
+        height: 100lvh;
+        background-color: #100F55;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform-origin: top;
+        z-index: 4;
+      }
+    
+      .navOverflow{
+        overflow: hidden;
+      }
+      .navLinkContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+}
+
+.stopMenu{
+  opacity: 0;
+}
+
+.startMenu{
+  animation: menuFade 2s;
+}
+
+@keyframes menuFade {
+  0%{
+      opacity: 0;
+  }
+
+  50%{
+      opacity: 0;
+  }
+
+  100%{
+      opacity: 1;
+  }
+}

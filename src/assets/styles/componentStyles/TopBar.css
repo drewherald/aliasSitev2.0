@@ -64,3 +64,15 @@ ul a{
     justify-content: center;
     align-items: center;
 }
+
+#a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.topBarLink:hover{
+    color: #0000FF ;
+}

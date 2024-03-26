@@ -1,26 +1,47 @@
-import React from 'react'
-import '../assets/styles/componentStyles/TopBar.css'
-import aliasStudios from '../assets/photos/aliasStudios.png'
-
+import React from "react";
+import "../assets/styles/componentStyles/TopBar.css";
+import aliasStudios from "../assets/photos/aliasStudios.png";
+import { Link } from "react-router-dom";
 
 export default function TopBar() {
   return (
     <>
-      <div className='topBarFlex'>
-            <ul>
-                <li className='topBarLink'><a href="#about">ABOUT</a></li>
-                <li className='topBarLink'><a href="#services">SERVICES</a></li>
-                <li className='topBarLink'><a href="#partners">PARTNERS</a></li>
-                <li>      <div> <img src={aliasStudios} alt="" className='aliasStudios'/></div>     </li>
-                <li className='topBarLink'><a href="">PACKAGES</a></li>
-                <li className='topBarLink'><a href="">ALIAS+</a></li>
-                <li className='topBarLink'><a href="#contact">CONTACT</a></li>
-
-            </ul>
+      <div className="topBarFlex">
+        <ul>
+          <Link to={"/comingSoon"} id="a">
+            <li className="topBarLink">ABOUT</li>
+          </Link>
+          <Link to={"/comingSoon"} id="a">
+            <li className="topBarLink">SERVICES</li>
+          </Link>
+          <Link to={"/comingSoon"} id="a">
+            <li className="topBarLink">PARTNERS</li>
+          </Link>
+          <li>
+         
+          <Link to={"/"} id="a">
+           
+              <img src={aliasStudios} alt="" className="aliasStudios" />
+              </Link>
+          </li>
+          <Link to={"/comingSoon"} id="a">
+            <li className="topBarLink">PACKAGES</li>
+          </Link>
+          <Link to={"/comingSoon"} id="a">
+            <li className="topBarLink">ALIAS +</li>
+          </Link>
+          <Link to={"/comingSoon"} id="a">
+            <li className="topBarLink">CONNECT</li>
+          </Link>
+        </ul>
       </div>
-      <div className='aliasMobileContainer'>
-          <img src={aliasStudios} alt="" className='aliasStudiosMobile'/>
+      <div className="aliasMobileContainer">
+      <Link to={"/"} id="a">
+
+        <img src={aliasStudios} alt="" className="aliasStudiosMobile" />
+        </Link>
+
       </div>
     </>
-  )
+  );
 }
