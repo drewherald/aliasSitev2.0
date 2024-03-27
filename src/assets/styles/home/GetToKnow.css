@@ -20,7 +20,7 @@
        }
 
        .connectWUs{
-        padding: 1.5dvh 2dvw 1dvh 2dvw !important;
+        padding: 1.5dvh 2dvw !important;
         font-size: 12px;
         width: 30dvw !important;
        }
@@ -78,6 +78,29 @@
     color: black;
     width: 8dvw;
     margin: 5dvh 0;
+}
+
+
+@media screen and (min-width: 1001px) {
+    .connectWUs:hover{
+        animation: whiteButton .5s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+}
+
+
+
+@keyframes whiteButton {
+    0%{
+        background-color: white;
+        color: black;
+    }
+
+    100%{
+        background-color: #0000FF;
+        color: white;
+    }
 }
 
 .globeSmall{

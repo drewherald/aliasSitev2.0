@@ -77,7 +77,7 @@
   }
 
   .wwdButtons a{
-    padding: 2lvh 2.75lvw !important;
+    padding: 1.5lvh 2.75lvw !important;
     font-size: 14px;
   }
 
@@ -109,6 +109,7 @@
   .globeSmallMobile{
     display: none;
   }
+
 }
 
 #about{
@@ -203,6 +204,7 @@
   font-family: HelveticaMid, sans-serif;
   cursor: pointer;
 }
+
 
 .wwdHolder{
   display: flex;

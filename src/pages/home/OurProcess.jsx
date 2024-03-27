@@ -7,7 +7,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 export default function OurProcess() {
 
-  const processArray = [2,1]
+  const processArray = [1,2,3,4]
 
   const responsive = {
     desktop: {

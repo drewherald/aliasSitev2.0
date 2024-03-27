@@ -10,17 +10,25 @@
     .aliasMobileContainer{
         display: flex !important;
         position: absolute;
-        top: 20px;
         justify-content: center;
         align-items: center;
         left: 0;
         right: 0;
+        height: 10lvh;
     }
     
-    .aliasMobileContainer img{
-        transform: scale(0.75);
+    .aliasStudiosMobile{
+        transform: scale(0.33);
+        position: absolute;
+        top: -8lvh;
     }
 
+}
+
+@media screen and (min-width: 1001px) {
+    .aliasStudiosMobile{
+        display: none;
+    }
 }
 
 .aliasMobileContainer{

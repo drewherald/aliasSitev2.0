@@ -35,13 +35,13 @@ export default function TopBar() {
           </Link>
         </ul>
       </div>
-      <div className="aliasMobileContainer">
-      <Link to={"/"} id="a">
-
+      
+      
+        
+        <Link to={"/"} id="a">
         <img src={aliasStudios} alt="" className="aliasStudiosMobile" />
         </Link>
 
-      </div>
     </>
   );
 }

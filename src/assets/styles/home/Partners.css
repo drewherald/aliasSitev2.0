@@ -5,7 +5,7 @@
     }
 
     .seeMore{
-        padding: 1.5dvh 7dvw 1dvh 7dvw !important;
+        padding: 1.5dvh 7dvw !important;
         font-size: 12px;
         width: 20dvw !important;
     }
@@ -27,6 +27,14 @@
     font-family: helveticaMID, Helvetica, sans-serif;
     color: black;
     width: 8dvw;
+}
+
+@media screen and (min-width: 1001px) {
+    .seeMore:hover{
+        animation: whiteButton .5s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
 }
 
 .partnerTopContainer{
