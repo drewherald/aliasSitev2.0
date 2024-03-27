@@ -13,9 +13,15 @@
 
   }
 
-  .bigGlobe{
-      padding-top: 5lvh;
-      padding-bottom: 5lvh !important;
+  .aliasStudiosMobile{
+    height: 14lvh;
+    position: absolute;
+    top: 40px;
+  }
+
+    .bigGlobe{
+      padding-top: 7lvh;
+      padding-bottom: 7lvh !important;
       max-width: 90dvw;
   }
 
@@ -23,14 +29,15 @@
     padding-top: 10px !important;
   }
 
-  
-  .discoverHow{
-    display: none !important;
-  }
 
   .globeSmallMobile{
     max-height: 8lvh;
     padding: 4lvh 0 0 0;
+    animation: fadeIn .75s ease-in;
+    animation-delay: .75s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
   }
 
   .waypoint{
@@ -110,10 +117,64 @@
     display: none;
   }
 
+  .wwdPast:hover{
+    animation: whiteButton .5s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .wwdFuture:hover{
+    animation: greyButton .5s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .discoverHow:hover{
+    background-color: #0000FF;
+    color: white;
+  }
+
+  .aliasStudiosMobile{
+    display: none;
+  }
+
+  @keyframes greyButton {
+    0%{
+        background-color: #1E1E1E;
+    }
+
+    100%{
+        background-color: #0000FF;
+    }
 }
+
+.mediaDesignStrategy{
+  padding-bottom: 10lvh;
+}
+
+
+
+
+}
+
+
 
 #about{
   z-index: 1;
+}
+
+.noscrollH1{
+    animation: fadeIn .75s ease-in;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
 }
 
 
@@ -147,6 +208,11 @@
 .bigGlobe{
   max-height: 40dvh;
   padding-bottom: 10dvh;
+  animation: fadeIn .75s ease-in;
+  animation-delay: .75s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .waypoint{
@@ -200,9 +266,15 @@
 .wwdButtons a{
   border-radius: 25px;
   padding: 15px 25px 15px 25px;
+  width: 15dvw;
   text-decoration: none;
   font-family: HelveticaMid, sans-serif;
   cursor: pointer;
+  display: inline-block;
+}
+
+.wwdButtons a div{
+  text-align: center;
 }
 
 
@@ -210,26 +282,46 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10dvh;
+  padding-bottom: 10lvh;
 }
 
-.wwwPast{
+.wwdPast{
   margin-right: 2dvw;
   border: 4px solid white;
-  background-color: white !important;
+  background-color: white ;
   color: black;
 }
+
+.wwdPast div{
+  color: black;
+}
+
+.wwdPast:hover{
+        animation: whiteButton .5s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+}
+
+.wwdPast:hover .wwdPastdiv{
+  color: white;
+
+}
+
+
+
+
 
 .wwdFuture{
   margin-left: 2dvw;
   border: 4px solid white;
-  background-color: #1E1E1E !important;
+  background-color: #1E1E1E;
   color: white;
 }
 
 
 .discoverHow{
-  background-color: #0000FF;
+  background-color: white;
+  color: black;
   padding: 15px 25px 15px 25px;
   border-radius: 25px;
   display: flex;
@@ -237,6 +329,11 @@
   align-items: center;
   text-decoration: none;
   font-family: helveticaMID, Helvetica, sans-serif;
+  animation: fadeIn .75s ease-in;
+  animation-delay: 1.5s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .noscrollH1 {
@@ -288,7 +385,9 @@
   }
 
   .aboutCarouselFlex p{    
-    font-family: helveticaMID, Helvetica, sans-serif;
+    font-family: Tussilago, Helvetica, sans-serif;
+    font-size: 30px;
+
   }
 
 

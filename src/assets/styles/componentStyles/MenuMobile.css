@@ -39,7 +39,11 @@
 }
 
 .startMenu{
-  animation: menuFade 2s;
+  animation: menuFade .75s;
+  animation-delay: 1.5s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 @keyframes menuFade {

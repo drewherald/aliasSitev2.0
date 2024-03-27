@@ -5,13 +5,10 @@ import globe from "../../assets/photos/globe.png";
 import blueSquare from "../../assets/photos/blueSquare.png";
 import globeSmall from "../../assets/photos/globeSmall.png";
 import aliasStudios from "../../assets/photos/aliasStudios.png";
-import NavLink from "../../components/NavLink";
-import NavLinkClose from "../../assets/photos/NavLinkClose.png";
-import { AnimatePresence, motion } from "framer-motion";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from "react-router-dom";
 import TopBar from "../../components/TopBar";
- import MenuMobile from "../../components/MenuMobile";
 
 export default function About() {
   const navLinks = [
@@ -91,6 +88,9 @@ export default function About() {
           className={AliasGlobal.menuStatus == true ? " limitScroll" : ""}
         />
         <div className="titleH1">
+          <Link to={"/"} id="a">
+          <img src={aliasStudios} alt="" className="aliasStudiosMobile" />
+          </Link>
           <h1 className="noscrollH1">DEFINE YOU.</h1>
           <img src={globeSmall} alt="" className="globeSmallMobile" />
           <img src={globe} className="bigGlobe"></img>
@@ -136,50 +136,49 @@ export default function About() {
             itemClass="carousel-item-about"
           >
             <div className="aboutCarouselFlex">
-              <h5>Branding</h5>
+              <h5>Brand Identity</h5>
               <p>
-                Elevating your brand with unmatched identity - capturing
-                attention <br className="desktopBr" /> with every impression
+                We bring your brand vision to life.
               </p>
             </div>
             <div className="aboutCarouselFlex">
               <h5>Web Design</h5>
               <p>
-                Crafting experiences that captivate - setting your digital{" "}
-                <br className="desktopBr" /> presence apart with every scroll
+                We design intutive websites that engage and convert.
               </p>
             </div>
             <div className="aboutCarouselFlex">
-              <h5>Branding</h5>
+              <h5>Social Media</h5>
               <p>
-                Elevating your brand with unmatched identity - capturing
-                attention <br className="desktopBr" /> with every impression
+                Our social media strategies drive engagement and brand advocacy.
               </p>
             </div>
             <div className="aboutCarouselFlex">
-              <h5>Branding</h5>
+              <h5>Strategy</h5>
               <p>
-                Elevating your brand with unmatched identity - capturing
-                attention <br className="desktopBr" /> with every impression
+                Our strategic insights power your business for sustainable growth.
               </p>
             </div>
             <div className="aboutCarouselFlex">
-              <h5>Branding</h5>
+              <h5>Advertising</h5>
               <p>
-                Elevating your brand with unmatched identity - capturing
-                attention <br className="desktopBr" /> with every impression
+                Our advertising campaigns deliver results and return on investment.
               </p>
             </div>
           </Carousel>
 
           <div className="wwdHolder">
             <div className="wwdButtons">
-              <a href="" className="wwwPast">
-                Past Projects?
-              </a>
-              <a href="" className="wwdFuture">
-                Let's Connect!
-              </a>
+              <Link to="" className="wwdPast">
+                <div className="wwdPastdiv">
+                OUR SERVICES
+                </div>
+              </Link>
+              <Link to="" className="wwdFuture">
+                <div>
+                LET'S TALK
+                </div>
+              </Link>
             </div>
           </div>
         </section>

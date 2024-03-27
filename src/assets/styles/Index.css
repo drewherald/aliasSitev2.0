@@ -6,12 +6,17 @@ html {
 
   @font-face {
     font-family: helveticaBOLD;
-    src: url('../fonts/Helvetica83.otf');
+    src: url('../fonts/Helvetica-83.otf');
   }
 
   @font-face {
     font-family: Tussilago;
     src: url('../fonts/Tussilago.ttf');
+  }
+
+  @font-face {
+    font-family: TussilagoLt;
+    src: url('../fonts/tussilagoLt.otf');
   }
 
   @font-face {

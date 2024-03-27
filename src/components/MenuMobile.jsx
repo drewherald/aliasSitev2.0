@@ -10,6 +10,7 @@ import mobileMenu from "../assets/photos/ellipse.png";
 export default function MenuMobile() {
 
     const navLinks = [
+      { title: "HOME", href: "/" },
         { title: "SERVICES", href: "/comingsoon" },
         { title: "ABOUT", href: "/comingsoon" },
         { title: "PROJECTS", href: "/comingsoon" },

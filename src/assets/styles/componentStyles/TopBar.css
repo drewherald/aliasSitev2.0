@@ -7,27 +7,27 @@
         display: none;
     }
 
-    .aliasMobileContainer{
-        display: flex !important;
-        position: absolute;
-        justify-content: center;
-        align-items: center;
-        left: 0;
-        right: 0;
-        height: 10lvh;
-    }
-    
-    .aliasStudiosMobile{
-        transform: scale(0.33);
-        position: absolute;
-        top: -8lvh;
-    }
 
 }
 
 @media screen and (min-width: 1001px) {
-    .aliasStudiosMobile{
-        display: none;
+
+    .tbConnectButton:hover{
+        animation: whiteConnectButton .5s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes whiteConnectButton {
+        0%{
+            background-color: white;
+            color: #0000FF;
+        }
+    
+        100%{
+            background-color: #0000FF;
+            color: white;
+        }
     }
 }
 
@@ -84,3 +84,21 @@ ul a{
 .topBarLink:hover{
     color: #0000FF ;
 }
+
+.tbConnectButton{
+    background-color: white;
+    color: black;
+    padding: 13px 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #0000FF;
+    font-family: helveticaMID, Helvetica, sans-serif;
+  }
+
+  .topBarLink{
+    font-family: helveticaMID, Helvetica, sans-serif;
+
+  }

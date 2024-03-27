@@ -31,16 +31,16 @@ export default function TopBar() {
             <li className="topBarLink">ALIAS +</li>
           </Link>
           <Link to={"/comingSoon"} id="a">
-            <li className="topBarLink">CONNECT</li>
+            <li className="topBarLink">
+              <div className="tbConnectButton">Connect</div>
+            </li>
           </Link>
         </ul>
       </div>
       
       
         
-        <Link to={"/"} id="a">
-        <img src={aliasStudios} alt="" className="aliasStudiosMobile" />
-        </Link>
+       
 
     </>
   );
