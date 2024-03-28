@@ -44,6 +44,10 @@
     padding-bottom: 8lvh !important;
     padding-top: 12lvh;
   }
+
+  .deskMenu{
+    display: none;
+  }
   
   .waypoint p{
     font-size: 1.5lvh !important;
@@ -108,6 +112,7 @@
   .aboutMobile{
     display: none !important;
   }
+
 
   .mobileMenu{
     display: none;
@@ -213,6 +218,16 @@
   opacity: 0;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+}
+
+.deskMenuContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.deskMenu{
+  height: 6lvh;
+  cursor: pointer;
 }
 
 .waypoint{

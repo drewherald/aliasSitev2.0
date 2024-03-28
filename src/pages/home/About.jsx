@@ -9,6 +9,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
 import TopBar from "../../components/TopBar";
+import deskMenu from '../../assets/photos/deskMenu.png'
 
 export default function About() {
   const navLinks = [
@@ -108,10 +109,14 @@ export default function About() {
             "whatWeDo" + (AliasGlobal.menuStatus == true ? " limitScroll" : "")
           }
         >
-          <div className="waypoint">
-            <img src={blueSquare} alt="" />
-            <p>WHAT WE DO</p>
+          <div className="deskMenuContainer">
+            <div className="waypoint">
+              <img src={blueSquare} alt="" />
+              <p>WHAT WE DO</p>
+            </div>
+            <img src={deskMenu} className="deskMenu" alt="" onClick={() => AliasGlobal.toggleMenu()}/>
           </div>
+          
           <div className="mediaDesignStrategy">
             <h1 className="mediaH1">MEDIA.</h1>
             <h1 className="designH1">DESIGN.</h1>
