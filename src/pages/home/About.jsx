@@ -95,9 +95,9 @@ export default function About() {
           <h1 className="noscrollH1">DEFINE YOU.</h1>
           <img src={globeSmall} alt="" className="globeSmallMobile" />
           <img src={globe} className="bigGlobe"></img>
-          <a href="" className="discoverHow">
+          <Link to={'/comingSoon'} className="discoverHow">
             Discover How
-          </a>
+          </Link>
         </div>
 
 
@@ -174,12 +174,12 @@ export default function About() {
 
           <div className="wwdHolder">
             <div className="wwdButtons">
-              <Link to="" className="wwdPast">
+              <Link to={'/comingSoon'} className="wwdPast">
                 <div className="wwdPastdiv">
                 OUR SERVICES
                 </div>
               </Link>
-              <Link to="" className="wwdFuture">
+              <Link to={'/contact'} className="wwdFuture">
                 <div>
                 LET'S TALK
                 </div>

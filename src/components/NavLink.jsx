@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import '../assets/styles/componentStyles/NavLink.css'
+import { Link } from "react-router-dom";
 
 export default function NavLink({title, href}) {
 
@@ -23,9 +24,9 @@ export default function NavLink({title, href}) {
 
   return (
     <motion.div className='navLinkDiv' variants={navLinkVars} >
-        <a href={href} className='navLinkItem'>
+        <Link to={href} className='navLinkItem' onClick={() => AliasGlobal.toggleMenu()}>
             {title}
-        </a>
+        </Link>
     </motion.div>
  
   )

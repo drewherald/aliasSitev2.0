@@ -1,6 +1,12 @@
 @media screen and (max-width: 1000px) {
-    .serviceText{
-        display: none !important;
+    
+
+    .serviceText h3{
+        font-size: 20px;
+    }
+
+    .serviceText p{
+        font-size: 12px;
     }
 
     .ourServicesGrid{
@@ -10,6 +16,12 @@
 
     .serviceCube img{
         max-width: 80dvw !important;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .serviceText{
+        padding: 5dvh;
     }
 }
 
@@ -34,9 +46,7 @@
 
 .serviceText{
     display: flex;
-    padding-top: 3dvh;
     flex-direction: column;
-    padding-left: 5dvw;
 }
 
 .serviceCube{
@@ -45,7 +55,7 @@
     align-items: center;
 }
 
-.serviceText p{
+.whyUsp{
     font-family: Tussilago, Helvetica, sans-serif;
     font-size: 1dvw;
 }

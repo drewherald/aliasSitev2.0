@@ -2,6 +2,7 @@ import React from 'react'
 import '../../assets/styles/home/GetToKnow.css'
 import backgroundImg from '../../assets/photos/webbackground.png'
 import globeSmall from '../../assets/photos/globeSmall.png'
+import { Link } from 'react-router-dom'
 
 export default function GetToKnow() {
   return (
@@ -19,9 +20,9 @@ export default function GetToKnow() {
         <p>
           New idea, project, or website?
         </p>
-        <a href="" className="connectWUs">
+        <Link to={'/contact' }className="connectWUs">
                 Connect with us!
-        </a>
+        </Link>
         <img src={globeSmall} alt="" className='globeSmall' />
     </div>
     </>

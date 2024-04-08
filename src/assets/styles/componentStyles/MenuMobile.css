@@ -7,18 +7,18 @@
 }
 
     .aliasStudiosMenu{
-        max-height: 15lvh;
-        padding: 5lvh 0 5lvh 0;
+        max-height: 15svh;
+        padding: 5svh 0 5svh 0;
     }
     
       .navLinkClose{
-        max-height: 5lvh;
+        max-height: 5svh;
       }
     
       .mobileMenuLinks{
         width: 100%;
         position: fixed;
-        height: 100lvh;
+        height: 100svh;
         background-color: #100F55;
         top: 0;
         left: 0;

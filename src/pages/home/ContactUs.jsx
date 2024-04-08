@@ -2,9 +2,16 @@ import React from 'react'
 import '../../assets/styles/home/ContactUs.css'
 
 export default function ContactUs() {
+
+
+
+
   return (
     <>
     <div className="contactForm">
+        <h1>
+            Let's Work Together
+        </h1>
         <form action="https://formspree.io/f/xjvdgrlj" method="POST" id="contactForm">
             <div>
                 <input type="text" id="name" name="name" minlength="2 required" placeholder="Name" required />
@@ -23,13 +30,17 @@ export default function ContactUs() {
             <input type="submit" id="submit-form" value="Submit" className="hidden"/>
         </form>
         <div className='contactInfo'>
+            <label for="submit-form" tabindex="0" className='submitText'> <div className='connectWUs' >Submit Message</div> </label> 
+            <div className='reachOut'>
             <a href="mailto:info@aliasmediadesign.com">info@aliasmediadesign.com</a> 
-            <br /><br />
+            
             <a href="tel:+1-859-806-0406">(859) 806-0406</a>
-            <br /><br />
+            
             <a href="tel:+1-859-317-1475">(859) 317-1475</a>
-            <br /><br />
-            <label for="submit-form" tabindex="0" className='submitText'>+ submit message</label>   
+            </div>
+            
+          
+             
         </div>
     </div>
         

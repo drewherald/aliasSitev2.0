@@ -1,4 +1,4 @@
-.backgroundImgComingSoon{
+.backgroundImgContact{
     position: absolute;
     z-index: 0;
     overflow: hidden;
@@ -6,12 +6,12 @@
     height: 100%;
 }
 
-.backgroundImgComingSoon img{
+.backgroundImgContact img{
     height: 100%;
     width: 100%;
 }
 
-.csContent{
+.contactContent{
     z-index: 1;
     position: relative;
     display: flex;
@@ -20,10 +20,3 @@
     height: 100svh;
 }
 
- .csContent h1{
-    padding-top: 40svh;
- }
-
- .csLink:hover{
-    color: #0000FF ;
-}

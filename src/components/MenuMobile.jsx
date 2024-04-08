@@ -11,12 +11,12 @@ export default function MenuMobile() {
 
     const navLinks = [
       { title: "HOME", href: "/" },
-        { title: "SERVICES", href: "/comingsoon" },
-        { title: "ABOUT", href: "/comingsoon" },
-        { title: "PROJECTS", href: "/comingsoon" },
-        { title: "PACKAGES", href: "/comingsoon" },
-        { title: "ALIAS +", href: "/comingsoon" },
-        { title: "CONNECT", href: "/comingsoon" },
+        { title: "SERVICES", href: "/comingSoon" },
+        { title: "ABOUT", href: "/comingSoon" },
+        { title: "PROJECTS", href: "/comingSoon" },
+        { title: "PACKAGES", href: "/comingSoon" },
+        { title: "ALIAS +", href: "/comingSoon" },
+        { title: "CONNECT", href: "/contact" },
       ];
 
       const AliasGlobal = useContext(AliasContext);

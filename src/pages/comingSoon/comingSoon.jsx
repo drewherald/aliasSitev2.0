@@ -28,7 +28,7 @@ const AliasGlobal = useContext(AliasContext)
                 Coming Soon ....
             </h1>
 
-            <Link to={"/"} id="a" className='topBarLink'>
+            <Link to={"/"} id="a" className='csLink'>
               Click here to go back to home
             </Link>
         </div>

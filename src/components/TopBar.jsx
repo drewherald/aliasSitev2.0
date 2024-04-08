@@ -30,7 +30,7 @@ export default function TopBar() {
           <Link to={"/comingSoon"} id="a">
             <li className="topBarLink">ALIAS +</li>
           </Link>
-          <Link to={"/comingSoon"} id="a">
+          <Link to={"/contact"} id="a">
             <li className="topBarLink">
               <div className="tbConnectButton">Connect</div>
             </li>

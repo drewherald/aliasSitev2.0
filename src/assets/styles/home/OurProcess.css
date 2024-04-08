@@ -5,12 +5,14 @@
 
     .processContent{
         grid-template-columns: 1fr !important;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
     }
 
     .elevateBrand{
         font-size: 10dvw !important;
         padding: 0 0 6lvh 0 !important;
-        text-align: center;
     }
 
     .processImages img{
@@ -30,6 +32,16 @@
     .ourProcess{
         padding-bottom: 20dvh;
     }
+
+    .processImages img{
+        max-width: 40dvw;
+    }
+
+    .elevateBrand, h3{
+        padding-bottom: 5dvh;
+        padding-right: 10dvw;
+    }
+    
 }
 
 .processContent{
@@ -37,11 +49,19 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.elevateBrand, h3{
+.elevateContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elevateBrand{
     margin: 0;
-    font-size: 5dvw;
+    font-size: 12svh;
     font-family: helveticaMID, Helvetica, sans-serif !important;
 }
+
+
 
 .processAnimation{
     display: flex;
@@ -54,9 +74,6 @@
     flex-direction: column;
 }
 
-.processImages img{
-    max-height: 90dvh;
-}
 
 
 .react-multi-carousel-dot button{

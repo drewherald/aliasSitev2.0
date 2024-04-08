@@ -1,12 +1,27 @@
 @media screen and (max-width: 1000px) {
-   
+  .reachOut{
+    display: none !important;
+  }
+
+  .contactForm h1{
+    font-size: 4svh !important;
+  }
 }
 
 .contactForm {
     display: flex;
-    justify-content: space-between;
-    padding-top: 200px;
-  }
+    justify-content: center;
+    padding-top: 10svh;
+    flex-direction: column;
+    align-items: center;
+    height: 100svh;
+}
+  
+
+.contactForm h1{
+  font-size: 6svh;
+  text-align: center;
+}
 
 .contactForm form {
     color: white;
@@ -23,7 +38,7 @@
 
   .contactForm form div {
     color: white;
-    padding-bottom: 5vh;
+    padding-bottom: 5svh;
   }
 
   .contactForm form div label {
@@ -87,6 +102,12 @@
     cursor: pointer;
   }
 
+  .contactInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .contactInfo a{
     font-family: HelveticaBold, sans-serif !important;
     font-weight: 800 !important;
@@ -97,4 +118,14 @@
     font-family: HelveticaBold, sans-serif !important;
     font-weight: 800 !important;
     text-decoration: none;
+  }
+
+  .reachOut{
+    width: 80dvw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .reachOut a{
+    padding: 0 10px;
   }

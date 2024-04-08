@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
     .backgroundImg img{
-        height: 100dvh !important;
+        height: 100svh !important;
     }
 
     .backgroundImg{
@@ -12,8 +12,7 @@
 .homeFlex{
     flex-direction: column;
     justify-content: center;
-    background-color: #1E1E1E;
-    padding: 0 7dvw;
+    padding: 0 7svw;
 }
 
 .backgroundImg{
@@ -24,7 +23,7 @@
 
 .backgroundImg img{
     width: 100%;
-    height: 100dvh;
+    height: 100svh;
     overflow: hidden;
 }
 

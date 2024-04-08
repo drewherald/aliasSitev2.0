@@ -22,7 +22,7 @@
        .connectWUs{
         padding: 1.5dvh 2dvw !important;
         font-size: 12px;
-        width: 30dvw !important;
+        width: 40dvw !important;
        }
 
        .globeSmall{
@@ -105,4 +105,5 @@
 
 .globeSmall{
     margin-top: 10dvh;
+    max-height: 10svh;
 }

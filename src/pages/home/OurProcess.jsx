@@ -35,19 +35,17 @@ export default function OurProcess() {
             <p>OUR PROCESS</p>  
           </div>
           <div className='processContent'>
-            <h3 className='elevateBrand'>
-                How we elevate your brand.
-            </h3>
-            <div className='processAnimation'>
-                <p>animation</p>
+            <div className='elevateContainer'>
+              <h3 className='elevateBrand'>
+                  How we <span className='aboutMobile elevateBrand'>can</span>  elevate your brand.
+              </h3>
             </div>
-          </div>
-          <Carousel
+            
+            <Carousel
             swipeable={true}
             draggable={false}
             showDots={true}
             responsive={responsive}
-            ssr={true} // means to render carousel on server-side.
             infinite={true}
             autoPlaySpeed={4000}
             autoPlay={false}
@@ -59,8 +57,10 @@ export default function OurProcess() {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
           >
-            {processArray.map((value) => <div><ProcessBox refKey={value} /></div>) }
+            {processArray.map((value) => <div><ProcessBox refKey={value}/></div>) }
           </Carousel>
+          </div>
+         
           
         </section>
     </>

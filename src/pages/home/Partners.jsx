@@ -3,6 +3,7 @@ import '../../assets/styles/home/Partners.css'
 import PartnerBox from '../../components/PartnerBox'
 import { v4 as uuidv4 } from 'uuid'
 import blueSquare from "../../assets/photos/blueSquare.png";
+import { Link } from 'react-router-dom';
 
 export default function Partners() {
 
@@ -27,7 +28,7 @@ export default function Partners() {
 
          <div className="waypoint">
           <img src={blueSquare} alt="" />
-          <p>PROJECTS</p>
+          <p>OUR PROJECTS</p>
         </div>
 
         
@@ -38,9 +39,9 @@ export default function Partners() {
         </div>
         
         <div className='seeMoreContainer'>
-            <a href="" className="seeMore">
+            <Link to={'/comingSoon'} className="seeMore">
                 See More
-            </a>
+            </Link>
         </div>
        
     </section>
