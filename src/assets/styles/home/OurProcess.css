@@ -26,6 +26,17 @@
     .ourProcess{
         padding-bottom: 5dvh;
     }
+
+    .carousel-container-two{
+        display: none;
+    }
+
+    .processMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 1001px) {
@@ -40,6 +51,10 @@
     .elevateBrand, h3{
         padding-bottom: 5dvh;
         padding-right: 10dvw;
+    }
+
+    .processMobile{
+        display: none;
     }
     
 }

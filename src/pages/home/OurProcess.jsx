@@ -52,7 +52,7 @@ export default function OurProcess() {
             keyBoardControl={true}
             customTransition="all .5"
             transitionDuration={500}
-            containerClass="carousel-container"
+            containerClass="carousel-container-two"
             removeArrowOnDeviceType={["tablet", "mobile"]}
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
@@ -61,6 +61,9 @@ export default function OurProcess() {
           </Carousel>
           </div>
          
+         <div className='processMobile'>
+         {processArray.map((value) => <div><ProcessBox refKey={value}/></div>) }
+         </div>
           
         </section>
     </>

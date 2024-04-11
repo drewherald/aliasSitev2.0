@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import { AliasContext } from "../../App";
-import TopBar from "../../components/TopBar";
 import "../../assets/styles/home/Home.css";
 import About from "./About";
 import Partners from "./Partners";
 import GetToKnow from "./GetToKnow";
-import backgroundImg from "../../assets/photos/webbackground.png";
+import backgroundImg from "../../assets/photos/webbackground.jpg";
 import OurProcess from "./OurProcess";
 import OurServices from "./OurServices";
 

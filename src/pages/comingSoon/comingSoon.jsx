@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import backgroundImg from "../../assets/photos/webbackground.png";
+import backgroundImg from "../../assets/photos/webbackground.jpg";
 import '../../assets/styles/comingSoon/comingSoon.css'
 import TopBar from '../../components/TopBar';
 import { AliasContext } from '../../App';
