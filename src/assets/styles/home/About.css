@@ -30,8 +30,8 @@
   }
 
   .globeSmallMobile{
-    max-height: 8svh;
-    padding: 4lvh 0 0 0;
+    height: 8svh;
+    padding: 4svh 0 0 0;
     animation: fadeIn .75s ease-in;
     animation-delay: .75s;
     opacity: 0;
@@ -174,7 +174,7 @@
 }
 
 .mediaDesignStrategy{
-  padding-bottom: 10lvh;
+  padding-bottom: 10svh;
 }
 
 
@@ -290,7 +290,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10dvh 0;
+  padding: 10svh 0;
 }
 
 .wwwButtons{
@@ -391,8 +391,8 @@
   
 
   .custom-dot-list-style-about .react-multi-carousel-dot.react-multi-carousel-dot button{
-    height: 3dvh;
-    width: 3dvh;
+    height: 3svh;
+    width: 3svh;
     margin-right: 0 !important;
   }
 
@@ -432,8 +432,8 @@
 @media screen and (max-width: 1000px) {
 
   .custom-dot-list-style-about .react-multi-carousel-dot.react-multi-carousel-dot button{
-    height: 1.5lvh;
-    width: 1.5lvh;
+    height: 1.5svh;
+    width: 1.5svh;
   }
 
   .custom-dot-list-style-about li{
@@ -457,7 +457,7 @@
   .aboutCarouselFlex p{ 
     font-weight: 100;   
     font-size: 14px;
-    padding-bottom: 2lvh;
+    padding-bottom: 2svh;
   }
 }
 
