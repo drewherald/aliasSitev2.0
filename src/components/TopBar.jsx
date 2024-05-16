@@ -11,7 +11,7 @@ export default function TopBar() {
           <Link to={"/comingSoon"} id="a">
             <li className="topBarLink">ABOUT</li>
           </Link>
-          <Link to={"/comingSoon"} id="a">
+          <Link to={"/services"} id="a">
             <li className="topBarLink">SERVICES</li>
           </Link>
           <Link to={"/comingSoon"} id="a">
@@ -24,7 +24,7 @@ export default function TopBar() {
               <img src={aliasStudios} alt="" className="aliasStudios" />
               </Link>
           </li>
-          <Link to={"/comingSoon"} id="a">
+          <Link to={"/packages"} id="a">
             <li className="topBarLink">PACKAGES</li>
           </Link>
           <Link to={"/comingSoon"} id="a">

@@ -1,0 +1,39 @@
+.backgroundImgServices{
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundImgServices img{
+    height: 100%;
+    width: 100%;
+}
+
+.servicePageContent{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100svh;
+}
+
+
+#WorkIndex{
+    font-family: Helvetica, sans-serif;
+    font-size: 10svh;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+#WorkIndex:hover{
+    color: #0000FF;
+    cursor: pointer;
+}
+
+.workIndex{
+    width: 90dvw;
+}

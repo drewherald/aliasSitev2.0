@@ -12,37 +12,9 @@ import TopBar from "../../components/TopBar";
 import deskMenu from '../../assets/photos/deskMenu.png'
 
 export default function About() {
-  const navLinks = [
-    { title: "SERVICES", href: "/comingsoon" },
-    { title: "ABOUT", href: "/comingsoon" },
-    { title: "PROJECTS", href: "/comingsoon" },
-    { title: "PACKAGES", href: "/comingsoon" },
-    { title: "ALIAS +", href: "/comingsoon" },
-    { title: "CONNECT", href: "/comingsoon" },
-  ];
+
 
   const AliasGlobal = useContext(AliasContext);
-
-  const menuVars = {
-    initial: {
-      scaleY: 0,
-      transition: {
-        duration: 0.5,
-        ease: [0.12, 0, 0.39, 0],
-      },
-    },
-    animate: {
-      scaleY: 1,
-    },
-    exit: {
-      scaleY: 0,
-      transition: {
-        duration: 0.5,
-        delay: 0.7,
-        ease: [0.22, 1, 0.36, 1],
-      },
-    },
-  };
 
   const staggerVars = {
     initial: {

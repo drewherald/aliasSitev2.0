@@ -11,10 +11,10 @@ export default function MenuMobile() {
 
     const navLinks = [
       { title: "HOME", href: "/" },
-        { title: "SERVICES", href: "/comingSoon" },
+        { title: "SERVICES", href: "/services" },
         { title: "ABOUT", href: "/comingSoon" },
         { title: "PROJECTS", href: "/comingSoon" },
-        { title: "PACKAGES", href: "/comingSoon" },
+        { title: "PACKAGES", href: "/packages" },
         { title: "ALIAS +", href: "/comingSoon" },
         { title: "CONNECT", href: "/contact" },
       ];
