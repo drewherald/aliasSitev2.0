@@ -5,6 +5,8 @@ import { AliasContext } from '../../App';
 import SubPageTitle from '../../components/SubPageTitle';
 import '../../assets/styles/packages/Packages.css'
 import PackageItem from '../../components/PackageItem';
+import { Link } from 'react-router-dom';
+import GetToKnow from '../home/GetToKnow';
 
 
 export default function Packages() {
@@ -58,6 +60,14 @@ export default function Packages() {
             <SubPageTitle subtitle={'OUR PACKAGES.'} title={'Discover Tailored Packages.'} />
 
            {items.map((item) => <PackageItem contentItem={item} />)}
+
+            <div className='bottomBigLink'>
+            <Link to={"/comingSoon"} id="bottomBigLink" > PROJECTS</Link>
+            </div>
+            
+            <div>
+              <GetToKnow />
+            </div>
             
         </div>
 

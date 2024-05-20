@@ -6,6 +6,7 @@ import { AliasContext } from '../../App';
 import ServiceItem from '../../components/ServiceItem';
 import { Link } from 'react-router-dom';
 import SubPageTitle from '../../components/SubPageTitle';
+import GetToKnow from '../home/GetToKnow';
 
 export default function comingSoon() {
 
@@ -64,8 +65,12 @@ console.log(items.length)
             <SubPageTitle subtitle={'WHAT WE DO.'} title={'Elevating Standards of Creativity.'} />
 
             {items.map((item) => <ServiceItem contentItem={item}/>)}
-            <div className='workIndex'>
-            <Link to={"/comingSoon"} id="WorkIndex" > WORK INDEX</Link>
+            <div className='bottomBigLink'>
+            <Link to={"/comingSoon"} id="bottomBigLink" > WORK INDEX</Link>
+            </div>
+
+            <div>
+              <GetToKnow />
             </div>
             
         </div>

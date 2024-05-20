@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import MenuMobile from './components/MenuMobile';
 import ContactPage from './pages/contact/ContactPage';
 import Packages from './pages/packages/Packages';
+import Projects from './pages/projects/Projects';
 
 export const AliasContext = createContext({
   menuStatus: false,
@@ -27,10 +28,11 @@ function App() {
     <AliasContext.Provider value = {{menuStatus, toggleMenu}}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/comingSoon' element={<ComingSoon />} />
-        <Route path='/services' element={<Services />}></Route>
-        <Route path='/contact' element={<ContactPage />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/projects' element={<Projects />} />
         <Route path='/packages' element={<Packages />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='/comingSoon' element={<ComingSoon />} />
       </Routes>
       <MenuMobile />
     </AliasContext.Provider>

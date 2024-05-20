@@ -14,8 +14,8 @@ export default function TopBar() {
           <Link to={"/services"} id="a">
             <li className="topBarLink">SERVICES</li>
           </Link>
-          <Link to={"/comingSoon"} id="a">
-            <li className="topBarLink">PARTNERS</li>
+          <Link to={"/projects"} id="a">
+            <li className="topBarLink">PROJECTS</li>
           </Link>
           <li>
          

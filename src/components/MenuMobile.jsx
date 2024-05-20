@@ -13,7 +13,7 @@ export default function MenuMobile() {
       { title: "HOME", href: "/" },
         { title: "SERVICES", href: "/services" },
         { title: "ABOUT", href: "/comingSoon" },
-        { title: "PROJECTS", href: "/comingSoon" },
+        { title: "PROJECTS", href: "/projects" },
         { title: "PACKAGES", href: "/packages" },
         { title: "ALIAS +", href: "/comingSoon" },
         { title: "CONNECT", href: "/contact" },

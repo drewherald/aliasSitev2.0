@@ -21,19 +21,21 @@
 }
 
 
-#WorkIndex{
+#bottomBigLink{
     font-family: Helvetica, sans-serif;
-    font-size: 10svh;
+    font-size: 8svh;
     text-align: left;
     text-decoration: none;
     font-weight: 900;
 }
 
-#WorkIndex:hover{
+#bottomBigLink:hover{
     color: #0000FF;
     cursor: pointer;
 }
 
-.workIndex{
+.bottomBigLink{
     width: 90dvw;
+    padding-bottom: 50px;
+
 }
