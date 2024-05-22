@@ -37,5 +37,6 @@
 .bottomBigLink{
     width: 90dvw;
     padding-bottom: 50px;
+    cursor: pointer;
 
 }

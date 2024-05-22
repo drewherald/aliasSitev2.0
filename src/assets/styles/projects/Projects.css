@@ -19,3 +19,10 @@
     align-items: center;
     height: 100svh;
 }
+
+.projectSubtitles{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    width: 90dvw;
+    align-items: center;
+}
