@@ -75,10 +75,7 @@
     font-size: 10svw !important;
     padding-bottom: 2svh;
   }
-  
-  .mediaDesignStrategy{
-      padding-bottom: 4svh;
-  }
+
 
   .servicesScroll{
     padding: 1svh 0 6svh 0 !important;
@@ -118,6 +115,10 @@
 @media screen and (min-width: 1001px) {
 
   .aboutMobile{
+    display: none !important;
+  }
+
+  .deskMenuContainer{
     display: none !important;
   }
 
@@ -171,10 +172,6 @@
     100%{
         background-color: #0000FF;
     }
-}
-
-.mediaDesignStrategy{
-  padding-bottom: 10svh;
 }
 
 
@@ -268,23 +265,18 @@
   padding-right: 12px;
 }
 
-.mediaDesignStrategy h1{
-  text-align: center;
-  font-size: 6svw ;
-  padding-bottom: 2svh;
+.mediaDesignStrategy{
+  font-size: 4.5dvw !important; 
+  margin: 0; 
 }
 
-.mediaH1{
-  padding-right: 35svw;
+.mediaDesignStrategyTwo{
+  font-size: 4.5dvw !important; 
+  margin: 0; 
+  color: #100F55;
+  padding-bottom: 10svh;
 }
 
-.designH1{
-  padding-left: 30svw;
-}
-
-.strategyH1{
-  padding-right: 25svw;
-}
 
 .servicesScroll{
   display: flex;

@@ -39,7 +39,7 @@ export default function Partners() {
         </div>
         
         <div className='seeMoreContainer'>
-            <Link to={'/comingSoon'} className="seeMore">
+            <Link to={'/projects'} className="seeMore">
                 See More
             </Link>
         </div>

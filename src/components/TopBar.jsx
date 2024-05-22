@@ -8,7 +8,7 @@ export default function TopBar() {
     <>
       <div className="topBarFlex">
         <ul>
-          <Link to={"/comingSoon"} id="a">
+          <Link to={"/about"} id="a">
             <li className="topBarLink">ABOUT</li>
           </Link>
           <Link to={"/services"} id="a">

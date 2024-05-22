@@ -8,6 +8,7 @@ import MenuMobile from './components/MenuMobile';
 import ContactPage from './pages/contact/ContactPage';
 import Packages from './pages/packages/Packages';
 import Projects from './pages/projects/Projects';
+import AboutPage from './pages/about/AboutPage';
 
 export const AliasContext = createContext({
   menuStatus: false,
@@ -28,6 +29,7 @@ function App() {
     <AliasContext.Provider value = {{menuStatus, toggleMenu}}>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path='/about' element={<AboutPage />} />
         <Route path='/services' element={<Services />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/packages' element={<Packages />} />

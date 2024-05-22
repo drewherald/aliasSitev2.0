@@ -10,6 +10,8 @@ import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
 import TopBar from "../../components/TopBar";
 import deskMenu from '../../assets/photos/deskMenu.png'
+import Marquee from "react-fast-marquee";
+
 
 export default function About() {
 
@@ -89,11 +91,14 @@ export default function About() {
             <img src={deskMenu} className="deskMenu" alt="" onClick={() => AliasGlobal.toggleMenu()}/>
           </div>
           
-          <div className="mediaDesignStrategy">
-            <h1 className="mediaH1">MEDIA.</h1>
-            <h1 className="designH1">DESIGN.</h1>
-            <h1 className="strategyH1">STRATEGY.</h1>
-          </div>
+          
+            <Marquee>
+              <h1 className="mediaDesignStrategy">MEDIA / DESIGN / STRATEGY</h1>
+            </Marquee>
+            <Marquee direction="right">
+              <h1 className="mediaDesignStrategyTwo">MEDIA / DESIGN / STRATEGY</h1>
+            </Marquee>
+            
 
           <Carousel
             swipeable={true}
@@ -146,7 +151,7 @@ export default function About() {
 
           <div className="wwdHolder">
             <div className="wwdButtons">
-              <Link to={'/comingSoon'} className="wwdPast">
+              <Link to={'/services'} className="wwdPast">
                 <div className="wwdPastdiv">
                 OUR SERVICES
                 </div>

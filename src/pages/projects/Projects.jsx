@@ -36,37 +36,37 @@ export default function Projects() {
     const itemFour = {
         name: 'Gator Roofing',
         work: ['Branding', 'Print Media', 'Art Direction'],
-        year: '2023'
+        year: '2022'
     }
 
     const itemFive = {
         name: 'Crescentia Fitness',
         work: ['Print Media', 'Branding', 'Art Direction', 'Graphic Design'],
-        year: '2023'
+        year: '2024'
     }
 
     const itemSix = {
         name: 'Lunchbox',
         work: ['Branding', 'Art Direction', 'Brand Strategy', 'Graphic Design'],
-        year: '2023'
+        year: '2021'
     }
 
     const itemSeven = {
         name: 'Clubhouse',
         work: ['A/V Production', 'Content Creation', 'Graphic Design'],
-        year: '2024'
+        year: '2021'
     }
 
     const itemEight = {
         name: 'Roxy',
         work: ['A/V Production', 'Photography', 'Print Media ', 'Illustration'],
-        year: '2024'
+        year: '2021'
     }
 
     const itemNine = {
         name: 'CDC Bourbon',
         work: ['Marketing Strategy', 'Web Design', 'Print Media', 'Graphic Design'],
-        year: '2024'
+        year: '2022'
     }
     
     
