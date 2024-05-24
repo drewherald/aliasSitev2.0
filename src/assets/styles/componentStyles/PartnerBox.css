@@ -58,6 +58,7 @@
 .partnerName{
     position: absolute;
     font-size: 2dvw;
-    font-family: TussilagoBold, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
     z-index: 1;
 }

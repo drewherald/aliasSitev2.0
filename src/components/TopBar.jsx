@@ -8,15 +8,16 @@ export default function TopBar() {
     <>
       <div className="topBarFlex">
         <ul>
+        <Link to={"/"} id="a">
+            <li className="topBarLink">HOME</li>
+          </Link>
           <Link to={"/about"} id="a">
             <li className="topBarLink">ABOUT</li>
           </Link>
           <Link to={"/services"} id="a">
             <li className="topBarLink">SERVICES</li>
           </Link>
-          <Link to={"/projects"} id="a">
-            <li className="topBarLink">PROJECTS</li>
-          </Link>
+
           <li>
          
           <Link to={"/"} id="a">
@@ -24,11 +25,11 @@ export default function TopBar() {
               <img src={aliasStudios} alt="" className="aliasStudios" />
               </Link>
           </li>
+          <Link to={"/projects"} id="a">
+            <li className="topBarLink">PROJECTS</li>
+          </Link>
           <Link to={"/packages"} id="a">
             <li className="topBarLink">PACKAGES</li>
-          </Link>
-          <Link to={"/comingSoon"} id="a">
-            <li className="topBarLink">ALIAS +</li>
           </Link>
           <Link to={"/contact"} id="a">
             <li className="topBarLink">

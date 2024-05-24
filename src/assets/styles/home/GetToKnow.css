@@ -60,26 +60,28 @@
 }
 
 .footText h5{
-    font-family: helveticaMID, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
     font-size: 10dvh;
     margin: 20dvh 0 
     20px 0;
 }
 
 .footText p{
-    font-family: helveticaMID, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;    
     font-size: 2.5dvh;
 }
 
 .connectWUs{
     background-color: white;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 40px 15px 40px;
     border-radius: 25px;
     text-align: center;
     text-decoration: none;
-    font-family: helveticaMID, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
     color: black;
-    width: 8dvw;
     margin: 5dvh 0;
 }
 

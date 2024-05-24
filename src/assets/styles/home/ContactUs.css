@@ -54,23 +54,20 @@
     padding: 2px 0vw 2px 0px;
     width: 50dvw;
     font-size: medium;
-    font-family: HelveticaBold, sans-serif !important;
-    font-weight: 800 !important;
+    font-family: Helvetica, sans-serif !important;
     text-decoration: none;
   }
   .contactForm form div input::placeholder {
     color: white;
     font-size: medium;
-    font-family: HelveticaBold, sans-serif !important;
-    font-weight: 800 !important;
+    font-family: Helvetica, sans-serif !important;
     text-decoration: none;
   }
 
   #comments::placeholder {
     color: white;
     font-size: medium;
-    font-family: HelveticaBold, sans-serif !important;
-    font-weight: 800 !important;
+    font-family: Helvetica, sans-serif !important;
     text-decoration: none;
   }
 
@@ -79,12 +76,10 @@
     background: transparent;
     border: none;
     border-bottom: 1px solid white;
-    color: #0078ff;
     font-size: medium;
     width: 50dvw;
     padding: 2px 0vw 2px 0px;
-    font-family: HelveticaBold, sans-serif !important;
-    font-weight: 800 !important;
+    font-family: Helvetica, sans-serif !important;
     text-decoration: none;
   }
 
@@ -108,17 +103,7 @@
     align-items: center;
   }
 
-  .contactInfo a{
-    font-family: HelveticaBold, sans-serif !important;
-    font-weight: 800 !important;
-    text-decoration: none;
-  }
 
-  .contactInfo label{
-    font-family: HelveticaBold, sans-serif !important;
-    font-weight: 800 !important;
-    text-decoration: none;
-  }
 
   .reachOut{
     width: 80dvw;

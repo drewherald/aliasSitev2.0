@@ -28,3 +28,13 @@ html {
     font-family: TussilagoBold;
     src: url('../fonts/tussilagorg-bold.otf');
   }
+
+  @font-face {
+    font-family: HelveticaNeueBold;
+    src: url('../fonts//HelveticaNeueBlack.otf');
+  }
+
+  @font-face {
+    font-family: HelveticaNeue;
+    src: url('../fonts/HelveticaNeueMedium.otf');
+  }

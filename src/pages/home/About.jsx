@@ -67,8 +67,9 @@ export default function About() {
           <img src={aliasStudios} alt="" className="aliasStudiosMobile" />
           </Link>
           <h1 className="noscrollH1">DEFINE YOU.</h1>
-          <img src={globeSmall} alt="" className="globeSmallMobile" />
-          <img src={globe} className="bigGlobe"></img>
+          <h5 className="titleSubtext">
+          WE ARE A MULTI-SKILLED AGENCY. DESIGN, MEDIA AND STRATEGY IS WHAT WE KNOW BEST.
+          </h5>
           <Link to={'/comingSoon'} className="discoverHow">
             Discover How
           </Link>

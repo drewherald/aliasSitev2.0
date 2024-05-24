@@ -15,7 +15,6 @@ export default function MenuMobile() {
         { title: "ABOUT", href: "/about" },
         { title: "PROJECTS", href: "/projects" },
         { title: "PACKAGES", href: "/packages" },
-        { title: "ALIAS +", href: "/comingSoon" },
         { title: "CONNECT", href: "/contact" },
       ];
 

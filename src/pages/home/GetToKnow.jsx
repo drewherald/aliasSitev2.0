@@ -21,7 +21,7 @@ export default function GetToKnow() {
           New idea, project, or website?
         </p>
         <Link to={'/contact' }className="connectWUs">
-                Connect with us!
+                Connect!
         </Link>
         <img src={globeSmall} alt="" className='globeSmall' />
     </div>

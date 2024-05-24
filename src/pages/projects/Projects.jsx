@@ -106,7 +106,7 @@ export default function Projects() {
 
 
             <div className='bottomBigLink' style={{paddingTop: '20px'}}>
-            <Link to={"/services"} id="bottomBigLink" > SERVICES</Link>
+            <Link to={"/services"} id="bottomBigLink" > SERVICES.</Link>
             </div>
             
             <div>

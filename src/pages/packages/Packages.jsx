@@ -62,7 +62,7 @@ export default function Packages() {
            {items.map((item) => <PackageItem contentItem={item} />)}
 
             <div className='bottomBigLink'>
-            <Link to={"/comingSoon"} id="bottomBigLink" > PROJECTS</Link>
+            <Link to={"/comingSoon"} id="bottomBigLink" > PROJECTS.</Link>
             </div>
             
             <div>

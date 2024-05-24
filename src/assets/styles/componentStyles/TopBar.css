@@ -95,10 +95,11 @@ ul a{
     align-items: center;
     text-decoration: none;
     color: #0000FF;
-    font-family: helveticaMID, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
   }
 
   .topBarLink{
-    font-family: helveticaMID, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 
   }
