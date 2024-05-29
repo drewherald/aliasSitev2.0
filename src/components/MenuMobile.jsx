@@ -11,8 +11,8 @@ export default function MenuMobile() {
 
     const navLinks = [
       { title: "HOME", href: "/" },
-        { title: "SERVICES", href: "/services" },
         { title: "ABOUT", href: "/about" },
+        { title: "SERVICES", href: "/services" },
         { title: "PROJECTS", href: "/projects" },
         { title: "PACKAGES", href: "/packages" },
         { title: "CONNECT", href: "/contact" },

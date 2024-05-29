@@ -29,8 +29,15 @@
     font-weight: 900;
 }
 
+@media screen and (max-width: 1000px) {
+    #bottomBigLink{
+        font-size: 6svh;
+   
+    }
+}
+
 #bottomBigLink:hover{
-    color: #0000FF;
+    color: #100F55;
     cursor: pointer;
 }
 
@@ -38,5 +45,4 @@
     width: 90dvw;
     padding-bottom: 50px;
     cursor: pointer;
-
 }

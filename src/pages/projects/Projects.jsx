@@ -96,9 +96,9 @@ export default function Projects() {
 
             <SubPageTitle subtitle={'WORK INDEX.'} title={'Explore Our Projects.'} />
 
-                <div className='projectSubtitles'>
+                <div className='projectSubtitles' id='mainProjSub'>
                     <p>{'[CLIENT]'}</p>
-                    <p>{'[WORK]'}</p>
+                    <p id='projectsWork'>{'[WORK]'}</p>
                     <p>{'[YEAR]'}</p>
                 </div>
                 {items.map((item) => <ProjectItem contentItem={item}/>)}

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../assets/styles/home/ContactUs.css'
+import aliasStudios from "../../assets/photos/aliasStudios.png";
 
 export default function ContactUs() {
 
@@ -8,6 +9,7 @@ export default function ContactUs() {
 
   return (
     <>
+          <img src={aliasStudios} alt="" className="aliasStudiosMobileSP" />
     <div className="contactForm">
         <h1>
             Let's Work Together

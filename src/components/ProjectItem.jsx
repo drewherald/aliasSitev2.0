@@ -8,11 +8,12 @@ export default function ProjectItem({contentItem}) {
         <hr className='projRunner' />
 
         <div className='projectSubtitles'>
+          
             <p className='projectTitle'>{contentItem.name}</p>
-            <div>
+            <div className='projectButtons'>
             {contentItem.work.map((item) => <ProjectButton text={item}/>)}
             </div>
-            <p className='projectTitle'>{contentItem.year}</p>
+            <p className='projectYear'>{contentItem.year}</p>
         </div>
     </>
 

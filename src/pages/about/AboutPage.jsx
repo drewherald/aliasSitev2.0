@@ -67,7 +67,7 @@ export default function AboutPage() {
             <SubPageTitle subtitle={'ABOUT US.'} title={'Creating Your Vision.'} />
 
                 
-              <img src={globeSmall} alt="" className='globeSmall' />
+              <img src={globeSmall} alt="" className='globeSmall' id='gsAbt'/>
 
               <div className='aboutPagePara'>
                 <p>We are an evolving art project turned creative agency based out of Lexington and Nashville. Our team of specialists 
@@ -90,6 +90,10 @@ export default function AboutPage() {
             <div className='aboutItemContainer'>
             {items.map((item) => <AboutItem contentItem={item}/>)}
 
+            </div>
+
+            <div className='bottomBigLink'>
+            <Link to={"/services"} id="bottomBigLink" > SERVICES.</Link>
             </div>
 
             <div>

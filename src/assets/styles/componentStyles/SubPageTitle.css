@@ -18,5 +18,45 @@
     justify-content: center;
     align-items: center;
     height: 80svh;
-    padding: 20svh 0;
+}
+
+@media screen and (min-width: 1001px) {
+
+    .aliasStudiosMobileSP{
+        display: none;
+    }
+
+    .subPageTitle{
+        padding: 20svh 0;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .subPageTitle{
+        padding: 15svh 0;
+    }
+
+    .subPageTitle h5{
+        padding-top: 5svh;
+    }
+
+    .subPageTitle h1{
+        font-size: 6svh;
+        text-align: center;
+    }
+
+    .subPageTitle h1{
+        margin: 0 !important;
+    }
+
+   
+    .aliasStudiosMobileSP{
+        height: 14svh;
+        display: block;
+        position: absolute;
+        top: 5svh;
+    }
 }

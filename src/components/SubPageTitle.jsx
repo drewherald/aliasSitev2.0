@@ -1,11 +1,14 @@
 import React from 'react'
 import PageArrow from '../assets/photos/pageArrow.png'
 import '../assets/styles/componentStyles/SubPageTitle.css'
+import aliasStudios from "../assets/photos/aliasStudios.png";
 
 export default function SubPageTitle({subtitle, title}) {
   return (
     <>
       <div className='subPageTitle'>
+      <img src={aliasStudios} alt="" className="aliasStudiosMobileSP" />
+
                 <h5>
                     {subtitle}
                 </h5>

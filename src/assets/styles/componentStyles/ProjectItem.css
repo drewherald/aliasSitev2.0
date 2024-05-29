@@ -8,3 +8,56 @@
     font-size: 4.5svh;
     font-weight: bold;
 }
+
+.projectYear{
+    font-family: Helvetica, sans-serif;
+    font-size: 4.5svh;
+    font-weight: bold;
+}
+
+.projectSubtitles{
+    display: grid;
+}
+
+@media screen and (max-width: 1000px) {
+    .projectSubtitles{
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 90dvw;
+        align-items: center;
+    }
+
+    .projectButtons{
+        grid-row-start: 2;
+        grid-column-end: span 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    #projButtn{
+        width: 30dvw;
+        margin: 0 0 10px 0;
+    }
+
+    .projectYear{
+        font-size: 3svh;
+    }
+
+    .projectTitle{
+        font-size: 3svh;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .projectSubtitles{
+        grid-template-columns: 2fr 3fr 1fr;
+        width: 90dvw;
+        align-items: center;
+    }
+
+    #projButtn{
+        width: 7dvw;
+        margin: 0 10px 0 0;
+    }
+}

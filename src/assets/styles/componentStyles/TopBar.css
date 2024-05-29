@@ -10,26 +10,6 @@
 
 }
 
-@media screen and (min-width: 1001px) {
-
-    .tbConnectButton:hover{
-        animation: whiteConnectButton .5s ease-in-out;
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-      }
-
-      @keyframes whiteConnectButton {
-        0%{
-            background-color: white;
-            color: #0000FF;
-        }
-    
-        100%{
-            background-color: #0000FF;
-            color: white;
-        }
-    }
-}
 
 .aliasMobileContainer{
     display: none;
@@ -82,8 +62,15 @@ ul a{
 }
 
 .topBarLink:hover{
-    color: #0000FF ;
+    animation: topBarLinkHover .2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
+
+@keyframes topBarLinkHover {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.2); }
+  }
 
 .tbConnectButton{
     background-color: white;
@@ -94,7 +81,7 @@ ul a{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #0000FF;
+    color: #100F55;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
   }

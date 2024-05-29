@@ -5,6 +5,35 @@
     justify-items: start;
 }
 
+@media screen and (max-width: 1000px) {
+
+    .mainSIContainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr;
+    }
+
+    .SILeft h1{
+        font-size: 6svh !important;
+    }
+    
+    .buzzWordBox{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 1001px) {
+
+    .buzzWordBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+}
+
+
 .SILeft h3{
     font-family: Helvetica, sans-serif;
     padding-right: 20px;
@@ -40,11 +69,6 @@
     padding: 0;
 }
 
-.buzzWordBox{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
 
 .buzzWordBox h3{
     font-family: Helvetica, sans-serif;

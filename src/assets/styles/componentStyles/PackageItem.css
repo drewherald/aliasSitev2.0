@@ -1,8 +1,5 @@
 .mainPIContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     width: 90dvw;
-    justify-items: start;
 }
 
 .PILeft h3{
@@ -63,4 +60,34 @@
 .includeList img{
     padding: 10px 20px 0 0;
     transform: scale(0.75);
+}
+
+@media screen and (max-width: 1000px) {
+
+    .mainPIContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .PIRight p{
+        font-size: 20px;
+    }
+
+    .PIRight h3{
+        font-size: 26px;
+        padding-top: 20px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1001px) {
+
+    .mainPIContainer{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        justify-items: start;
+    }
+
 }
