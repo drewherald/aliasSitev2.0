@@ -85,10 +85,6 @@ export default function About() {
           }
         >
           <div className="deskMenuContainer">
-            <div className="waypoint">
-              <img src={blueSquare} alt="" />
-              <p>WHAT WE DO</p>
-            </div>
             <img src={deskMenu} className="deskMenu" alt="" onClick={() => AliasGlobal.toggleMenu()}/>
           </div>
           

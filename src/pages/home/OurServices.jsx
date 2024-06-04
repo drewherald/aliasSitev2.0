@@ -1,18 +1,44 @@
 import React from "react";
-import blueSquare from "../../assets/photos/blueSquare.png";
 import "../../assets/styles/home/ourServices.css";
-import startup from "../../assets/photos/startup.png";
-import startupPlus from "../../assets/photos/startupPlus.png";
-import aliasPlus from "../../assets/photos/aliasPlus.png";
+import HomePagePackageItem from "../../components/HomePagePackageItem";
+
 
 export default function OurServices() {
+
+    let items = []
+
+    const itemOne = {
+        title: 'Startup',
+        header: 'Package',
+        body1: 'An affordable choice for launching your online presence.',
+        includes: ['Brand Identity Kit', 'Social Media Kit', 'Custom Landing Page', 'Contact Form Integration']
+    }
+
+    const itemTwo = {
+      title: 'Startup +',
+      header: 'Package',
+      body1: 'The perfect option for businesses on a budget or looking to get started quickly.',
+      includes: ['Complete Branding Style Guide', 'Complete Social Media Kit', 'Advanced Social Media Strategy', 'Custom Content Creation', 'Enhanced Website Design']
+  }
+
+    const itemThree = {
+      title: 'Alias +',
+      header: 'Subscription',
+      body1: "With Alias+ Subscription, you're not just another client on a long list – you're our top priority. Unlike traditional agencies, we focus on one request at a time, ensuring dedicated attention to your project. Plus, our streamlined process guarantees a swift turnaround of about 48 hours, so you can bring your ideas to life without delay.",
+      includes: ['Custom Services', 'Flexible Pricing', 'Personalized Proposal', 'Diverse Expertise', 'Responsive Support', 'Continuous Innovation']
+    }
+
+    
+    items.push(itemTwo)
+    items.push(itemOne)
+    items.push(itemThree)
+
+
   return (
     <>
       <section className="ourServices">
-        <div className="waypoint">
-          <img src={blueSquare} alt="" />
-          <p>OUR PACKAGES</p>
-        </div>
+      <hr className='hRunner' />
+
         <div className="ourServicesGrid">
           <div className="serviceText">
             <h3 className="whyUs">
@@ -29,15 +55,10 @@ export default function OurServices() {
               establish yourself as a distinctive presence.
             </p>
           </div>
-          <div className="serviceCube">
-            <img src={startupPlus} alt="" />
-          </div>
-          <div className="serviceCube">
-            <img src={startup} alt="" />
-          </div>
-          <div className="serviceCube">
-            <img src={aliasPlus} alt="" />
-          </div>
+          <hr className='mobRunner' />
+          {items.map((item) => <HomePagePackageItem contentItem={item} />)}
+
+          
         </div>
       </section>
     </>

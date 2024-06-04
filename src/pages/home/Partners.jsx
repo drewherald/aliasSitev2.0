@@ -24,12 +24,9 @@ export default function Partners() {
 
 
   return (
-    <section id='partners'>
+    <>
 
-         <div className="waypoint">
-          <img src={blueSquare} alt="" />
-          <p>OUR PROJECTS</p>
-        </div>
+<hr className='deskRunner' />
 
         
         <div className='partnerTopContainer'>
@@ -43,7 +40,8 @@ export default function Partners() {
                 See More
             </Link>
         </div>
-       
-    </section>
+        <hr className='hRunner' />
+
+    </>
   )
 }

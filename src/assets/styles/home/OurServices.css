@@ -2,41 +2,65 @@
     
 
     .serviceText h3{
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .serviceText p{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .ourServicesGrid{
-        grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr 1fr 1fr !important;
+       display: flex;
+       flex-direction: column;
     }
 
     .serviceCube img{
         max-width: 80dvw !important;
     }
+
+    .mobRunner{
+        width: 96dvw;
+        margin: 6dvh 0 4dvh 0;
+        background-color: white;
+    }
+
+    .deskRunner{
+       display: none;
+    }
+
 }
 
 @media screen and (min-width: 1001px) {
     .serviceText{
-        padding: 5dvh;
+        width: 44dvw;
+        background-color: #100F14;
+        padding: 2dvw;
+    }
+
+    .ourServicesGrid{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2px;
+        justify-items: center;
+        width: 96dvw;
+    }
+
+    .mobRunner{
+       display: none;
+    }
+
+    .deskRunner{
+        width: 96dvw;
+        margin: 7dvh 0 7dvh 0;
+        background-color: white;
     }
 }
 
 .ourservices{
     display: flex;
     flex-direction: column;
-}
-
-.ourServicesGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 30px;
-    justify-items: center;
-    align-items: center;
 }
 
 .whyUs{

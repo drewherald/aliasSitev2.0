@@ -30,10 +30,8 @@ export default function OurProcess() {
     return (
     <>
        <section className="ourProcess">
-          <div className="waypoint">
-            <img src={blueSquare} alt="" />
-            <p>OUR PROCESS</p>  
-          </div>
+       <hr className='hRunner' />
+
           <div className='processContent'>
             <div className='elevateContainer'>
               <h3 className='elevateBrand'>

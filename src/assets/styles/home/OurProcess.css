@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 1001px) {
     .ourProcess{
-        padding-bottom: 20dvh;
+        padding-bottom: 5dvh;
     }
 
     .processImages img{
@@ -55,6 +55,10 @@
 
     .processMobile{
         display: none;
+    }
+
+    .processContent{
+        padding: 0 4dvw;
     }
     
 }
@@ -72,7 +76,7 @@
 
 .elevateBrand{
     margin: 0;
-    font-size: 12svh;
+    font-size: 10svh;
     font-family: Helvetica, sans-serif !important;
     font-weight: bolder;
 }
@@ -97,10 +101,11 @@
     border: none !important;
 }
 
+
 .react-multi-carousel-dot--active button{
     background-color: #100F55 !important;
 }
 
 .react-multiple-carousel__arrow{
-    background-color: #100F55 !important;
+    background-color: #100F14 !important;
 }
