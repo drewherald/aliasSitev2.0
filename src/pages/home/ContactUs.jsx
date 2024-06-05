@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../assets/styles/home/ContactUs.css'
 import aliasStudios from "../../assets/photos/aliasStudios.png";
+import { Link } from 'react-router-dom';
 
 export default function ContactUs() {
 
@@ -9,7 +10,9 @@ export default function ContactUs() {
 
   return (
     <>
-          <img src={aliasStudios} alt="" className="aliasStudiosMobileSP" />
+            <Link to={'/' } style={{cursor: 'pointer', position: 'absolute', top: '50px'}}>
+                <img src={aliasStudios} alt="" className="aliasStudiosMobileCT" />
+            </Link>
     <div className="contactForm">
         <h1>
             Let's Work Together

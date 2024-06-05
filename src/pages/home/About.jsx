@@ -70,7 +70,7 @@ export default function About() {
           <h5 className="titleSubtext">
           WE ARE A MULTI-SKILLED AGENCY. DESIGN, MEDIA AND STRATEGY IS WHAT WE KNOW BEST.
           </h5>
-          <Link to={'/comingSoon'} className="discoverHow">
+          <Link to={'/about'} className="discoverHow">
             Discover How
           </Link>
         </div>

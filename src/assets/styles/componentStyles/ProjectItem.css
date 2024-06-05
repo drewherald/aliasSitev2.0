@@ -19,12 +19,12 @@
     display: grid;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
     .projectSubtitles{
         grid-template-columns: 3fr 1fr;
-        grid-template-rows: 1fr 1fr;
         width: 90dvw;
         align-items: center;
+        padding-bottom: 15px;
     }
 
     .projectButtons{
@@ -46,10 +46,12 @@
 
     .projectTitle{
         font-size: 3svh;
+        margin: 0;
     }
+
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1401px) {
     .projectSubtitles{
         grid-template-columns: 2fr 3fr 1fr;
         width: 90dvw;

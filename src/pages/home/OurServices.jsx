@@ -2,42 +2,58 @@ import React from "react";
 import "../../assets/styles/home/ourServices.css";
 import HomePagePackageItem from "../../components/HomePagePackageItem";
 
-
 export default function OurServices() {
+  let items = [];
 
-    let items = []
+  const itemOne = {
+    title: "Startup",
+    header: "Package",
+    body1: "An affordable choice for launching your online presence.",
+    includes: [
+      "Brand Identity Kit",
+      "Social Media Kit",
+      "Custom Landing Page",
+      "Contact Form Integration",
+    ],
+  };
 
-    const itemOne = {
-        title: 'Startup',
-        header: 'Package',
-        body1: 'An affordable choice for launching your online presence.',
-        includes: ['Brand Identity Kit', 'Social Media Kit', 'Custom Landing Page', 'Contact Form Integration']
-    }
+  const itemTwo = {
+    title: "Startup +",
+    header: "Package",
+    body1:
+      "The perfect option for businesses on a budget or looking to get started quickly.",
+    includes: [
+      "Complete Branding Style Guide",
+      "Complete Social Media Kit",
+      "Advanced Social Media Strategy",
+      "Custom Content Creation",
+      "Enhanced Website Design",
+    ],
+  };
 
-    const itemTwo = {
-      title: 'Startup +',
-      header: 'Package',
-      body1: 'The perfect option for businesses on a budget or looking to get started quickly.',
-      includes: ['Complete Branding Style Guide', 'Complete Social Media Kit', 'Advanced Social Media Strategy', 'Custom Content Creation', 'Enhanced Website Design']
-  }
+  const itemThree = {
+    title: "Alias +",
+    header: "Subscription",
+    body1:
+      "With Alias+ Subscription, you're not just another client on a long list – you're our top priority. Unlike traditional agencies, we focus on one request at a time, ensuring dedicated attention to your project. Plus, our streamlined process guarantees a swift turnaround of about 48 hours, so you can bring your ideas to life without delay.",
+    includes: [
+      "Custom Services",
+      "Flexible Pricing",
+      "Personalized Proposal",
+      "Diverse Expertise",
+      "Responsive Support",
+      "Continuous Innovation",
+    ],
+  };
 
-    const itemThree = {
-      title: 'Alias +',
-      header: 'Subscription',
-      body1: "With Alias+ Subscription, you're not just another client on a long list – you're our top priority. Unlike traditional agencies, we focus on one request at a time, ensuring dedicated attention to your project. Plus, our streamlined process guarantees a swift turnaround of about 48 hours, so you can bring your ideas to life without delay.",
-      includes: ['Custom Services', 'Flexible Pricing', 'Personalized Proposal', 'Diverse Expertise', 'Responsive Support', 'Continuous Innovation']
-    }
-
-    
-    items.push(itemTwo)
-    items.push(itemOne)
-    items.push(itemThree)
-
+  items.push(itemTwo);
+  items.push(itemOne);
+  items.push(itemThree);
 
   return (
     <>
       <section className="ourServices">
-      <hr className='hRunner' />
+        <hr className="hRunner" />
 
         <div className="ourServicesGrid">
           <div className="serviceText">
@@ -45,20 +61,27 @@ export default function OurServices() {
               Why Choose Alias? <br /> Discover Your Identity
             </h3>
             <p className="whyUsP">
-              Alias is committed to revealing and enhancing the individuality of
-              your brand. Our focus is on creating unique identities that
-              connect authentically and captivate audiences. Our team
-              collaborates with you to showcase your brand's true essence,
-              ensuring it inspires, engages, and leaves a memorable impact.
-              Whether through strategic branding or innovative design, we're
-              dedicated to helping you shine in a competitive market and
-              establish yourself as a distinctive presence.
+              Alias, derived from the concept of 'identity,' embodies our
+              agency's mission: to uncover and amplify the unique essence of
+              your brand. Just as the name suggests, we specialize in crafting
+              distinctive identities that resonate with authenticity and
+              captivate audiences.
+            </p>
+            <br />
+            <p className="whyUsP">
+              At Alias, we believe in the power of identity to drive success.
+              Our team of creatives is dedicated to partnering with you to
+              unveil the true character of your brand and bring it to life in
+              ways that inspire, engage, and leave a lasting impression. From
+              strategic branding to innovative design, we're here to help you
+              shine in a crowded marketplace and stand out as the unmistakable
+              force you were meant to be.
             </p>
           </div>
-          <hr className='mobRunner' />
-          {items.map((item) => <HomePagePackageItem contentItem={item} />)}
-
-          
+          <hr className="mobRunner" />
+          {items.map((item) => (
+            <HomePagePackageItem contentItem={item} />
+          ))}
         </div>
       </section>
     </>

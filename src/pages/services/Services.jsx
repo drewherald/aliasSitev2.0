@@ -66,7 +66,7 @@ console.log(items.length)
 
             {items.map((item) => <ServiceItem contentItem={item}/>)}
             <div className='bottomBigLink'>
-            <Link to={"/comingSoon"} id="bottomBigLink" > WORK INDEX.</Link>
+            <Link to={"/projects"} id="bottomBigLink" > WORK INDEX.</Link>
             </div>
 
             <div>

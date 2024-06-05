@@ -6,6 +6,18 @@
   .contactForm h1{
     font-size: 4svh !important;
   }
+
+  .aliasStudiosMobileCT{
+    height: 14svh;
+}
+}
+
+@media screen and (min-width: 1001px) {
+
+  .aliasStudiosMobileCT{
+    display: none;
+  }
+
 }
 
 .contactForm {

@@ -7,6 +7,7 @@
     max-width: 90dvw;
   }
 
+
   .titleH1{
     padding:  0 !important;
     height: 100svh !important;
@@ -71,11 +72,15 @@
   }
 
   .mediaDesignStrategy h1{
+    font-size: 4.5dvw !important;
     text-align: center !important;
     font-size: 10svw !important;
     padding-bottom: 2svh;
   }
 
+  .mediaDesignStrategyTwo{
+    font-size: 4.5dvw !important; 
+  }
 
   .servicesScroll{
     padding: 1svh 0 6svh 0 !important;
@@ -173,6 +178,16 @@
     display: none;
   }
 
+  .mediaDesignStrategy{
+    font-size: 5dvw !important; 
+   
+  }
+  
+  .mediaDesignStrategyTwo{
+    font-size: 5dvw !important; 
+   
+  }
+
   @keyframes greyButton {
     0%{
         background-color: #100f14;
@@ -211,6 +226,7 @@
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
     padding-bottom: 10svh;
+    font-size: 14svh;
 }
 
 @keyframes fadeIn{
@@ -226,7 +242,6 @@
 
 
 #about h1{
-    font-size: 14svh;
     margin: 0;
 }
 
@@ -277,13 +292,13 @@
 }
 
 .mediaDesignStrategy{
-  font-size: 5dvw !important; 
+  font-size: 4.5dvw;
   margin: 0; 
   font-family: HelveticaBold, Helvetica, sans-serif;
 }
 
 .mediaDesignStrategyTwo{
-  font-size: 5dvw !important; 
+  font-size: 4.5dvw;
   margin: 0; 
   color: #100F55;
   padding-bottom: 10svh;
@@ -450,7 +465,6 @@
 
   .aboutCarouselFlex h5{
     font-size: 20px;
-    font-weight: 100;
   }
   
   .desktopBr{
@@ -463,7 +477,6 @@
   }
 
   .aboutCarouselFlex p{ 
-    font-weight: 100;   
     font-size: 14px;
     padding-bottom: 2svh;
   }

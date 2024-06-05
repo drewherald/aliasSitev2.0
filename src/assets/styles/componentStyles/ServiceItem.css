@@ -9,7 +9,7 @@
 
     .mainSIContainer{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 3fr;
+        grid-template-rows: 1fr 5fr;
     }
 
     .SILeft h1{
@@ -21,6 +21,12 @@
         flex-direction: column;
     }
 
+    .runner{
+        height: 5px;
+        width: 90dvw;
+        margin: 25px 0;
+    }
+
 }
 
 @media screen and (min-width: 1001px) {
@@ -29,6 +35,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .runner{
+        height: 5px;
+        width: 90dvw;
+        margin: 100px 0 50px 0;
     }
 
 }
@@ -77,8 +89,3 @@
 
 }
 
-.runner{
-    height: 5px;
-    width: 90dvw;
-    margin: 100px 0 50px 0;
-}
