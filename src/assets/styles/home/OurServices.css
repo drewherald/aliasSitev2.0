@@ -56,6 +56,10 @@
         margin: 7dvh 0 7dvh 0;
         background-color: white;
     }
+
+    .whyUsP{
+        font-size: 1.3dvw;
+    }
 }
 
 .ourservices{
@@ -77,11 +81,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.whyUsp{
-    font-family: Tussilago, Helvetica, sans-serif;
-    font-size: 1dvw;
 }
 
 .serviceCube img{

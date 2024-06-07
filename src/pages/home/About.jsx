@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
 import { AliasContext } from "../../App";
 import "../../assets/styles/home/About.css";
-import globe from "../../assets/photos/globe.png";
-import blueSquare from "../../assets/photos/blueSquare.png";
 import globeSmall from "../../assets/photos/globeSmall.png";
 import aliasStudios from "../../assets/photos/aliasStudios.png";
 import Carousel from "react-multi-carousel";
@@ -67,8 +65,9 @@ export default function About() {
           <img src={aliasStudios} alt="" className="aliasStudiosMobile" />
           </Link>
           <h1 className="noscrollH1">DEFINE YOU.</h1>
+          <img src={globeSmall} className="globeSmallMobile" alt="" />
           <h5 className="titleSubtext">
-          WE ARE A MULTI-SKILLED AGENCY. DESIGN, MEDIA AND STRATEGY IS WHAT WE KNOW BEST.
+          We are a multi-skilled agency. Design, Media, and Strategy is what we know best.
           </h5>
           <Link to={'/about'} className="discoverHow">
             Discover How

@@ -70,10 +70,10 @@ export default function AboutPage() {
               <img src={globeSmall} alt="" className='globeSmall' id='gsAbt'/>
 
               <div className='aboutPagePara'>
-                <p>We are an evolving art project turned creative agency based out of Lexington and Nashville. Our team of specialists 
-                  collaborates across diverse industries and scales, delivering exceptional results with unwavering precision. </p>
-                  <p>We are intentional in our approach, dedicated to building extraordinary experiences that stand out. We don’t 
-                    just go the extra mile; we walk a couple more, fueled by our passion and commitment to excellence.</p>
+                <p>We are a creative agency based in Lexington and Nashville. Our team collaborates across
+                   various industries, delivering exceptional results with precision. </p>
+                  <p>We are dedicated to creating standout experiences, going above and beyond fueled 
+                    by our passion and commitment to excellence.</p>
               </div>
             
             <div>

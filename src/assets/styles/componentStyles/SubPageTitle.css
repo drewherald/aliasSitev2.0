@@ -52,6 +52,10 @@
         margin: 0 !important;
     }
 
+    .pageArrow{
+        padding: 10svh 0 !important;
+    }
+
    
     .aliasStudiosMobileSP{
         height: 14svh;

@@ -120,9 +120,14 @@
     font-family: Helvetica, sans-serif;
     font-size: 2svh;
     text-align: center;
-    font-weight: bolder;
-    padding: 10svh 10dvw;
+    font-weight: bold;
+    padding: 4svh 10dvw 8svh 10dvw;
     margin: 0;
+    animation: fadeIn .75s ease-in;
+    animation-delay: .75s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
   }
 }
 
@@ -198,12 +203,13 @@
     }
 }
 
+
   .titleSubtext{
     font-family: Helvetica, sans-serif;
     font-size: 4svh;
     text-align: center;
-    font-weight: 300;
-    padding: 0 10dvw 10svh 10dvw;
+    font-weight: bold;
+    padding: 0 20dvw 10svh 20dvw;
     margin: 0;
     animation: fadeIn .75s ease-in;
     animation-delay: .75s;
@@ -495,3 +501,4 @@
   }
 
 }
+
