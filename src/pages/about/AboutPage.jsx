@@ -93,7 +93,7 @@ export default function AboutPage() {
             </div>
 
             <div className='bottomBigLink'>
-            <Link to={"/services"} id="bottomBigLink" > SERVICES.</Link>
+            <Link to={"/services"} id="bottomBigLink" onClick={AliasGlobal.scrollToTop}> SERVICES.</Link>
             </div>
 
             <div>

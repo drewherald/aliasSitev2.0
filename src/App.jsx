@@ -12,7 +12,8 @@ import AboutPage from './pages/about/AboutPage';
 
 export const AliasContext = createContext({
   menuStatus: false,
-  toggleMenu: () => {}
+  toggleMenu: () => {},
+  scrollToTop: () => {}
 })
 
 function App() {
@@ -25,8 +26,13 @@ function App() {
     console.log(menuStatus)
   }
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
+
   return (
-    <AliasContext.Provider value = {{menuStatus, toggleMenu}}>
+    <>
+    <AliasContext.Provider value = {{menuStatus, toggleMenu, scrollToTop}}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/about' element={<AboutPage />} />
@@ -38,7 +44,7 @@ function App() {
       </Routes>
       <MenuMobile />
     </AliasContext.Provider>
-    
+    </>
   );
 }
 

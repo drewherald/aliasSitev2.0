@@ -69,7 +69,7 @@ export default function About() {
           <h5 className="titleSubtext">
           We are a multi-skilled agency. Design, Media, and Strategy is what we know best.
           </h5>
-          <Link to={'/about'} className="discoverHow">
+          <Link to={'/about'} className="discoverHow" onClick={AliasGlobal.scrollToTop}>
             Discover How
           </Link>
         </div>
@@ -147,12 +147,12 @@ export default function About() {
 
           <div className="wwdHolder">
             <div className="wwdButtons">
-              <Link to={'/services'} className="wwdPast">
+              <Link to={'/services'} className="wwdPast" onClick={AliasGlobal.scrollToTop}>
                 <div className="wwdPastdiv">
                 OUR SERVICES
                 </div>
               </Link>
-              <Link to={'/contact'} className="wwdFuture">
+              <Link to={'/contact'} className="wwdFuture" onClick={AliasGlobal.scrollToTop}>
                 <div>
                 LET'S TALK
                 </div>
