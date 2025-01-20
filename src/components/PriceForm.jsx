@@ -115,7 +115,7 @@ export default function PriceForm() {
     <div>
       <form onSubmit={handleSubmit} className='priceForm'>
                 
-                <input type='number' name='budget' id='budget' placeholder='Budget' value={userBudget} onChange={(e) => setUserBudget(e.target.value)}></input>
+                <input type='number' name='budget' id='budget' placeholder='Budget ($)' value={userBudget} onChange={(e) => setUserBudget(e.target.value)}></input>
                 <select name='service' id='service' value={userService} onChange={(e) => setUserService(e.target.value)}>
                     <option value="" disabled selected>Select Required Service</option>
                     <option value="socials">Social Media Management</option>
