@@ -1,0 +1,23 @@
+.priceForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.priceForm input{
+    margin-bottom: 10px;
+    width: 50svw;
+    height: 10svh;
+    color: black;
+    font-size: 5svh;
+}
+
+.priceForm select{
+    width: 50.5svw;
+    height: 10svh;
+    color: black;
+    font-size: 5svh;
+}
+
+#priceSubmit{
+    margin-bottom: 150px;
+}

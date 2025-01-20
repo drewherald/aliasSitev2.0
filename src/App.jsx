@@ -9,6 +9,8 @@ import ContactPage from './pages/contact/ContactPage';
 import Packages from './pages/packages/Packages';
 import Projects from './pages/projects/Projects';
 import AboutPage from './pages/about/AboutPage';
+import NameYourPrice from './pages/nameYourPrice/nameYourPrice';
+
 
 export const AliasContext = createContext({
   menuStatus: false,
@@ -41,6 +43,7 @@ function App() {
         <Route path='/packages' element={<Packages />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/comingSoon' element={<ComingSoon />} />
+        <Route path='/nameYourPrice' element={<NameYourPrice />} />
       </Routes>
       <MenuMobile />
     </AliasContext.Provider>
