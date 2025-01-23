@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import '../assets/styles/componentStyles/PriceForm.css'
+import { Link } from 'react-router-dom'
 
 export default function PriceForm() {
 
     const [userBudget,setUserBudget] = useState('')
     const [userService, setUserService] = useState('')
     const [output, setOutput] = useState('')
+    const [error, setError] = useState('')
 
 
     const handleSubmit = (e) => {
@@ -13,9 +15,9 @@ export default function PriceForm() {
         
 
         if(userBudget === ''){
-            setOutput('Please provide a budget')
+            setError('Please provide a budget')
         }else if(userService === ''){
-            setOutput('Please select a service')
+            setError('Please select a service')
         }else{
             calculateService(userBudget, userService)
         }
@@ -26,15 +28,15 @@ export default function PriceForm() {
         switch (service){
             case 'socials':
                 if(budget <= 250){
-                    setOutput('socials <250') 
+                    setOutput('3 post templates that can be utilized on all platforms.') 
                 }else if(budget <= 500){
-
+                    setOutput('3 fully customized posts a week with 1 round of reviews.') 
                 }else if (budget <= 1000){
-
+                    setOutput('Monthly social media management including: 3 posts/week and daily engagement management.') 
                 }else if(budget <= 2500){
-
+                    setOutput('Monthly social media management including: 5 posts/week and daily engagement management. Full brand rebuild - new logo, story & post templates, and styling.') 
                 }else{
-                    
+                    setOutput("Customized 'Alias +' social media package tailored to your needs - whatever they may be. Let's chat for more details") 
                 }
             case 'web':
                 if(budget <= 250){
@@ -112,9 +114,10 @@ export default function PriceForm() {
     }
 
   return (
-    <div>
+    <div className='formWrapper'>
+      <h1>Alias Studios Name Your Price Tool</h1>
       <form onSubmit={handleSubmit} className='priceForm'>
-                
+
                 <input type='number' name='budget' id='budget' placeholder='Budget ($)' value={userBudget} onChange={(e) => setUserBudget(e.target.value)}></input>
                 <select name='service' id='service' value={userService} onChange={(e) => setUserService(e.target.value)}>
                     <option value="" disabled selected>Select Required Service</option>
@@ -131,7 +134,7 @@ export default function PriceForm() {
             </form>
             <label for="submit-form" tabindex="0" className='submitText' > <div className='connectWUs' id='priceSubmit'>Submit</div> </label> 
 
-            <p>{output}</p>
+           {output != '' ? <div className='serviceWrapper'><p style={{fontSize: '4svh', fontWeight:'bold'}}>Available Service: <br/><br/> {output}</p>    <Link to={'/contact' }className="connectWUs">  Let's Get To Work!</Link></div>: <p>{error}</p>}
     </div>
   )
 }

@@ -6,20 +6,19 @@
 .priceForm input{
     margin-bottom: 10px;
     width: 50svw;
-    height: 10svh;
+    height: 7svh;
     color: black;
-    font-size: 5svh;
+    font-size: 3svh;
 }
 
 .priceForm select{
     width: 50.5svw;
-    height: 10svh;
+    height: 7svh;
     color: black;
-    font-size: 5svh;
+    font-size: 3svh;
 }
 
 #priceSubmit{
-    margin-bottom: 150px;
 }
 
 input::-webkit-outer-spin-button,
@@ -31,4 +30,27 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
     -moz-appearance:textfield; /* Firefox */
+}
+
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formWrapper h1{
+    font-size: 6svh;
+}
+
+.formWrapper p{
+    font-size: 3svh;
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+.serviceWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 50px 0;
 }
