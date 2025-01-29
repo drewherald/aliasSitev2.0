@@ -62,7 +62,7 @@ export default function Packages() {
            {items.map((item) => <PackageItem contentItem={item} />)}
 
             <div className='bottomBigLink'>
-            <Link to={"/comingSoon"} id="bottomBigLink" onClick={AliasGlobal.scrollToTop}> PROJECTS.</Link>
+            <Link to={"/projects"} id="bottomBigLink" onClick={AliasGlobal.scrollToTop}> PROJECTS.</Link>
             </div>
             
             <div>

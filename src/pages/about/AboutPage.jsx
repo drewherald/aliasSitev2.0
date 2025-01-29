@@ -27,8 +27,7 @@ export default function AboutPage() {
       number: '02',
       title: 'Craft Visionary Strategies',
       body: `Next, we work closely with you to develop innovative strategies that fit your brand perfectly. We brainstorm 
-      ideas and create a roadmap for success.
-      face meeting. It's where we begin exchanging ideas and building a strong foundation for our partnership.`
+      ideas and create a roadmap for success. It's where we begin exchanging ideas and building a strong foundation for our partnership.`
     }
 
     const itemThree = {
