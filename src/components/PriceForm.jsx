@@ -28,87 +28,87 @@ export default function PriceForm() {
         switch (service){
             case 'socials':
                 if(budget <= 250){
-                    setOutput('3 post templates that can be utilized on all platforms.') 
+                    setOutput('One-time content audit & recommendations.') 
                 }else if(budget <= 500){
-                    setOutput('3 fully customized posts a week with 1 round of reviews.') 
+                    setOutput('5 posts (graphics + captions) + scheduling for one platform.') 
                 }else if (budget <= 1000){
-                    setOutput('Monthly social media management including: 3 posts/week and daily engagement management.') 
+                    setOutput('12 posts (graphics + captions) across two platforms + engagement strategy.') 
                 }else if(budget <= 2500){
-                    setOutput('Monthly social media management including: 5 posts/week and daily engagement management. Full brand rebuild - new logo, story & post templates, and styling.') 
+                    setOutput('Full content calendar (20+ posts) across multiple platforms + analytics + ad strategy.') 
                 }else{
-                    setOutput("Customized 'Alias +' social media package tailored to your needs - whatever they may be. Let's chat for more details") 
+                    setOutput("Full-service social media management (content creation, posting, engagement, monthly reporting, ad management). Let's chat for more details") 
                 }
             case 'web':
                 if(budget <= 250){
-
+                    setOutput('Banner/asset design') 
                 }else if(budget <= 500){
-
+                    setOutput('Maintenance to current website - updating logos, text, etc.') 
                 }else if (budget <= 1000){
-
+                    setOutput('Single landing page style website design (no development)') 
                 }else if(budget <= 2500){
-
+                    setOutput('Basic 1 site landing page design & development ($2500 and up)') 
                 }else{
-                    
+                    setOutput('Fully custom multi-page website with design & development, including basic SEO & mobile optimization.') 
                 }
             case 'logo':
                     if(budget <= 250){
-
+                        setOutput('Simple text-based logo (1 concept, 1 revision).') 
                     }else if(budget <= 500){
-
+                        setOutput('Custom logo with 2 concepts & 2 revisions.') 
                     }else if (budget <= 1000){
-
+                        setOutput('Full brand identity (logo + color palette + typography guide).') 
                     }else if(budget <= 2500){
-
+                        setOutput('Full brand identity + branding assets') 
                     }else{
-                        
+                        setOutput('Full brand package + in-depth brand strategy, brand guidelines, and premium assets (website assets, ad templates, packaging design).') 
                     }
             case 'ads':
                 if(budget <= 250){
-
+                    setOutput('Ad account setup + basic campaign recommendations.') 
                 }else if(budget <= 500){
-
+                    setOutput('1-week ad campaign management (up to $500 ad spend).') 
                 }else if (budget <= 1000){
-
+                    setOutput('2-week campaign with audience targeting & optimization.') 
                 }else if(budget <= 2500){
-
+                    setOutput('Full-month ad strategy & execution across multiple platforms.') 
                 }else{
-                    
+                    setOutput('Comprehensive multi-channel ad strategy, ongoing A/B testing, retargeting, and reporting.') 
                 }
             case 'marketing':
                 if(budget <= 250){
-
+                    setOutput('One-hour strategy consultation + recommendations.') 
                 }else if(budget <= 500){
-
+                    setOutput('Competitive analysis + basic marketing plan.') 
                 }else if (budget <= 1000){
-
+                    setOutput('Full marketing strategy with content & ad planning.') 
                 }else if(budget <= 2500){
-
+                    setOutput('Custom marketing roadmap + hands-on consulting & execution.') 
                 }else{
-                    
+                    setOutput('Full business marketing overhaul (brand positioning, competitor analysis, multi-channel strategy, execution plan).') 
                 }
             case 'email':
                 if(budget <= 250){
-
+                    setOutput('Custom domain registration.') 
                 }else if(budget <= 500){
-
+                    setOutput('Custom domain registration and Google workspace setup with up to 3 email addresses.') 
                 }else if (budget <= 1000){
-
+                    setOutput('Custom domain setup. Google workspace setup with up to 10 email addresses and monthly maintenance for a small fee.') 
                 }else if(budget <= 2500){
-
+                    setOutput('Custom domain setup. Google Workspace setup with up to 20 email addresses and monthly maintenance for a small fee. Shared company Google Drive/Calendar/Meet access. On-demand training and support.') 
                 }else{
-                    
+                    setOutput('Custom domain setup. Google Workspace setup with up to 20 email addresses and monthly maintenance for a small fee. Shared company Google Drive/Calendar/Meet access. On-demand training and support.') 
                 }
             case 'print':
                 if(budget <= 250){
-
+                    setOutput('Business card or flyer design (single design, print-ready file).') 
                 }else if(budget <= 500){
-
+                    setOutput('Brochure or poster design (2 revisions included).') 
                 }else if (budget <= 1000){
-
+                    setOutput('Multi-page booklet or event poster series.') 
                 }else if(budget <= 2500){
-
+                    setOutput('Full print campaign (magazine ads, signage, event collateral).') 
                 }else{
-                    
+                    setOutput('Premium print package (custom illustrations, packaging design, billboard or large-scale event branding).') 
                 }
             }
     }
