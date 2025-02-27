@@ -22,6 +22,9 @@ export default function PriceForm() {
             calculateService(userBudget, userService)
         }
 
+        setUserBudget('')
+        setUserService('')
+
     }
 
     const calculateService = (budget, service) => {

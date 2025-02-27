@@ -10,6 +10,7 @@ import Packages from './pages/packages/Packages';
 import Projects from './pages/projects/Projects';
 import AboutPage from './pages/about/AboutPage';
 import NameYourPrice from './pages/nameYourPrice/nameYourPrice';
+import Partner from './pages/projects/Partner';
 
 
 export const AliasContext = createContext({
@@ -44,6 +45,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/comingSoon' element={<ComingSoon />} />
         <Route path='/nameYourPrice' element={<NameYourPrice />} />
+        <Route path='/projects/:id' element={<Partner />} />
       </Routes>
       <MenuMobile />
     </AliasContext.Provider>

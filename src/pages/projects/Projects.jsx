@@ -18,55 +18,64 @@ export default function Projects() {
     const itemOne = {
         name: 'The Burl',
         work: ['A/V Production', 'Web Design', 'UX/UI Design', 'Graphic Design'],
-        year: '2024'
+        year: '2024',
+        id: "theburl"
     }
 
     const itemTwo = {
         name: 'Back 2 You',
         work: ['Branding', 'Content Creation', 'Art Direction', 'Brand Guideline'],
-        year: '2023'
+        year: '2023',
+        id: 'back2you'
     }
     
     const itemThree = {
         name: 'Brendan Fouch Realty',
         work: ['Digital Advertising', 'Content Creation', 'Branding'],
-        year: '2024'
+        year: '2024',
+        id: 'fouchrealestate'
     }
 
     const itemFour = {
         name: 'Gator Roofing',
         work: ['Branding', 'Print Media', 'Art Direction'],
-        year: '2022'
+        year: '2022',
+        id: ''
     }
 
     const itemFive = {
         name: 'Crescentia Fitness',
         work: ['Print Media', 'Branding', 'Art Direction', 'Graphic Design'],
-        year: '2024'
+        year: '2024',
+        id: ''
     }
 
     const itemSix = {
         name: 'Lunchbox',
         work: ['Branding', 'Art Direction', 'Brand Strategy', 'Graphic Design'],
-        year: '2021'
+        year: '2021',
+        id: ''
     }
 
     const itemSeven = {
         name: 'Clubhouse',
         work: ['A/V Production', 'Content Creation', 'Graphic Design'],
-        year: '2021'
+        year: '2021',
+        id: ''
     }
 
     const itemEight = {
         name: 'Roxy',
         work: ['A/V Production', 'Photography', 'Print Media ', 'Illustration'],
-        year: '2021'
+        year: '2021',
+        id: ''
     }
 
     const itemNine = {
         name: 'CDC Bourbon',
         work: ['Marketing Strategy', 'Web Design', 'Print Media', 'Graphic Design'],
-        year: '2022'
+        year: '2022',
+        id: ''
     }
     
     
