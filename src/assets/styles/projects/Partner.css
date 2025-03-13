@@ -8,14 +8,11 @@
 }
 
 .partnerTitle{
-    font-size: 12svh;
-    margin: 10svh 0 0 0;
     font-weight: 700;
 }
 
 .partnerFlavor{
     font-size: 3svh;
-    font-weight: 700;
 }
 
 .partnerYear{
@@ -39,18 +36,15 @@
     padding-top: 1svh;
 }
 
-#bottomBigLinkPartner{
-    font-family: Helvetica, sans-serif;
-    text-align: left;
-    text-decoration: none;
-    font-weight: 900;
-    padding: 0 2svw;
+.bottomBigLinkPartner{
+   padding: 20px 2svw 50px 2svw;
 }
 
-#bottomBigLinkPartner:hover{
-    color: #100F55;
-    cursor: pointer;
+.partnerRunner{
+    height: 5px;
+    width: 96dvw;
 }
+
 
 @media screen and (max-width: 1000px) {
 
@@ -63,11 +57,18 @@
     }
 
     .partnerTitle{
-        padding-top: 5svh;
+        font-size: 8svh;
     }
 
     .partnerYear{
         padding-left: 5svw;
+    }
+
+    .projectButtonsPartner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 5svh;
     }
 }
 
@@ -95,12 +96,15 @@
     .partnerTitle{
         text-align: left;
         padding-top: 15svh;
-        }
+        font-size: 12svh;
+        margin: 10svh 0 0 0;
+    }
+
+    .partnerFlavor{
+        text-align: left;
+        font-weight: 700;
         
-        .partnerFlavor{
-            text-align: left;
-        
-        }
+    }
         
 
 }

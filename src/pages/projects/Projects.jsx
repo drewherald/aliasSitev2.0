@@ -72,22 +72,24 @@ export default function Projects() {
     }
 
     const itemNine = {
-        name: 'CDC Bourbon',
-        work: ['Marketing Strategy', 'Web Design', 'Print Media', 'Graphic Design'],
+        name: 'Distillery District Bottlers',
+        work: ['Branding', 'Social Media', 'Illustration', 'Graphic Design'],
         year: '2022',
-        id: ''
+        id: 'distillerybottlers'
     }
     
     
     items.push(itemOne)
     items.push(itemTwo)
     items.push(itemThree)
+    items.push(itemNine)
+
+    /*
     items.push(itemFour)
     items.push(itemFive)
     items.push(itemSix)
     items.push(itemSeven)
-    items.push(itemEight)
-    items.push(itemNine)
+    items.push(itemEight) */
 
 
   return (

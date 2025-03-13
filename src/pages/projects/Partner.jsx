@@ -11,6 +11,8 @@ import theBurlThree from "../../assets/photos/partners/theBurlThree.png";
 import back2YouOne from "../../assets/photos/partners/back2YouOne.png";
 import fouchOne from "../../assets/photos/partners/fouchOne.png";
 import fouchTwo from "../../assets/photos/partners/fouchTwo.png";
+import distilleryOne from "../../assets/photos/partners/distilleryOne.png";
+import distilleryTwo from "../../assets/photos/partners/distilleryTwo.png";
 import ProjectButton from '../../components/ProjectButton';
 
 export default function Partner() {
@@ -46,7 +48,7 @@ export default function Partner() {
         },
         {
             id: 'fouchrealestate',
-            title: "Foutch Real Estate ",
+            title: "Foutch Real Estate",
             flavorTextOne: "Foutch Real Estate is a trusted real estate brand built on principles of expertise, dedication, and client-focused service. ",
             flavorTextTwo: "Alias Studios partnered with Foutch Real Estate to elevate its digital presence and connect with buyers and sellers of land and luxury properties in Oklahoma City. Through strategic social media management, content creation, and targeted Meta advertising, we developed a cohesive brand identity and implemented data-driven audience targeting and retargeting strategies. Our approach helped Foutch Realty increase visibility and generate quality leads in the competitive OKC real estate market",
             year: "2023",
@@ -54,6 +56,17 @@ export default function Partner() {
             photoTwo: fouchTwo,
             photoThree: null,
             work: ['Digital Advertising', 'Content Creation', 'Branding'],
+        },
+        {
+            id: 'distillerybottlers',
+            title: "Distillery District Bottlers",
+            flavorTextOne: "Distillery District Bottlers crafts and bottles premium spirits while helping new brands bring their creations to market. Alias Studios elevated their brand with custom label and package design, a dynamic website, and engaging social media content.",
+            flavorTextTwo: null,
+            year: "2023",
+            photoOne: distilleryOne,
+            photoTwo: distilleryTwo,
+            photoThree: null,
+            work: ['Branding', 'Social Media', 'Illustration', "Graphic Design"], 
         }
     ]
 
@@ -84,7 +97,7 @@ export default function Partner() {
             </div>
 
             <div id='partnerInfo'>
-                <p className='partnerFlavor'>{usedPartner.flavorTextTwo}</p>
+                {usedPartner.flavorTextTwo ?  <p className='partnerFlavor'>{usedPartner.flavorTextTwo}</p> : ""}
                   <div className='projectButtonsPartner'>
                             {usedPartner.work.map((item) => <ProjectButton text={item}/>)}
                 </div>
@@ -93,8 +106,9 @@ export default function Partner() {
             <img src={usedPartner.photoTwo} className='partnerPagePhoto'></img>
             <img src={usedPartner.photoThree} className='partnerPagePhoto'></img>
             </div>
-            <div className='bottomBigLink'>
-                    <Link to={"/projects"} id="bottomBigLinkPartner" onClick={AliasGlobal.scrollToTop}> BACK TO PROJECTS.</Link>
+            <hr className='partnerRunner' />
+            <div className='bottomBigLinkPartner'>
+                    <Link to={"/projects"} id="bottomBigLink" onClick={AliasGlobal.scrollToTop}> BACK TO PROJECTS.</Link>
                 </div>
       
                  
