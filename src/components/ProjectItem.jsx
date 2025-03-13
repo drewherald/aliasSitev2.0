@@ -22,7 +22,7 @@ export default function ProjectItem({contentItem}) {
         }
            
             <div className='projectButtons'>
-            {contentItem.work.map((item) => <ProjectButton text={item}/>)}
+            {contentItem.work.map((item) => <ProjectButton text={item} key={Math.random()}/>)}
             </div>
             <p className='projectYear'>{contentItem.year}</p>
         </div>

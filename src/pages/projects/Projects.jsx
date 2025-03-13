@@ -1,4 +1,4 @@
-import React, { useContext }  from 'react'
+import React, { useContext, useState, useEffect }  from 'react'
 import backgroundImg from "../../assets/photos/webbackground.jpg";
 import TopBar from '../../components/TopBar';
 import { AliasContext } from '../../App';
@@ -9,9 +9,12 @@ import GetToKnow from '../home/GetToKnow';
 import ProjectItem from '../../components/ProjectItem';
 
 
+
 export default function Projects() {
 
     const AliasGlobal = useContext(AliasContext)
+
+    const [shownItems, setShownItems] = useState([])
 
     let items = []
 
@@ -84,13 +87,27 @@ export default function Projects() {
     items.push(itemThree)
     items.push(itemNine)
 
-    /*
+    /* 
+    
+    unused
+
     items.push(itemFour)
     items.push(itemFive)
     items.push(itemSix)
     items.push(itemSeven)
     items.push(itemEight) */
 
+    useEffect(() => {
+
+        if(AliasGlobal.projectTag !== null){
+            items = items.filter(item => item.work.includes(AliasGlobal.projectTag))
+        }
+
+
+        setShownItems(items)
+
+
+      }, [AliasGlobal.projectTag]);
 
   return (
     <section className='projects'>
@@ -112,7 +129,7 @@ export default function Projects() {
                     <p id='projectsWork'>{'[WORK]'}</p>
                     <p>{'[YEAR]'}</p>
                 </div>
-                {items.map((item) => <ProjectItem contentItem={item}/>)}
+                {shownItems.map((item) => <ProjectItem contentItem={item} key={item.name}/>)}
                 <hr className='projRunner' />
 
 

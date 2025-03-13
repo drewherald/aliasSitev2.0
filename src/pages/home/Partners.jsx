@@ -12,15 +12,18 @@ export default function Partners() {
     const partners = [
         {
             name: 'Nevada',
-            refKey: 1
+            refKey: 1,
+            id: 'back2you'
         },
         {
-            name: "Oklahoma",
-            refKey: 2
+            name: 'Oklahoma',
+            refKey: 2,
+            id: 'fouchrealestate'
         },
         {
             name: 'Kentucky',
-            refKey: 3
+            refKey: 3,
+            id: 'theburl'
         }
     ]
 
@@ -33,7 +36,7 @@ export default function Partners() {
         
         <div className='partnerTopContainer'>
                 {partners.map((partner) => (
-                    <PartnerBox name={partner.name} refKey={partner.refKey}  key={uuidv4()}/>
+                    <PartnerBox name={partner.name} refKey={partner.refKey} id={partner.id}  key={uuidv4()}/>
                 ))}            
         </div>
         

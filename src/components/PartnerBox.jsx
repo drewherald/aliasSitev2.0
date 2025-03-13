@@ -5,7 +5,7 @@ import two from '../assets/photos/partners/skele2.png'
 import three from '../assets/photos/partners/skele3.png'
 
 
-export default function PartnerBox({name, refKey}) {
+export default function PartnerBox({name, refKey, id}) {
 
 
   let referenceKey = one
@@ -29,7 +29,7 @@ export default function PartnerBox({name, refKey}) {
   }
 
   return (
-    <div className='partnerTop'>
+    <div className='partnerTop' onClick={() =>(window.location.href = `/projects/${id}`)}   >
             <div className='partnerBox'>
               < img src={referenceKey} className='logoPartner' alt="" />
               <p className='partnerName'>{name}</p>

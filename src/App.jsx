@@ -15,27 +15,34 @@ import Partner from './pages/projects/Partner';
 
 export const AliasContext = createContext({
   menuStatus: false,
+  projectTag: null,
   toggleMenu: () => {},
-  scrollToTop: () => {}
+  scrollToTop: () => {},
+  newTag: () => {}
 })
 
 function App() {
 
 
-  const [menuStatus, setMenuStatus] = useState(false)
+  const [menuStatus, setMenuStatus] = useState(false);
+
+  const [projectTag, setProjectTag] = useState(null);
 
   const toggleMenu = () => {
     setMenuStatus(!menuStatus)
-    console.log(menuStatus)
   }
 
   const scrollToTop = () => {
     window.scrollTo(0, 0)
-}
+  }
+
+  const newTag = (tag) => {
+    setProjectTag(tag)
+  }
 
   return (
     <>
-    <AliasContext.Provider value = {{menuStatus, toggleMenu, scrollToTop}}>
+    <AliasContext.Provider value = {{menuStatus, projectTag, toggleMenu, scrollToTop, newTag}}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/about' element={<AboutPage />} />

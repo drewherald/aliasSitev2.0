@@ -16,6 +16,10 @@
     animation-fill-mode: forwards;
 }
 
+.projButtonClicked{
+    background-color: #100F55 !important;
+}
+
 @keyframes projHover {
     0% { transform: scale(1);
     }
@@ -32,7 +36,7 @@
     display: grid;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
     .projectSubtitles{
         grid-template-columns: 3fr 1fr;
         width: 90dvw;
@@ -64,7 +68,7 @@
 
 }
 
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1001px) {
     .projectSubtitles{
         grid-template-columns: 2fr 3fr 1fr;
         width: 90dvw;
@@ -74,5 +78,12 @@
     #projButtn{
         width: 7dvw;
         margin: 0 10px 0 0;
+    }
+
+    #projButtn:hover{
+        cursor: pointer;
+        animation: greyButton .5s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
 }
