@@ -36,9 +36,6 @@ export default function ContactUs() {
         </form>
         <div className='contactInfo'>
             <label for="submit-form" tabindex="0" className='submitText'> <div className='connectWUs' >Submit Message</div> </label> 
-           
-            
-          
              
         </div>
     </div>

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { AliasContext } from "../../App";
 import "../../assets/styles/home/About.css";
 import globeSmall from "../../assets/photos/globeSmall.png";
@@ -15,6 +15,44 @@ export default function About() {
 
   const AliasGlobal = useContext(AliasContext);
 
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [info, setInfo] = useState('')
+  const [formError, setFormError] = useState('')
+  const [formSuccess, setFormSuccess] = useState('')
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    if(AliasGlobal.selectedService==null){
+      setFormError('Please select one of the 5 white service buttons before clicking "Get Your Custom Plan"')
+    }else{
+      submitForm()
+
+    }
+
+  }
+
+  const submitForm = async () => {
+    const response = await fetch(
+      "https://formspree.io/f/xjvdgrlj",
+      {
+        method: "POST",
+        body: JSON.stringify({ name: name, email: email, comments: "REQUIRED SERVICE: " + AliasGlobal.selectedService + " INFO: " +info }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    ).then(setFormSuccess('Thank you! Your response has been recorded and we will reach out to you shortly.')).then(resetState())
+  }
+
+  const resetState = () => {
+    setName("")
+    setEmail("")
+    setInfo("")
+    AliasGlobal.newService(null)
+  }
 
   const selectedServices = ['Branding', 'Website', 'Social Media', 'Advertising', 'Not Sure' ]
 
@@ -59,18 +97,19 @@ export default function About() {
            <div className="formContainer">
             <h1>Creative Services</h1>
             <p>Don’t know where to start? Just pick what sounds right, and we’ll take care of the rest.</p>
-            <form action="" className="serviceForm">
+            <form onSubmit={handleSubmit} className="serviceForm">
                 <section className="fiveButtons">
                   {selectedServices.map((service => <ServiceButton text={service} id={service}/>))}
                 </section>
                 
                   <p style={{fontWeight: 700}}>Tell us a little about your vision:</p>
-                  <textarea className="visionText" rows={5} placeholder="I want to reach more people... I need a website...I need a fresh brand" />
+                  <textarea className="visionText" onChange={(e) => setInfo(e.target.value)} value={info} rows={5} placeholder="I want to reach more people... I need a website...I need a fresh brand" required />
                   <p style={{fontWeight: 700}}>Your Contact Details:</p>
-                  <input type="text" placeholder="Name" className="serviceContactInfo"/>
-                  <input type="email" placeholder="Email" className="serviceContactInfo"/>
+                  <input type="text" id="name" name="name" minlength="2 required" placeholder="Name" required className="serviceContactInfo" value={name} onChange={(e) => setName(e.target.value)}/>
+                  <input type="email"  id="email" name="email" minlength="2 required" placeholder="E-mail" className="serviceContactInfo" value={email} onChange={(e) => setEmail(e.target.value)}/>
                   <button type="submit" className="submitServiceForm">Get Your Custom Plan</button>
-             
+                  <p style={{color: 'red', fontSize: '14px'}}>{formError}</p>
+                  <p style={{color: 'green', fontSize: '14px'}}>{formSuccess}</p>
             </form>
            </div>
 
