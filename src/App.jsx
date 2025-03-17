@@ -16,9 +16,11 @@ import Partner from './pages/projects/Partner';
 export const AliasContext = createContext({
   menuStatus: false,
   projectTag: null,
+  selectedService: null,
   toggleMenu: () => {},
   scrollToTop: () => {},
-  newTag: () => {}
+  newTag: () => {},
+  newService: () => {}
 })
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
   const [menuStatus, setMenuStatus] = useState(false);
 
   const [projectTag, setProjectTag] = useState(null);
+
+  const [selectedService, setSelectedService] = useState(null);
 
   const toggleMenu = () => {
     setMenuStatus(!menuStatus)
@@ -40,9 +44,13 @@ function App() {
     setProjectTag(tag)
   }
 
+  const newService = (service) => {
+    setSelectedService(service)
+  }
+
   return (
     <>
-    <AliasContext.Provider value = {{menuStatus, projectTag, toggleMenu, scrollToTop, newTag}}>
+    <AliasContext.Provider value = {{menuStatus, projectTag, selectedService, toggleMenu, scrollToTop, newTag, newService}}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/about' element={<AboutPage />} />
