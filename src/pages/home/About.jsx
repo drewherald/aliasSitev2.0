@@ -51,6 +51,7 @@ export default function About() {
     setName("")
     setEmail("")
     setInfo("")
+    setFormError("")
     AliasGlobal.newService(null)
   }
 
