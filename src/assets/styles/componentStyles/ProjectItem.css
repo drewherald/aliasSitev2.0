@@ -20,6 +20,8 @@
     background-color: #100F55 !important;
 }
 
+
+
 @keyframes projHover {
     0% { transform: scale(1);
     }
@@ -85,5 +87,8 @@
         animation: greyButton .5s ease-in-out;
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
+        .xButtonProjButton{
+            color: #0000FF;
+        }
     }
 }
