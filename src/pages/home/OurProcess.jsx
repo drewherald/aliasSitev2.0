@@ -1,5 +1,4 @@
 import React from 'react'
-import blueSquare from "../../assets/photos/blueSquare.png"
 import '../../assets/styles/home/ourProcess.css'
 import ProcessBox from '../../components/ProcessBox'
 import Carousel from 'react-multi-carousel';

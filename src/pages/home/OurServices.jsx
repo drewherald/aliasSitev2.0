@@ -70,10 +70,7 @@ export default function OurServices() {
             <br />
             <p className="whyUsP">
               At Alias, we believe in the power of identity to drive success.
-              Our team of creatives is dedicated to partnering with you to
-              unveil the true character of your brand and bring it to life in
-              ways that inspire, engage, and leave a lasting impression. From
-              strategic branding to innovative design, we're here to help you
+              From strategic branding to innovative design, we're here to help you
               shine in a crowded marketplace and stand out as the unmistakable
               force you were meant to be.
             </p>

@@ -74,7 +74,7 @@ export default function About() {
           <h1 className="noscrollH1">DEFINE YOU.</h1>
           <img src={globeSmall} className="globeSmallMobile" alt="" />
           <h5 className="titleSubtext">
-          We are a multi-skilled agency. Design, Media, and Strategy is what we know best.
+          We are a multi-skilled design agency building digital brands to innovate, inspire, and engage.
           </h5>
           <Link to={'/about'} className="discoverHow" onClick={AliasGlobal.scrollToTop}>
             Discover How
